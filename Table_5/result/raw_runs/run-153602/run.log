@@ -1,4 +1,0 @@
-fiber N=65536 n=32768 k=8 R=8 depth=9 outputL=13 mainQP=838.319785 SSEQP=160.000000 keys=3435252560
-trial1 outputL13 bits27.163040 online12.054155s err=
-trial2 outputL13 bits27.142232 online11.851025s err=
-trial3 outputL13 bits27.297654 online12.248927s err=

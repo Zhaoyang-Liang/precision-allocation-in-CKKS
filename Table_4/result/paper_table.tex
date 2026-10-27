@@ -1,27 +1,90 @@
-\begin{table}[h] \centering \caption{Main CKKS parameters.} \vspace{1pt}
-
-    \label{tab:pa-rs-parameters}
-  
-    \setlength{\arrayrulewidth}{0.45pt} \renewcommand{\arraystretch}{1.08} \setlength{\tabcolsep}{1.5pt} \begin{tabular}{@{}C{3cm}|C{0.75cm}C{0.75cm}|C{0.75cm}C{0.75cm}|C{0.75cm}C{0.75cm}|C{0.75cm}C{0.75cm}|C{0.75cm}C{0.75cm}|C{0.75cm}C{0.75cm}@{}}
-\noalign{\hrule height 0.7pt}
-\multirow{2}{1.8cm}{\centering\textbf{Metric}} & \multicolumn{4}{c|}{\textbf{Group I}} & \multicolumn{6}{c|}{\textbf{Group II}} & \multicolumn{2}{c}{\textbf{Group III}} \\
-\cline{2-5}\cline{6-11}\cline{12-13}
- & \multicolumn{2}{c|}{\(L_{\mathrm{out}}=13\)} & \multicolumn{2}{c|}{\(L_{\mathrm{out}}=1\)} & \multicolumn{2}{c|}{\(L_{\mathrm{out}}=13\)} & \multicolumn{2}{c|}{\(L_{\mathrm{out}}=13\)} & \multicolumn{2}{c|}{\(L_{\mathrm{out}}=1\)} & \multicolumn{2}{c}{\(L_{\mathrm{out}}=2\)} \\
-\noalign{\hrule height 0.7pt}
-\(\log N\) & \multicolumn{2}{c|}{17} & \multicolumn{2}{c|}{17} & \multicolumn{2}{c|}{16} & \multicolumn{2}{c|}{16} & \multicolumn{2}{c|}{16} & \multicolumn{2}{c}{13} \\
-\(\log n\) & \multicolumn{2}{c|}{15} & \multicolumn{2}{c|}{13} & \multicolumn{2}{c|}{16} & \multicolumn{2}{c|}{15} & \multicolumn{2}{c|}{14} & \multicolumn{2}{c}{13} \\
-Useful branches & \multicolumn{2}{c|}{1} & \multicolumn{2}{c|}{1} & \multicolumn{2}{c|}{1} & \multicolumn{2}{c|}{1} & \multicolumn{2}{c|}{1} & \multicolumn{2}{c}{1} \\
-Messages \(b\) & \multicolumn{2}{c|}{8} & \multicolumn{2}{c|}{1} & \multicolumn{2}{c|}{8} & \multicolumn{2}{c|}{8} & \multicolumn{2}{c|}{8} & \multicolumn{2}{c}{1} \\
-\(L_{\mathrm{in}}\) & \multicolumn{2}{c|}{1} & \multicolumn{2}{c|}{0} & \multicolumn{2}{c|}{1} & \multicolumn{2}{c|}{1} & \multicolumn{2}{c|}{1} & \multicolumn{2}{c}{0} \\
-\(\log\Delta\) (in/EM) & \multicolumn{2}{c|}{40/26} & \multicolumn{2}{c|}{22/20} & \multicolumn{2}{c|}{40/25} & \multicolumn{2}{c|}{40/25} & \multicolumn{2}{c|}{40/25} & \multicolumn{2}{c}{20/20} \\
-\(\log\Delta_{\mathrm{out}}\) & \multicolumn{2}{c|}{30.000} & \multicolumn{2}{c|}{22.000} & \multicolumn{2}{c|}{30.000} & \multicolumn{2}{c|}{30.000} & \multicolumn{2}{c|}{30.000} & \multicolumn{2}{c}{17.000} \\
-\(\log Q_{\mathrm{in}}\) & \multicolumn{2}{c|}{80.00} & \multicolumn{2}{c|}{23.75} & \multicolumn{2}{c|}{80.00} & \multicolumn{2}{c|}{80.00} & \multicolumn{2}{c|}{80.00} & \multicolumn{2}{c}{19.98} \\
-\(\log Q_{\mathrm{bts}}\) & \multicolumn{2}{c|}{736.83} & \multicolumn{2}{c|}{194.94} & \multicolumn{2}{c|}{728.32} & \multicolumn{2}{c|}{728.32} & \multicolumn{2}{c|}{368.11} & \multicolumn{2}{c}{188.90} \\
-\(\log Q_{\mathrm{out}}\) & \multicolumn{2}{c|}{440.30} & \multicolumn{2}{c|}{46.21} & \multicolumn{2}{c|}{440.21} & \multicolumn{2}{c|}{440.21} & \multicolumn{2}{c|}{80.00} & \multicolumn{2}{c}{53.95} \\
-\(\log(PQ_{\mathrm{bts}})\) & \multicolumn{2}{c|}{846.83} & \multicolumn{2}{c|}{210.94} & \multicolumn{2}{c|}{838.32} & \multicolumn{2}{c|}{838.32} & \multicolumn{2}{c|}{394.11} & \multicolumn{2}{c}{204.90} \\
-\hline
-Security. (bits) & \multicolumn{2}{c|}{131.19} & \multicolumn{2}{c|}{129.35} & \multicolumn{2}{c|}{154.49} & \multicolumn{2}{c|}{131.19} & \multicolumn{2}{c|}{131.42} & \multicolumn{2}{c}{133.16} \\
-\noalign{\hrule height 0.7pt}
-\end{tabular}  
-
+\begin{table}[H]
+\centering
+\begin{minipage}{0.90\linewidth}
+\centering
+\setlength{\belowcaptionskip}{6pt}
+\caption{Observed quantities and explicit bounds for the four-squaring
+example. Unqualified maxima are over all $r$ slots. The last row uses
+the input-uniform coefficient bound, not the sharper bound specific
+to the recorded inputs.}
+\label{tab:example-error-bounds}
+\small
+% Adapt E-T06: light row bands, a two-level header, and open table edges.
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\linewidth}{>{\centering\arraybackslash}Xcccc}
+\toprule
+\multirow{2}{*}{\textbf{Quantity}}
+ & \multirow{2}{*}{\textbf{Bound}}
+ & \textbf{Observed} & \textbf{Upper bound} & \textbf{Gap (bits)}\\
+ & & $\log_2o$ & $\log_2b$ & $\log_2(b/o)$\\
+\midrule
+\rowcolor{black!5}
+$\|e_{\mathrm{enc}}\|_{\sigma,\infty}$ & $B_{\mathrm{enc}}$
+ & $7.696$ & $14.349$ & $6.653$\\
+$\|e_{\mathrm{dec}}\|_{\sigma,\infty}$ & $B_{\mathrm{dec}}$
+ & $15.539$ & $25.111$ & $9.572$\\
+\rowcolor{black!5}
+$\|\kappa_1\|_{\sigma,\infty}$ & $K_1$
+ & $95.539$ & $107.546$ & $12.007$\\
+$\|\kappa_2\|_{\sigma,\infty}$ & $K_2$
+ & $95.491$ & $107.546$ & $12.055$\\
+\rowcolor{black!5}
+$\|\kappa_3\|_{\sigma,\infty}$ & $K_3$
+ & $95.371$ & $107.459$ & $12.088$\\
+$\|\kappa_4\|_{\sigma,\infty}$ & $K_4$
+ & $95.268$ & $107.459$ & $12.191$\\
+\rowcolor{black!5}
+$\|\rho_{1,0}+\rho_{1,1}s\|_{\sigma,\infty}$ & $R_1$
+ & $108.540$ & $118.111$ & $9.571$\\
+$\|\rho_{2,0}+\rho_{2,1}s\|_{\sigma,\infty}$ & $R_2$
+ & $108.429$ & $118.111$ & $9.682$\\
+\rowcolor{black!5}
+$\|\rho_{3,0}+\rho_{3,1}s\|_{\sigma,\infty}$ & $R_3$
+ & $108.260$ & $118.111$ & $9.851$\\
+$\|\rho_{4,0}+\rho_{4,1}s\|_{\sigma,\infty}$ & $R_4$
+ & $108.702$ & $118.111$ & $9.409$\\
+\midrule
+\rowcolor{black!5}
+$\max_j|x_{4,j}|$ & $A_{4,j}$
+ & $-3.082$ & $-3.082$ & $0.000$\\
+$\max_j|\eta_{0,j}|$ & $\max_jB_{0,j}$
+ & $-77.461$ & $-67.888$ & $9.572$\\
+\rowcolor{black!5}
+$\max_j|\eta_{1,j}|$ & $\max_jB_{1,j}$
+ & $-76.706$ & $-66.429$ & $10.277$\\
+$\max_j|\eta_{2,j}|$ & $\max_jB_{2,j}$
+ & $-75.713$ & $-65.507$ & $10.206$\\
+\rowcolor{black!5}
+$\max_j|\eta_{3,j}|$ & $\max_jB_{3,j}$
+ & $-75.600$ & $-65.059$ & $10.541$\\
+$\max_{j\in\mathcal I_0}|\eta_{4,j}|$ & $B_{\mathrm{out},0}$
+ & $-75.980$ & $-65.331$ & $10.649$\\
+\rowcolor{black!5}
+$\max_{j\in\mathcal I_1}|\eta_{4,j}|$ & $B_{\mathrm{out},1}$
+ & $-76.965$ & $-65.331$ & $11.634$\\
+$\max_{j\in\mathcal I_2}|\eta_{4,j}|$ & $B_{\mathrm{out},2}$
+ & $-76.578$ & $-65.331$ & $11.247$\\
+\rowcolor{black!5}
+$\max_{j\in\mathcal I_3}|\eta_{4,j}|$ & $B_{\mathrm{out},3}$
+ & $-76.931$ & $-65.331$ & $11.600$\\
+$\max_j|\eta_{4,j}|$ & $B_{\mathrm{out}}$
+ & $-75.980$ & $-65.331$ & $10.649$\\
+\midrule
+\rowcolor{black!5}
+$\max_{j\in\mathcal I_0}|e_{4,j}|$ & $\omega_0B_{\mathrm{out},0}$
+ & $-172.415$ & $-161.766$ & $10.649$\\
+$\max_{j\in\mathcal I_1}|e_{4,j}|$ & $\omega_1B_{\mathrm{out},1}$
+ & $-46.361$ & $-34.727$ & $11.634$\\
+\rowcolor{black!5}
+$\max_{j\in\mathcal I_2}|e_{4,j}|$ & $\omega_2B_{\mathrm{out},2}$
+ & $-43.721$ & $-32.473$ & $11.247$\\
+$\max_{j\in\mathcal I_3}|e_{4,j}|$ & $\omega_3B_{\mathrm{out},3}$
+ & $-43.958$ & $-32.358$ & $11.600$\\
+\rowcolor{black!5}
+$\|M_4\|_{\mathrm{coef},\infty}/\Delta_4$ & \textit{Input-uniform}
+ & $-4.463$ & $-3.082$ & $1.381$\\
+\bottomrule
+\end{tabularx}
+\end{minipage}
 \end{table}

@@ -51,20 +51,7 @@ elif ART=='Table_2':
   table.append(dict(method='CKKS' if r['classes']=='1' else 'classes_'+r['classes'],N=int(r['N']),log2_Q=float(r['Q_bits']),online_seconds=float(r['median_online_ms'])/1000,worst_precision_bits=float(r['worst_actual_precision_bits']),security_bits=float(r['security_min_bits']),candidate_id=r['candidate_id']))
  for row in table:row['speedup_vs_CKKS']=table[0]['online_seconds']/row['online_seconds']
  write('paper_data.csv',table);write('selected_configurations.csv',rows)
-elif ART in ('Table_4','Table_5'):
- R=ROOT/'result'; prov=json.loads((R/'table_parameters.json').read_text());saved=json.loads((R/'summary.json').read_text());sec=json.loads((R/'security/summary.json').read_text())
- order=['leaf17-15','leaf17-13','direct16','leaf16-15','leaf16-14','direct13']; rows=[]
- for case in order:
-  v=prov['parameters'][case];s=saved[case]['summary'];tr=saved[case]['trials'];runs=[json.loads((R/'raw_runs'/('run-'+job)/'result.json').read_text()) for job in prov['source_jobs'][case]]
-  assert len({r['MainQBits'] for r in runs})==len({r['MainQPBits'] for r in runs})==1
-  if ART=='Table_4':
-   rows.append(dict(case=case,log2_N=v['N'],log2_n=v['n'],useful_branches=1,messages=v['msg'],L_in=v['Lin'],L_out=tr[0]['output']['Level'],input_scale_bits=v['inScale'],EvalMod_scale_bits=v['emScale'],output_scale_bits=v['outScale'],log2_Q_in=v['qin'],log2_Q_bts=runs[0]['MainQBits'],log2_Q_out=v['qout'],log2_PQ_bts=runs[0]['MainQPBits'],security_bits=sec['columns'][case]['bits']))
-  else:
-   def avg(key):return statistics.mean(t['stages'][key] for t in tr) if key in tr[0]['stages'] else ''
-   fused=case in ('leaf17-13','direct13')
-   rows.append(dict(case=case,split_seconds=statistics.mean(t['entry'] for t in tr),StC_seconds='' if fused else avg('StCSeconds'),ModRaise_seconds='' if fused else statistics.mean(t['stages']['SSESeconds']+t['stages']['LiftTraceSeconds'] for t in tr),CtS_seconds='' if fused else avg('CtSSeconds'),fused_seconds=avg('ReadoutSeconds') if fused else '',EvalMod_seconds=avg('EvalModSeconds'),merge_seconds='' if case=='direct13' else statistics.mean(t['return_time'] for t in tr),serial_seconds=s['serial_mean'],parallel_seconds=s['parallel_mean'],minimum_precision_bits=s['min_bits'],keygen_seconds=s['keygen_mean'],server_key_GiB=s['key_GiB'],independent_key_sets=s['keys'],trials=s['trials']))
- write('paper_data.csv',rows)
-elif ART=='Table_6':
+elif ART=='Table_4':
  rows=[r for r in read('error_comparison.csv') if r['method']=='allocated_joint']
  cert=json.loads((ROOT/'code/configurations/slot0_certificate.json').read_text())['branches'][0]
  weights=[num(w['float_exact']) for w in cert['encoding']['weights']]

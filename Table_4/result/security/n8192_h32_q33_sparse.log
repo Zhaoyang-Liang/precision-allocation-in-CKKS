@@ -1,9 +1,0 @@
-LWEParameters(n=8192, q=8589934592, Xs=T(p=16, m=16, n=8192), Xe=D(σ=3.20), m=+Infinity, tag='n8192_h32_q33')
-START primal_hybrid
-DONE primal_hybrid 159.5301855028422 rop: ≈2^159.5, red: ≈2^158.7, svp: ≈2^158.3, β: 144, η: 18, ζ: ≈2^12.9, |S|: ≈2^50.9, d: 1346, prob: ≈2^-84.2, ↻: ≈2^86.4, tag: hybrid
-START primal_mitm_hybrid
-DONE primal_mitm_hybrid 140.01115725559637 rop: ≈2^140.0, red: ≈2^137.8, svp: ≈2^139.7, β: 219, η: 2, ζ: ≈2^12.9, |S|: ≈2^147.7, d: 1534, prob: ≈2^-42.4, ↻: ≈2^44.7, tag: hybrid
-START dual_sparse_hybrid
-DONE dual_sparse_hybrid 158.18275207130975 rop: ≈2^158.2, mem: ≈2^84.1, m: 762, β: 185, d: 1538, ↻: ≈2^72.2, ζ: ≈2^12.9, h1: 6, tag: dual_hybrid
-START dual_sparse_mitm
-DONE dual_sparse_mitm 140.0731348361423 rop: ≈2^140.1, mem: ≈2^94.6, m: 846, k: ≈2^12.0, ↻: ≈2^45.8, β: 233, d: 1427, ζ: ≈2^12.9, h1: 15, tag: dual_mitm_hybrid

@@ -11,9 +11,7 @@ for the paper. Folders are named after the corresponding figure or table.
 | [Figure_4](Figure_4/) | Zero and negative average precision requirements |
 | [Table_2](Table_2/) | Resource comparison at 224-bit precision |
 | [Table_3](Table_3/) | Comparison with Tuple CKKS |
-| [Table_4](Table_4/) | Parameters for bootstrapping with ring switching |
-| [Table_5](Table_5/) | Bootstrapping time, precision, and storage |
-| [Table_6](Table_6/) | Measured errors and theoretical bounds |
+| [Table_4](Table_4/) | Measured errors and theoretical bounds |
 
 Table 1 contains analytical operation counts and has no experimental dataset.
 

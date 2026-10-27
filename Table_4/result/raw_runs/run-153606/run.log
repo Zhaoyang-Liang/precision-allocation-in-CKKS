@@ -1,9 +1,0 @@
-N=131072 n=8192 full_branches=16 mainQP=210.94055129 entryQP=23.75488760 beta=27.00000191 target=1bit
-keygen_seconds=5.4449 main_key_bytes=739752088
-serial_check=exact_match workers=2 parallel=2.532558 serial=3.160362 speedup=1.2479
-trial=1 entryP=0 power=1 pruned=true branches=1 output_level=1 online_seconds=2.532558 split=0.080920 leafs=2.295738 merge=0.155898 merged_bits=7.2166 guard=0.0440136 app_level=-1
-serial_check=exact_match workers=2 parallel=2.762127 serial=3.480063 speedup=1.2599
-trial=2 entryP=0 power=1 pruned=true branches=1 output_level=1 online_seconds=2.762127 split=0.092287 leafs=2.469760 merge=0.200079 merged_bits=7.0734 guard=0.0523752 app_level=-1
-serial_check=exact_match workers=2 parallel=2.758373 serial=3.220511 speedup=1.1675
-trial=3 entryP=0 power=1 pruned=true branches=1 output_level=1 online_seconds=2.758373 split=0.101110 leafs=2.484531 merge=0.172731 merged_bits=7.5119 guard=0.0595958 app_level=-1
-status=executed error= result=/home/u9920250039/projects/low-n-bootstrap-20261024-r18/results/run-153606/result.json

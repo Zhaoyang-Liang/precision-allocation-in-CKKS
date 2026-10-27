@@ -1,7 +1,0 @@
-LWEParameters(n=8192, q=3291009114642412084309938365114701009965471731267159726697218048, Xs=T(p=512, m=512, n=8192), Xe=D(σ=3.20), m=+Infinity, tag='n8192_h1024_q211')
-START primal_usvp
-DONE primal_usvp 129.60228919957314 rop: ≈2^129.6, red: ≈2^129.6, δ: 1.004470, β: 338, d: 15698, tag: usvp
-START primal_bdd
-DONE primal_bdd 129.35335629987262 rop: ≈2^129.4, red: ≈2^129.3, svp: ≈2^123.5, β: 337, η: 365, d: 15737, tag: bdd
-START dual_hybrid
-DONE dual_hybrid 129.54348025091858 rop: ≈2^129.5, red: ≈2^129.5, guess: ≈2^117.7, β: 334, p: 2, ζ: 0, t: 100, β': 357, N: ≈2^61.4, m: ≈2^13.0
