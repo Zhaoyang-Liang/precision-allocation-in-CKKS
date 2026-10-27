@@ -1,0 +1,20 @@
+\begin{table}[H]
+\centering
+\caption{Six squarings of 256 inputs in \([1,2]\), with a 224-bit target.}
+\label{tab:exp-resources}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+Method & \(N\) & \(\log_2 Q\) & Security (bits)
+       & Precision (bits) & Time (s) & Speedup\\
+\midrule
+CKKS
+ & \(2^{17}\) & 2322 & 173.64 & 237.66 & 9.269 & \(1.00\times\)\\
+Two classes
+ & \(2^{16}\) & 1286 & 139.86 & 238.45 & 2.001 & \(4.63\times\)\\
+Four classes
+ & \(2^{15}\) & 761 & 133.59 & 235.20 & 0.645 & \(14.36\times\)\\
+\bottomrule
+\end{tabular}
+\end{table}

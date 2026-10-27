@@ -1,0 +1,83 @@
+{
+  "schema": "ckks-new-security-v1",
+  "plan_sha256": "0f88609cd1131974a1e11904b0eb118314be7e5a296885a14a902e80f6a8a13a",
+  "estimator_commit": "53da5982597709ba0fdf94ea37a84d822310fd84",
+  "estimator_tracked_dirty": [],
+  "wrapper_sha256": "c68aaa599a47c26cec970f9adb6d38a0ddc475d02bc4ce857cb7fd0d6664631e",
+  "wrapper_source_file": "/home/u9920250039/projects/pa-zero-mean-20261018/security_results/plan_023.wrapper.py",
+  "model": "RC.MATZOV",
+  "secret": "uniform_ternary",
+  "error_sigma": "3.2",
+  "actual_sampler_abs_bound": "19.2",
+  "samples": "infinity",
+  "target_bits": 128,
+  "HE_executions": 0,
+  "cases": [
+    {
+      "branch": "r2_bm10_k1_grow_q83",
+      "N": 32768,
+      "Q": [
+        "4398044938241",
+        "2199023190017"
+      ],
+      "P": [
+        "1152921504606584833",
+        "1152921504598720513"
+      ],
+      "qp_exact": "12855499373376784367371811967200456662036573162825179894054913",
+      "q_est_log2": 203,
+      "attacks": {
+        "primal_usvp": {
+          "cost": {
+            "rop": "+Infinity",
+            "tag": "usvp",
+            "problem": "LWEParameters(n=32768, q=12855504354071922204335696738729300820177623950262342682411008, Xs=D(\u03c3=0.82), Xe=D(\u03c3=3.20), m=+Infinity, tag='N32768_qbits203')"
+          },
+          "log2_rop": "+infinity",
+          "finite_estimate": false,
+          "target_pass": false,
+          "wall_seconds": 0.13794281205628067
+        },
+        "primal_bdd": {
+          "cost": {
+            "rop": "+Infinity",
+            "tag": "bdd",
+            "problem": "LWEParameters(n=32768, q=12855504354071922204335696738729300820177623950262342682411008, Xs=D(\u03c3=0.82), Xe=D(\u03c3=3.20), m=+Infinity, tag='N32768_qbits203')"
+          },
+          "log2_rop": "+infinity",
+          "finite_estimate": false,
+          "target_pass": false,
+          "wall_seconds": 7.79189552704338
+        },
+        "dual_hybrid": {
+          "cost": {
+            "rop": "+Infinity",
+            "problem": "LWEParameters(n=32768, q=12855504354071922204335696738729300820177623950262342682411008, Xs=D(\u03c3=0.82), Xe=D(\u03c3=3.20), m=+Infinity, tag='N32768_qbits203')",
+            "red": "+Infinity",
+            "guess": "6.63438068181851e9536769492992121",
+            "beta": "1753",
+            "p": "2",
+            "zeta": "0",
+            "t": "0",
+            "beta_": "1707",
+            "N": "5.46956429621299e9536769492992118",
+            "m": "32768"
+          },
+          "log2_rop": "+infinity",
+          "finite_estimate": false,
+          "target_pass": false,
+          "wall_seconds": 0.11633840098511428
+        }
+      },
+      "estimate_provenance": {
+        "origin": "computed_in_this_execution"
+      },
+      "all_three_attacks_pass": false
+    }
+  ],
+  "reported_log_precision": "Sage default numerical precision; estimator costs are numerical estimates, not 128-bit arithmetic certificates",
+  "reused_result_files": [],
+  "new_attack_calls": 3,
+  "reused_cases": 0,
+  "all_cases_pass": false
+}

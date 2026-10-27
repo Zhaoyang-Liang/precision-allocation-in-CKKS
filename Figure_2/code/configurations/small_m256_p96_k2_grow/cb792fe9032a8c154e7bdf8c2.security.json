@@ -1,0 +1,175 @@
+{
+  "schema": "ckks-new-security-v1",
+  "estimator_commit": "6019056011d10d7e9c30a0d5da2d2f729fbc2eec",
+  "estimator_tracked_dirty": [],
+  "wrapper_sha256": "80ff11e9db2c8cce1cdf580c080473137de2bbb8210862990f503cb6e7dc7c06",
+  "wrapper_source_file": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/selection_formal_wave13/security.wrapper.py",
+  "selection_registration_sha256": "2ac6d5a17b4464a25b098650b0868724ef2ef4c9039eb029801826f4a051e890",
+  "model": "RC.MATZOV",
+  "secret": "uniform_ternary",
+  "error_sigma": "3.2",
+  "actual_sampler_abs_bound": "19.2",
+  "samples": "infinity",
+  "target_bits": 128,
+  "HE_executions": 0,
+  "reused_result_files": [
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/security_cache_v1/priors.json",
+      "sha256": "12dd5560c5ceb4839daf9dc86da507a37b733e507484d7ca1e6ad866a44920fe"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/flow_pilot_v2/security.json",
+      "sha256": "99d229dfb57fa45ad2385e8cf472840f2037ea127823e6496898f4039efce5fd"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/extended_scope_v2_p4/security.json",
+      "sha256": "331eb9f1cae843a4a733e5bf68f62377b6ff274eeb8b6615d596f57c81c7219c"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/security_warmup_v2_0/security.json",
+      "sha256": "2414518b4ad5956849a88ece9eac3a2419a301e49d9dbb3c1e94fb4e7a5e2fd6"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/security_warmup_v2_1/security.json",
+      "sha256": "912162786137c2669e7d68dc0d244ad2872483fd17e6b848d3ccb8306760a84e"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/security_warmup_v2_2/security.json",
+      "sha256": "2bdbcad3574da402b8da81333cc8fe0219c734bb2b62eb5188f983c9048d02e2"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/selection_formal_wave1/security.json",
+      "sha256": "00dbd7d62bf74b56bfaeba0a5ef975c8a35f7873e1cf96f80aca14d4d1f8b129"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/selection_formal_wave10/security.json",
+      "sha256": "f0cd90ccd5964e9c25a58b7accd7b66acedff083edfdf701679262b00ccb7d14"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/selection_formal_wave11/security.json",
+      "sha256": "ffdedb022db8c033eba916930383bac0d3d96475b5559987edd5e6a03a82b0ec"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/selection_formal_wave12/security.json",
+      "sha256": "81331f1cdf2e2f61a41ffc8fbf28d0db09f84ff744de0d405b397dc7d12fb44c"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/selection_formal_wave2/security.json",
+      "sha256": "a0928d40f47d1d271eede0efc5129f13f6d395e05d414bfaf4d58f1ffa62e813"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/selection_formal_wave3/security.json",
+      "sha256": "064f7b10bb4a33ad30ca8d911ebdbb059511ab5eb9630c701b523208820485c0"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/selection_formal_wave4/security.json",
+      "sha256": "95f70a4d3bd164cc4a6bde66de9a778b6c2bcbc6f7257277986b0a6e17230a84"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/selection_formal_wave5/security.json",
+      "sha256": "4651b29998024b6015b24551efc1eeb0ac2e36a1c4dded6a6ccd1118da435208"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/selection_formal_wave6/security.json",
+      "sha256": "3d5c55212ee50ddbfc0b5020e98944f234a00a955a767aac29acca0724d2b317"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/selection_formal_wave7/security.json",
+      "sha256": "3341c5572d7ee74999d60f1fecada8de9eb45c232de69d550bc7ba35760848bd"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/selection_formal_wave8/security.json",
+      "sha256": "d232236c0d2131ed6309b62ac3012a0556e5e004beb19ce2b479afb442148132"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/selection_formal_wave9/security.json",
+      "sha256": "022e2ed1a84f602aa731839c9697b3796d575cec192b620dca6036def8bf5b3c"
+    }
+  ],
+  "new_attack_calls": 80,
+  "reused_cases": 3323,
+  "reported_log_precision": "Numerical lattice-estimator work factors, not a proof.",
+  "cases": [
+    {
+      "branch": "cb792fe9032a8c154e7bdf8c2",
+      "N": 16384,
+      "Q": [
+        "9007199253921793",
+        "9007199252840449",
+        "4503599626682369",
+        "274877153281",
+        "137438822401"
+      ],
+      "P": [
+        "4294475777",
+        "4293918721",
+        "4293230593"
+      ],
+      "qp_exact": "1092787143453970722955897165451959217763655753647224577408237442647579539071610696736286602441818113",
+      "q_est_log2": 329,
+      "attacks": {
+        "primal_usvp": {
+          "cost": {
+            "rop": "4.17779785146691e51",
+            "red": "4.17779785146691e51",
+            "delta": "1.00347853913452",
+            "beta": "485",
+            "d": "32255",
+            "tag": "usvp",
+            "problem": "LWEParameters(n=16384, q=1093625362391505962186251113558810682676584715446606218212885303204976499599687961611756588511526912, Xs=D(σ=0.82), Xe=D(σ=3.20), m=+Infinity, tag='N16384_qbits329')"
+          },
+          "log2_rop": "171.481075526552",
+          "finite_estimate": true,
+          "target_pass": true,
+          "wall_seconds": 0.06593762499687728
+        },
+        "primal_bdd": {
+          "cost": {
+            "rop": "3.83959795553211e51",
+            "red": "3.48057324669377e51",
+            "svp": "3.59024708838333e50",
+            "beta": "484",
+            "eta": "525",
+            "d": "32583",
+            "tag": "bdd",
+            "problem": "LWEParameters(n=16384, q=1093625362391505962186251113558810682676584715446606218212885303204976499599687961611756588511526912, Xs=D(σ=0.82), Xe=D(σ=3.20), m=+Infinity, tag='N16384_qbits329')"
+          },
+          "log2_rop": "171.359288093450",
+          "finite_estimate": true,
+          "target_pass": true,
+          "wall_seconds": 4.599774209003954
+        },
+        "dual_hybrid": {
+          "cost": {
+            "rop": "1.3493090e52*e^(-5) + 5.64310390962564e51",
+            "problem": "LWEParameters(n=16384, q=1093625362391505962186251113558810682676584715446606218212885303204976499599687961611756588511526912, Xs=D(σ=0.82), Xe=D(σ=3.20), m=+Infinity, tag='N16384_qbits329')",
+            "red": "5.64310390962564e51",
+            "guess": "1.3493090e52*e^(-5)",
+            "beta": "483",
+            "p": "3",
+            "zeta": "10",
+            "t": "80",
+            "beta_": "500",
+            "N": "6.63970115055418e30",
+            "m": "16384"
+          },
+          "log2_rop": "171.937879683603",
+          "finite_estimate": true,
+          "target_pass": true,
+          "wall_seconds": 5.696248166001169
+        }
+      },
+      "estimate_provenance": {
+        "origin": "computed_in_this_execution"
+      },
+      "all_three_attacks_pass": true
+    }
+  ],
+  "all_cases_pass": true,
+  "plan_sha256": "1efe5a37998e353d54b515d5a89c7665e0080d52766bff8439914e931a6246a8",
+  "filtered_from": {
+    "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/selection_formal_wave13/security.json",
+    "sha256": "9ebb898daa274ac009cc9cbc54edc1be7697ed2a9883a066128c60be16b62070"
+  },
+  "scope": "One exact parameter case filtered from registered real estimates; no new estimate or interpolation."
+}

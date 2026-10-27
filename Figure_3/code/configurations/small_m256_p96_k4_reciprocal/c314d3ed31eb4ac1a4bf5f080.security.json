@@ -1,0 +1,153 @@
+{
+  "schema": "ckks-new-security-v1",
+  "estimator_commit": "6019056011d10d7e9c30a0d5da2d2f729fbc2eec",
+  "estimator_tracked_dirty": [],
+  "wrapper_sha256": "80ff11e9db2c8cce1cdf580c080473137de2bbb8210862990f503cb6e7dc7c06",
+  "wrapper_source_file": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/selection_formal_wave7/security.wrapper.py",
+  "selection_registration_sha256": "818c42d53a99df0edd9eec84a03c3f574190c72dd9eecd47131dbb49635ef00e",
+  "model": "RC.MATZOV",
+  "secret": "uniform_ternary",
+  "error_sigma": "3.2",
+  "actual_sampler_abs_bound": "19.2",
+  "samples": "infinity",
+  "target_bits": 128,
+  "HE_executions": 0,
+  "reused_result_files": [
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/security_cache_v1/priors.json",
+      "sha256": "12dd5560c5ceb4839daf9dc86da507a37b733e507484d7ca1e6ad866a44920fe"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/flow_pilot_v2/security.json",
+      "sha256": "99d229dfb57fa45ad2385e8cf472840f2037ea127823e6496898f4039efce5fd"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/extended_scope_v2_p4/security.json",
+      "sha256": "331eb9f1cae843a4a733e5bf68f62377b6ff274eeb8b6615d596f57c81c7219c"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/security_warmup_v2_0/security.json",
+      "sha256": "2414518b4ad5956849a88ece9eac3a2419a301e49d9dbb3c1e94fb4e7a5e2fd6"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/security_warmup_v2_1/security.json",
+      "sha256": "912162786137c2669e7d68dc0d244ad2872483fd17e6b848d3ccb8306760a84e"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/security_warmup_v2_2/security.json",
+      "sha256": "2bdbcad3574da402b8da81333cc8fe0219c734bb2b62eb5188f983c9048d02e2"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/selection_formal_wave1/security.json",
+      "sha256": "00dbd7d62bf74b56bfaeba0a5ef975c8a35f7873e1cf96f80aca14d4d1f8b129"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/selection_formal_wave2/security.json",
+      "sha256": "a0928d40f47d1d271eede0efc5129f13f6d395e05d414bfaf4d58f1ffa62e813"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/selection_formal_wave3/security.json",
+      "sha256": "064f7b10bb4a33ad30ca8d911ebdbb059511ab5eb9630c701b523208820485c0"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/selection_formal_wave4/security.json",
+      "sha256": "95f70a4d3bd164cc4a6bde66de9a778b6c2bcbc6f7257277986b0a6e17230a84"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/selection_formal_wave5/security.json",
+      "sha256": "4651b29998024b6015b24551efc1eeb0ac2e36a1c4dded6a6ccd1118da435208"
+    },
+    {
+      "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/selection_formal_wave6/security.json",
+      "sha256": "3d5c55212ee50ddbfc0b5020e98944f234a00a955a767aac29acca0724d2b317"
+    }
+  ],
+  "new_attack_calls": 711,
+  "reused_cases": 3984,
+  "reported_log_precision": "Numerical lattice-estimator work factors, not a proof.",
+  "cases": [
+    {
+      "branch": "c314d3ed31eb4ac1a4bf5f080",
+      "N": 16384,
+      "Q": [
+        "9007199253921793",
+        "9007199252840449",
+        "9007199252807681",
+        "274877153281",
+        "137438822401",
+        "274877022209",
+        "137438691329",
+        "274876334081",
+        "137437806593"
+      ],
+      "P": [
+        "16580609"
+      ],
+      "qp_exact": "653294305310001030158375073362820317360633207889174450852388492226473499093101887657963384620233570211424842959633905451009",
+      "q_est_log2": 408,
+      "attacks": {
+        "primal_usvp": {
+          "cost": {
+            "rop": "8.05911841175968e40",
+            "red": "8.05911841175968e40",
+            "delta": "1.00430633771514",
+            "beta": "357",
+            "d": "31459",
+            "tag": "usvp",
+            "problem": "LWEParameters(n=16384, q=661055968790248598951915308032771039828404682964281219284648795274405791236311345825189210439715284847591212025023358304256, Xs=D(σ=0.82), Xe=D(σ=3.20), m=+Infinity, tag='N16384_qbits408')"
+          },
+          "log2_rop": "135.887745826240",
+          "finite_estimate": true,
+          "target_pass": true,
+          "wall_seconds": 0.04263879100471968
+        },
+        "primal_bdd": {
+          "cost": {
+            "rop": "6.80175768637778e40",
+            "red": "6.75514310821736e40",
+            "svp": "4.66145781604186e38",
+            "beta": "356",
+            "eta": "383",
+            "d": "31951",
+            "tag": "bdd",
+            "problem": "LWEParameters(n=16384, q=661055968790248598951915308032771039828404682964281219284648795274405791236311345825189210439715284847591212025023358304256, Xs=D(σ=0.82), Xe=D(σ=3.20), m=+Infinity, tag='N16384_qbits408')"
+          },
+          "log2_rop": "135.643031406232",
+          "finite_estimate": true,
+          "target_pass": true,
+          "wall_seconds": 4.811754207999911
+        },
+        "dual_hybrid": {
+          "cost": {
+            "rop": "1.37294429438831e41",
+            "problem": "LWEParameters(n=16384, q=661055968790248598951915308032771039828404682964281219284648795274405791236311345825189210439715284847591212025023358304256, Xs=D(σ=0.82), Xe=D(σ=3.20), m=+Infinity, tag='N16384_qbits408')",
+            "red": "1.37294414630183e41",
+            "guess": "1.48086485682140e34",
+            "beta": "356",
+            "p": "3",
+            "zeta": "0",
+            "t": "60",
+            "beta_": "381",
+            "N": "8.94151661871163e18",
+            "m": "16384"
+          },
+          "log2_rop": "136.656324981388",
+          "finite_estimate": true,
+          "target_pass": true,
+          "wall_seconds": 3.1859111250014394
+        }
+      },
+      "estimate_provenance": {
+        "origin": "computed_in_this_execution"
+      },
+      "all_three_attacks_pass": true
+    }
+  ],
+  "all_cases_pass": true,
+  "plan_sha256": "6ff9a237540df21d7d1a021b96db9d7573c044df83c667c39ba513c8ba0f426d",
+  "filtered_from": {
+    "path": "/Users/mac/Desktop/precision_allocation_experiments/resource_campaign/raw_data/selection_formal_wave7/security.json",
+    "sha256": "3341c5572d7ee74999d60f1fecada8de9eb45c232de69d550bc7ba35760848bd"
+  },
+  "scope": "One exact parameter case filtered from registered real estimates; no new estimate or interpolation."
+}

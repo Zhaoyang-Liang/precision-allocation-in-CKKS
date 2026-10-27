@@ -1,0 +1,20 @@
+{
+  "source_title": "Security Guidelines for Implementing Homomorphic Encryption",
+  "source_url": "https://cic.iacr.org/p/1/4/26/pdf",
+  "doi": "10.62056/anxra69p1",
+  "publication_date": "2025-01-13",
+  "table": "5.2",
+  "pdf_page": 12,
+  "N": 32768,
+  "secret": "uniform_ternary",
+  "guideline_error_sigma": 3.19,
+  "experiment_error_sigma": 3.2,
+  "classical_security_category": 128,
+  "guideline_max_log2_QP": 868,
+  "registered_QP_ceiling_bits": 856,
+  "scope": "Classical security parameter guideline check, not a formal hardness proof. The paper identifies q=P*Q for hybrid key switching and allows error distributions close to sigma=3.19. The separate direct estimator records keep nonfinite outputs unavailable, never as finite security estimates.",
+  "envelope_estimator_file": "security_envelope.json",
+  "envelope_estimator_commit": "6019056011d10d7e9c30a0d5da2d2f729fbc2eec",
+  "exact_point_estimator_commit": "53da5982597709ba0fdf94ea37a84d822310fd84",
+  "different_commits_explicitly_separated": true
+}

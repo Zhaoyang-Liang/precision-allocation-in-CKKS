@@ -1,0 +1,146 @@
+{
+  "schema": "ckks-precision-suite-v1",
+  "id": "selection_research_public_interior_20260930",
+  "task": "pow16",
+  "entry": "native",
+  "group_size": 8192,
+  "target_bits_low_high": [
+    22,
+    72
+  ],
+  "plaintext_seed": "2026092901",
+  "encoder_decode_bits": 512,
+  "gomaxprocs": 1,
+  "security_target_bits": 128,
+  "security_assessment": "Conditional documented uniform-ternary QP-cap screen; no fresh estimator. All schemes use the same screen.",
+  "comparison_contract": "fixed_circuit",
+  "retain_diagnostic_traces": false,
+  "cases": [
+    {
+      "id": "ordinary10_p5",
+      "kind": "ordinary_joint",
+      "branches": [
+        {
+          "id": "joint",
+          "group": "all",
+          "layout": "interleaved",
+          "parameters": {
+            "log_n": 15,
+            "q": [
+              "562949952700417",
+              "562949951979521",
+              "1125899904679937",
+              "1125899903827969",
+              "1125899903500289",
+              "1125899903107073",
+              "1125899902124033",
+              "1125899901665281",
+              "1125899899174913",
+              "1125899896160257"
+            ],
+            "p": [
+              "4293918721",
+              "4292804609",
+              "2147352577",
+              "2146959361",
+              "2146041857"
+            ],
+            "default_scale_bits": 100
+          },
+          "scale_bits": 100,
+          "rescale_counts": [
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      ],
+      "parameter_status": "public_conditional_certificate_no_HE",
+      "certificate_note": "Inherited encoder, sampling-event, QP-screen and pinned backend contracts; no HE has been run. P boundary+4 bit rule."
+    },
+    {
+      "id": "unit7_p4",
+      "kind": "unit",
+      "unit_power": 20,
+      "branches": [
+        {
+          "id": "joint",
+          "group": "all",
+          "layout": "interleaved",
+          "parameters": {
+            "log_n": 15,
+            "q": [
+              "144115188075593729",
+              "144115188075134977",
+              "1152921504606584833",
+              "1152921504598720513",
+              "2251799813554177",
+              "2251799811391489",
+              "1152921504597016577"
+            ],
+            "p": [
+              "8796090597377",
+              "4398044938241",
+              "4398043496449",
+              "4398042972161"
+            ],
+            "default_scale_bits": 74
+          },
+          "scale_bits": 74,
+          "rescale_counts": [
+            1,
+            2,
+            1,
+            1
+          ]
+        }
+      ],
+      "parameter_status": "public_conditional_certificate_no_HE",
+      "certificate_note": "Inherited encoder, sampling-event, QP-screen and pinned backend contracts; no HE has been run. P boundary+4 bit rule."
+    },
+    {
+      "id": "unit7_p7",
+      "kind": "unit",
+      "unit_power": 20,
+      "branches": [
+        {
+          "id": "joint",
+          "group": "all",
+          "layout": "interleaved",
+          "parameters": {
+            "log_n": 15,
+            "q": [
+              "144115188075593729",
+              "144115188075134977",
+              "1152921504606584833",
+              "1152921504598720513",
+              "2251799813554177",
+              "2251799811391489",
+              "1152921504597016577"
+            ],
+            "p": [
+              "281474976317441",
+              "140737487306753",
+              "140737486716929",
+              "140737486520321",
+              "140737485864961",
+              "140737484685313",
+              "140737483898881"
+            ],
+            "default_scale_bits": 74
+          },
+          "scale_bits": 74,
+          "rescale_counts": [
+            1,
+            2,
+            1,
+            1
+          ]
+        }
+      ],
+      "parameter_status": "public_conditional_certificate_no_HE",
+      "certificate_note": "Inherited encoder, sampling-event, QP-screen and pinned backend contracts; no HE has been run. P boundary+4 bit rule."
+    }
+  ]
+}

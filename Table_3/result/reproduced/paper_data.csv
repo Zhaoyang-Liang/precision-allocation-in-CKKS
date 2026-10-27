@@ -1,0 +1,3 @@
+method,runs,mean_online_s,sample_sd_online_s,minimum_high_precision_bits,low_target_bits,log2_Q,log2_QP,scale_bits,recorded_security_bits,security_evidence_sha256,key_payload_MiB,native_output_payload_MiB,ordinary_output_payload_MiB,relinearizations
+new_unit,10,1.0992908713,0.037344010195657605,80.60951302395581,1,679.9999997232168,720.0000032488581,70,132.54076694084057,fa6033c4a6a485cd3c416b0cd52f0ae482fbab6a7ef63ae8760ff67cc99c0089,112.5,1.0,1.0,8
+tuple,10,1.5484885057,0.02266622115643909,80.12325044149996,32,622.0000017205041,682.0000017204918,100,138.04376719734805,7e18f012f30dc785230f7c44342c9510bc0e8c1d1bf43454d7ead5ea74d11ce0,127.0,2.0,1.0,16

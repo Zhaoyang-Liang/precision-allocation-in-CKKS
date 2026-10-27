@@ -1,0 +1,95 @@
+{
+  "schema": "ckks-new-security-v1",
+  "plan_sha256": "40c56b2759185ea5ac448d45f0b58715a872c2a04ac24db74e9e9068b825202c",
+  "estimator_commit": "53da5982597709ba0fdf94ea37a84d822310fd84",
+  "estimator_tracked_dirty": [],
+  "wrapper_sha256": "c68aaa599a47c26cec970f9adb6d38a0ddc475d02bc4ce857cb7fd0d6664631e",
+  "wrapper_source_file": "/home/u9920250039/projects/pa-zero-mean-20261018/security_results/plan_056.wrapper.py",
+  "model": "RC.MATZOV",
+  "secret": "uniform_ternary",
+  "error_sigma": "3.2",
+  "actual_sampler_abs_bound": "19.2",
+  "samples": "infinity",
+  "target_bits": 128,
+  "HE_executions": 0,
+  "cases": [
+    {
+      "branch": "r2_bm20_k2_shrink_q185",
+      "N": 32768,
+      "Q": [
+        "140737487306753",
+        "70368743587841",
+        "70368742408193",
+        "70368740769793",
+        "1073479681"
+      ],
+      "P": [
+        "1152921504606584833",
+        "1152921504598720513"
+      ],
+      "qp_exact": "69974929105201934407545238759618877559031946194457764708602537333089398291895203656716859675617001473",
+      "q_est_log2": 335,
+      "attacks": {
+        "primal_usvp": {
+          "cost": {
+            "rop": "1.67573067124774e112",
+            "red": "1.67573067124774e112",
+            "delta": "1.00177653036124",
+            "beta": "1201",
+            "d": "64595",
+            "tag": "usvp",
+            "problem": "LWEParameters(n=32768, q=69992023193056381579920071267763883691301421788582797965624659405118495974380029543152421664737722368, Xs=D(\u03c3=0.82), Xe=D(\u03c3=3.20), m=+Infinity, tag='N32768_qbits335')"
+          },
+          "log2_rop": "372.800736920528",
+          "finite_estimate": true,
+          "target_pass": true,
+          "wall_seconds": 0.17866617999970913
+        },
+        "primal_bdd": {
+          "cost": {
+            "rop": "1.41074857303366e112",
+            "red": "1.38669373494444e112",
+            "svp": "2.40548380892168e110",
+            "beta": "1200",
+            "eta": "1235",
+            "d": "64932",
+            "tag": "bdd",
+            "problem": "LWEParameters(n=32768, q=69992023193056381579920071267763883691301421788582797965624659405118495974380029543152421664737722368, Xs=D(\u03c3=0.82), Xe=D(\u03c3=3.20), m=+Infinity, tag='N32768_qbits335')"
+          },
+          "log2_rop": "372.552407517688",
+          "finite_estimate": true,
+          "target_pass": true,
+          "wall_seconds": 27.067391481017694
+        },
+        "dual_hybrid": {
+          "cost": {
+            "rop": "1.26688206913526e112",
+            "problem": "LWEParameters(n=32768, q=69992023193056381579920071267763883691301421788582797965624659405118495974380029543152421664737722368, Xs=D(\u03c3=0.82), Xe=D(\u03c3=3.20), m=+Infinity, tag='N32768_qbits335')",
+            "red": "1.14825395882251e112",
+            "guess": "1.18628110312751e111",
+            "beta": "1195",
+            "p": "3",
+            "zeta": "0",
+            "t": "220",
+            "beta_": "1177",
+            "N": "8.98218162414542e72",
+            "m": "32768"
+          },
+          "log2_rop": "372.397228861262",
+          "finite_estimate": true,
+          "target_pass": true,
+          "wall_seconds": 33.44989391206764
+        }
+      },
+      "estimate_provenance": {
+        "origin": "computed_in_this_execution"
+      },
+      "all_three_attacks_pass": true
+    }
+  ],
+  "reported_log_precision": "Sage default numerical precision; estimator costs are numerical estimates, not 128-bit arithmetic certificates",
+  "reused_result_files": [],
+  "new_attack_calls": 3,
+  "reused_cases": 0,
+  "all_cases_pass": true
+}

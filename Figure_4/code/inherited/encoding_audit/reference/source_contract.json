@@ -1,0 +1,47 @@
+{
+  "Lattigo": "v6.2.0",
+  "files": [
+    {
+      "path": "schemes/ckks/encoder.go",
+      "sha256": "4e61c3a26de2615763e3139d2bc2bf627b6b0768625aa8038bef663300dd57a3"
+    },
+    {
+      "path": "schemes/ckks/utils.go",
+      "sha256": "1341bab2aca7006de430ec36c7ce7758adb6fe928f6242b3ba07e4fea04c552d"
+    },
+    {
+      "path": "schemes/ckks/ckks_vector_ops.go",
+      "sha256": "0a7f623ee614fa3c5e465b1b0801c5d5e8c9833a48317e16b6168602af8d04ab"
+    },
+    {
+      "path": "utils/bignum/float.go",
+      "sha256": "d641a8af11dda0eb3601a77ce3ab945a57b3e0a2f993b5cd7f7263c0665df660"
+    },
+    {
+      "path": "utils/bignum/complex.go",
+      "sha256": "c29fb347850efbb9d9f5bf45f6e0747456a389b8c6c4e5db93c8173536c1240d"
+    },
+    {
+      "path": "core/rlwe/scale.go",
+      "sha256": "d7d9447576bd466a28fa060a1d586574129df1e7a2d31616e4cb39a1f6045843"
+    }
+  ],
+  "runner_files": [
+    {
+      "path": "representation.go",
+      "sha256": "ecc61ecdcbcb70fee9360a8c78273af2795b432a5460a77e5fd9fb1a579158e0"
+    },
+    {
+      "path": "crypto.go",
+      "sha256": "0e50889a7662917b0df382938725edc52bebdf4afebfe5dc4a9ce69ee0f1a3d8"
+    },
+    {
+      "path": "prepare.go",
+      "sha256": "7d345260c758fb9372239b092eb7bf87e76778efc698fb6e40027dd5bfd541ad"
+    },
+    {
+      "path": "dataset_reference.go",
+      "sha256": "3b86e6efd7777b81e91c3c1198a34662b283b51ef142960b0e4eba125248501d"
+    }
+  ]
+}

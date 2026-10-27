@@ -1,0 +1,17 @@
+direct N=8192 R=8 depth=7 main_logQP=204.90084806 entry_logQP=32.97710520 output_level=2 keygen=4.873
+trial=1 output_level=2 output_logQ=53.95458361 max_error_bits=3.404272 online=2.567385 error=
+trial=2 output_level=2 output_logQ=53.95458361 max_error_bits=4.346568 online=2.454058 error=
+trial=3 output_level=2 output_logQ=53.95458361 max_error_bits=3.197623 online=2.361790 error=
+trial=4 output_level=2 output_logQ=53.95458361 max_error_bits=3.986963 online=2.396244 error=
+trial=5 output_level=2 output_logQ=53.95458361 max_error_bits=3.352413 online=2.422385 error=
+trial=6 output_level=2 output_logQ=53.95458361 max_error_bits=4.255097 online=2.404707 error=
+trial=7 output_level=2 output_logQ=53.95458361 max_error_bits=3.346540 online=2.611580 error=
+trial=8 output_level=2 output_logQ=53.95458361 max_error_bits=4.083751 online=2.559257 error=
+trial=9 output_level=2 output_logQ=53.95458361 max_error_bits=3.328934 online=2.597454 error=
+trial=10 output_level=2 output_logQ=53.95458361 max_error_bits=3.828426 online=2.456102 error=
+trial=11 output_level=2 output_logQ=53.95458361 max_error_bits=3.242792 online=2.408122 error=
+trial=12 output_level=2 output_logQ=53.95458361 max_error_bits=3.769893 online=2.364563 error=
+trial=13 output_level=2 output_logQ=53.95458361 max_error_bits=3.568733 online=2.334522 error=
+trial=14 output_level=2 output_logQ=53.95458361 max_error_bits=3.981946 online=2.324740 error=
+trial=15 output_level=2 output_logQ=53.95458361 max_error_bits=3.185041 online=2.356394 error=
+trial=16 output_level=2 output_logQ=53.95458361 max_error_bits=3.369393 online=2.398327 error=

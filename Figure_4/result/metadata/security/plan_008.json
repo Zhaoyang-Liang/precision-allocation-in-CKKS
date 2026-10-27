@@ -1,0 +1,82 @@
+{
+  "schema": "ckks-new-security-v1",
+  "plan_sha256": "eee23a073527e5b3056a643a5803afb442e8227ab37ed3c59a45e987865d5c53",
+  "estimator_commit": "53da5982597709ba0fdf94ea37a84d822310fd84",
+  "estimator_tracked_dirty": [],
+  "wrapper_sha256": "c68aaa599a47c26cec970f9adb6d38a0ddc475d02bc4ce857cb7fd0d6664631e",
+  "wrapper_source_file": "/home/u9920250039/projects/pa-zero-mean-20261018/security_results/plan_008.wrapper.py",
+  "model": "RC.MATZOV",
+  "secret": "uniform_ternary",
+  "error_sigma": "3.2",
+  "actual_sampler_abs_bound": "19.2",
+  "samples": "infinity",
+  "target_bits": 128,
+  "HE_executions": 0,
+  "cases": [
+    {
+      "branch": "r4_bm10_k1_grow_q42",
+      "N": 32768,
+      "Q": [
+        "4398044938241"
+      ],
+      "P": [
+        "1152921504606584833",
+        "1152921504598720513"
+      ],
+      "qp_exact": "5846004458587543268052495495349261977821905420289",
+      "q_est_log2": 162,
+      "attacks": {
+        "primal_usvp": {
+          "cost": {
+            "rop": "+Infinity",
+            "tag": "usvp",
+            "problem": "LWEParameters(n=32768, q=5846006549323611672814739330865132078623730171904, Xs=D(\u03c3=0.82), Xe=D(\u03c3=3.20), m=+Infinity, tag='N32768_qbits162')"
+          },
+          "log2_rop": "+infinity",
+          "finite_estimate": false,
+          "target_pass": false,
+          "wall_seconds": 0.13897171907592565
+        },
+        "primal_bdd": {
+          "cost": {
+            "rop": "+Infinity",
+            "tag": "bdd",
+            "problem": "LWEParameters(n=32768, q=5846006549323611672814739330865132078623730171904, Xs=D(\u03c3=0.82), Xe=D(\u03c3=3.20), m=+Infinity, tag='N32768_qbits162')"
+          },
+          "log2_rop": "+infinity",
+          "finite_estimate": false,
+          "target_pass": false,
+          "wall_seconds": 6.871551176067442
+        },
+        "dual_hybrid": {
+          "cost": {
+            "rop": "+Infinity",
+            "problem": "LWEParameters(n=32768, q=5846006549323611672814739330865132078623730171904, Xs=D(\u03c3=0.82), Xe=D(\u03c3=3.20), m=+Infinity, tag='N32768_qbits162')",
+            "red": "+Infinity",
+            "guess": "+infinity",
+            "beta": "1753",
+            "p": "2",
+            "zeta": "0",
+            "t": "0",
+            "beta_": "1707",
+            "N": "+infinity",
+            "m": "32768"
+          },
+          "log2_rop": "+infinity",
+          "finite_estimate": false,
+          "target_pass": false,
+          "wall_seconds": 0.09872114297468215
+        }
+      },
+      "estimate_provenance": {
+        "origin": "computed_in_this_execution"
+      },
+      "all_three_attacks_pass": false
+    }
+  ],
+  "reported_log_precision": "Sage default numerical precision; estimator costs are numerical estimates, not 128-bit arithmetic certificates",
+  "reused_result_files": [],
+  "new_attack_calls": 3,
+  "reused_cases": 0,
+  "all_cases_pass": false
+}

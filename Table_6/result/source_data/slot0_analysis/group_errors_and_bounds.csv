@@ -1,0 +1,161 @@
+method,branch,kind,layer,group,observed_log2_magnitude,backend_bound_log2,backend_bound_holds_for_observer,bound_slack_bits,paper_reference_bound_log2,paper_reference_scope,source
+allocated_joint,allocated_g0123,final_restored_error,0,0,-172.41538098045748,-161.76640384259997,True,10.648977137857514,,,raw_summaries/final_restored_error.json
+allocated_joint,allocated_g0123,final_restored_error,0,1,-46.36052841506307,-34.72672170822523,True,11.633806706837845,,,raw_summaries/final_restored_error.json
+allocated_joint,allocated_g0123,final_restored_error,0,2,-43.72054931029197,-32.47333849789857,True,11.247210812393405,,,raw_summaries/final_restored_error.json
+allocated_joint,allocated_g0123,final_restored_error,0,3,-43.95781330932414,-32.35769031575535,True,11.600122993568789,,,raw_summaries/final_restored_error.json
+allocated_joint,allocated_g0123,fresh_decryption_noise,0,0,15.436744867724428,25.110904246938844,True,9.674159379214416,,,raw_summaries/fresh_decryption_noise.json
+allocated_joint,allocated_g0123,fresh_decryption_noise,0,1,15.12702169862996,25.110904246938844,True,9.983882548308884,,,raw_summaries/fresh_decryption_noise.json
+allocated_joint,allocated_g0123,fresh_decryption_noise,0,2,15.539128302931204,25.110904246938844,True,9.57177594400764,,,raw_summaries/fresh_decryption_noise.json
+allocated_joint,allocated_g0123,fresh_decryption_noise,0,3,15.15368963909168,25.110904246938844,True,9.957214607847163,,,raw_summaries/fresh_decryption_noise.json
+allocated_joint,allocated_g0123,fresh_encoding_error,0,0,7.483123957738826,14.348520696585535,True,6.865396738846709,14.0,coefficient infinity to canonical norm,raw_summaries/fresh_encoding_error.json
+allocated_joint,allocated_g0123,fresh_encoding_error,0,1,7.645359263313139,14.348520696585535,True,6.703161433272395,14.0,coefficient infinity to canonical norm,raw_summaries/fresh_encoding_error.json
+allocated_joint,allocated_g0123,fresh_encoding_error,0,2,7.695690729765147,14.348520696585535,True,6.652829966820388,14.0,coefficient infinity to canonical norm,raw_summaries/fresh_encoding_error.json
+allocated_joint,allocated_g0123,fresh_encoding_error,0,3,7.565821174572875,14.348520696585535,True,6.78269952201266,14.0,coefficient infinity to canonical norm,raw_summaries/fresh_encoding_error.json
+allocated_joint,allocated_g0123,fresh_restored_error,0,0,-173.9990943767848,-164.32363067700066,True,9.675463699784132,,,raw_summaries/fresh_restored_error.json
+allocated_joint,allocated_g0123,fresh_restored_error,0,1,-47.26891512505358,-37.28394854273802,True,9.984966582315565,,,raw_summaries/fresh_restored_error.json
+allocated_joint,allocated_g0123,fresh_restored_error,0,2,-44.60297632555819,-35.0305653328337,True,9.572410992724485,,,raw_summaries/fresh_restored_error.json
+allocated_joint,allocated_g0123,fresh_restored_error,0,3,-44.871076418177154,-34.91491715073528,True,9.956159267441876,,,raw_summaries/fresh_restored_error.json
+allocated_joint,allocated_g0123,layer1_closure_residual,1,0,-1020.9861671007918,,,,,,raw_summaries/layer1_closure_residual.json
+allocated_joint,allocated_g0123,layer1_closure_residual,1,1,-1021.1626880451875,,,,,,raw_summaries/layer1_closure_residual.json
+allocated_joint,allocated_g0123,layer1_closure_residual,1,2,-1021.3592251464693,,,,,,raw_summaries/layer1_closure_residual.json
+allocated_joint,allocated_g0123,layer1_closure_residual,1,3,-1021.0442548379776,,,,,,raw_summaries/layer1_closure_residual.json
+allocated_joint,allocated_g0123,layer1_kappa,1,0,95.2199416553998,107.54614783493571,True,12.326206179535916,108.19762713835014,"paper bound assumes centered exact RNS digits; a reference, not the certificate of approximate backend lifts",raw_summaries/layer1_kappa.json
+allocated_joint,allocated_g0123,layer1_kappa,1,1,95.24315839244355,107.54614783493571,True,12.302989442492162,108.19762713835014,"paper bound assumes centered exact RNS digits; a reference, not the certificate of approximate backend lifts",raw_summaries/layer1_kappa.json
+allocated_joint,allocated_g0123,layer1_kappa,1,2,95.15668810123225,107.54614783493571,True,12.389459733703461,108.19762713835014,"paper bound assumes centered exact RNS digits; a reference, not the certificate of approximate backend lifts",raw_summaries/layer1_kappa.json
+allocated_joint,allocated_g0123,layer1_kappa,1,3,95.53900351232903,107.54614783493571,True,12.007144322606678,108.19762713835014,"paper bound assumes centered exact RNS digits; a reference, not the certificate of approximate backend lifts",raw_summaries/layer1_kappa.json
+allocated_joint,allocated_g0123,layer1_key_switch_contribution,1,0,-187.21542359577393,-174.88921741623813,True,12.326206179535802,,,raw_summaries/layer1_key_switch_contribution.json
+allocated_joint,allocated_g0123,layer1_key_switch_contribution,1,1,-60.15252472446764,-47.84953528197536,True,12.302989442492276,,,raw_summaries/layer1_key_switch_contribution.json
+allocated_joint,allocated_g0123,layer1_key_switch_contribution,1,2,-57.985611805774624,-45.59615207207116,True,12.389459733703461,,,raw_summaries/layer1_key_switch_contribution.json
+allocated_joint,allocated_g0123,layer1_key_switch_contribution,1,3,-57.487648212579415,-45.480503889972624,True,12.007144322606791,,,raw_summaries/layer1_key_switch_contribution.json
+allocated_joint,allocated_g0123,layer1_metadata_contribution,1,0,-1024.1603030623494,-768.0,True,256.1603030623494,,,raw_summaries/layer1_metadata_contribution.json
+allocated_joint,allocated_g0123,layer1_metadata_contribution,1,1,-1024.1603030623494,-768.0,True,256.1603030623494,,,raw_summaries/layer1_metadata_contribution.json
+allocated_joint,allocated_g0123,layer1_metadata_contribution,1,2,-1024.1603030623494,-768.0,True,256.1603030623494,,,raw_summaries/layer1_metadata_contribution.json
+allocated_joint,allocated_g0123,layer1_metadata_contribution,1,3,-1024.1603030623494,-768.0,True,256.1603030623494,,,raw_summaries/layer1_metadata_contribution.json
+allocated_joint,allocated_g0123,layer1_normalized_residual,1,0,-76.70605198006126,-66.42879007951251,True,10.277261900548751,,,raw_summaries/layer1_normalized_residual.json
+allocated_joint,allocated_g0123,layer1_normalized_residual,1,1,-76.91140660567032,-66.42879007950933,True,10.482616526160996,,,raw_summaries/layer1_normalized_residual.json
+allocated_joint,allocated_g0123,layer1_normalized_residual,1,2,-76.83548186411315,-66.4287900794975,True,10.406691784615646,,,raw_summaries/layer1_normalized_residual.json
+allocated_joint,allocated_g0123,layer1_normalized_residual,1,3,-76.72181681389372,-66.42879007949637,True,10.293026734397358,,,raw_summaries/layer1_normalized_residual.json
+allocated_joint,allocated_g0123,layer1_propagated,1,0,-173.20283275759175,-163.51627575494308,True,9.68655700264867,,,raw_summaries/layer1_propagated.json
+allocated_joint,allocated_g0123,layer1_propagated,1,1,-46.52100822209377,-36.47659362067543,True,10.044414601418339,,,raw_summaries/layer1_propagated.json
+allocated_joint,allocated_g0123,layer1_propagated,1,2,-43.868584090277864,-34.223210410752586,True,9.645373679525278,,,raw_summaries/layer1_propagated.json
+allocated_joint,allocated_g0123,layer1_propagated,1,3,-44.22809424860225,-34.107562228652114,True,10.120532019950133,,,raw_summaries/layer1_propagated.json
+allocated_joint,allocated_g0123,layer1_rescale_contribution,1,0,-174.36378458614786,-164.32446261799248,True,10.039321968155377,,,raw_summaries/layer1_rescale_contribution.json
+allocated_joint,allocated_g0123,layer1_rescale_contribution,1,1,-46.85541675808145,-37.28478048372983,True,9.570636274351614,,,raw_summaries/layer1_rescale_contribution.json
+allocated_joint,allocated_g0123,layer1_rescale_contribution,1,2,-44.87820558092176,-35.03139727382552,True,9.84680830709624,,,raw_summaries/layer1_rescale_contribution.json
+allocated_joint,allocated_g0123,layer1_rescale_contribution,1,3,-44.6950392798567,-34.91574909172709,True,9.779290188129607,,,raw_summaries/layer1_rescale_contribution.json
+allocated_joint,allocated_g0123,layer1_rescale_numerator,1,0,108.07158066502598,118.11090263318127,True,10.039321968155292,118.76238193659572,aggregate centered residues verified coefficientwise,raw_summaries/layer1_rescale_numerator.json
+allocated_joint,allocated_g0123,layer1_rescale_numerator,1,1,108.54026635882974,118.11090263318127,True,9.570636274351529,118.76238193659572,aggregate centered residues verified coefficientwise,raw_summaries/layer1_rescale_numerator.json
+allocated_joint,allocated_g0123,layer1_rescale_numerator,1,2,108.26409432608511,118.11090263318127,True,9.846808307096154,118.76238193659572,aggregate centered residues verified coefficientwise,raw_summaries/layer1_rescale_numerator.json
+allocated_joint,allocated_g0123,layer1_rescale_numerator,1,3,108.33161244505163,118.11090263318127,True,9.779290188129636,118.76238193659572,aggregate centered residues verified coefficientwise,raw_summaries/layer1_rescale_numerator.json
+allocated_joint,allocated_g0123,layer1_restored_error,1,0,-173.1414172312351,-162.86415533068623,True,10.277261900548865,,,raw_summaries/layer1_restored_error.json
+allocated_joint,allocated_g0123,layer1_restored_error,1,1,-46.30708972258151,-35.8244731964204,True,10.48261652616111,,,raw_summaries/layer1_restored_error.json
+allocated_joint,allocated_g0123,layer1_restored_error,1,2,-43.97778177112002,-33.571089986504376,True,10.406691784615646,,,raw_summaries/layer1_restored_error.json
+allocated_joint,allocated_g0123,layer1_restored_error,1,3,-43.74846853880206,-33.455441804404586,True,10.293026734397472,,,raw_summaries/layer1_restored_error.json
+allocated_joint,allocated_g0123,layer2_closure_residual,2,0,-1021.6043654329305,,,,,,raw_summaries/layer2_closure_residual.json
+allocated_joint,allocated_g0123,layer2_closure_residual,2,1,-1021.7553268548158,,,,,,raw_summaries/layer2_closure_residual.json
+allocated_joint,allocated_g0123,layer2_closure_residual,2,2,-1021.6088538620115,,,,,,raw_summaries/layer2_closure_residual.json
+allocated_joint,allocated_g0123,layer2_closure_residual,2,3,-1021.3233685342543,,,,,,raw_summaries/layer2_closure_residual.json
+allocated_joint,allocated_g0123,layer2_kappa,2,0,95.2357133927087,107.54614783493571,True,12.310434442227006,108.19762713835014,"paper bound assumes centered exact RNS digits; a reference, not the certificate of approximate backend lifts",raw_summaries/layer2_kappa.json
+allocated_joint,allocated_g0123,layer2_kappa,2,1,95.49103903602986,107.54614783493571,True,12.055108798905849,108.19762713835014,"paper bound assumes centered exact RNS digits; a reference, not the certificate of approximate backend lifts",raw_summaries/layer2_kappa.json
+allocated_joint,allocated_g0123,layer2_kappa,2,2,94.99206821496159,107.54614783493571,True,12.554079619974118,108.19762713835014,"paper bound assumes centered exact RNS digits; a reference, not the certificate of approximate backend lifts",raw_summaries/layer2_kappa.json
+allocated_joint,allocated_g0123,layer2_kappa,2,3,94.99091422712434,107.54614783493571,True,12.555233607811374,108.19762713835014,"paper bound assumes centered exact RNS digits; a reference, not the certificate of approximate backend lifts",raw_summaries/layer2_kappa.json
+allocated_joint,allocated_g0123,layer2_key_switch_contribution,2,0,-187.19965206269444,-174.88921762046743,True,12.310434442227006,,,raw_summaries/layer2_key_switch_contribution.json
+allocated_joint,allocated_g0123,layer2_key_switch_contribution,2,1,-59.90464428511041,-47.849535486204786,True,12.055108798905621,,,raw_summaries/layer2_key_switch_contribution.json
+allocated_joint,allocated_g0123,layer2_key_switch_contribution,2,2,-58.15023189627459,-45.59615227630047,True,12.554079619974118,,,raw_summaries/layer2_key_switch_contribution.json
+allocated_joint,allocated_g0123,layer2_key_switch_contribution,2,3,-58.03573770201319,-45.48050409420193,True,12.55523360781126,,,raw_summaries/layer2_key_switch_contribution.json
+allocated_joint,allocated_g0123,layer2_metadata_contribution,2,0,-1028.9047545015685,-768.0,True,260.9047545015685,,,raw_summaries/layer2_metadata_contribution.json
+allocated_joint,allocated_g0123,layer2_metadata_contribution,2,1,-1028.9047545015685,-768.0,True,260.9047545015685,,,raw_summaries/layer2_metadata_contribution.json
+allocated_joint,allocated_g0123,layer2_metadata_contribution,2,2,-1028.9047545015685,-768.0,True,260.9047545015685,,,raw_summaries/layer2_metadata_contribution.json
+allocated_joint,allocated_g0123,layer2_metadata_contribution,2,3,-1028.9047545015685,-768.0,True,260.9047545015685,,,raw_summaries/layer2_metadata_contribution.json
+allocated_joint,allocated_g0123,layer2_normalized_residual,2,0,-75.71296909249702,-65.5066640987227,True,10.206304993774324,,,raw_summaries/layer2_normalized_residual.json
+allocated_joint,allocated_g0123,layer2_normalized_residual,2,1,-76.2505983073064,-65.50666409870769,True,10.743934208598716,,,raw_summaries/layer2_normalized_residual.json
+allocated_joint,allocated_g0123,layer2_normalized_residual,2,2,-76.07896912670822,-65.50666409865107,True,10.572305028057144,,,raw_summaries/layer2_normalized_residual.json
+allocated_joint,allocated_g0123,layer2_normalized_residual,2,3,-76.4004061523143,-65.50666409864516,True,10.893742053669143,,,raw_summaries/layer2_normalized_residual.json
+allocated_joint,allocated_g0123,layer2_propagated,2,0,-172.60018848734262,-162.24944548657106,True,10.350743000771558,,,raw_summaries/layer2_propagated.json
+allocated_joint,allocated_g0123,layer2_propagated,2,1,-45.811275916662,-35.20976335228977,True,10.601512564372229,,,raw_summaries/layer2_propagated.json
+allocated_joint,allocated_g0123,layer2_propagated,2,2,-43.37775174326498,-32.95638014231531,True,10.42137160094967,,,raw_summaries/layer2_propagated.json
+allocated_joint,allocated_g0123,layer2_propagated,2,3,-43.38520381470971,-32.84073196020938,True,10.54447185450033,,,raw_summaries/layer2_propagated.json
+allocated_joint,allocated_g0123,layer2_rescale_contribution,2,0,-174.00682023842205,-164.3244628087857,True,9.68235742963634,,,raw_summaries/layer2_rescale_contribution.json
+allocated_joint,allocated_g0123,layer2_rescale_contribution,2,1,-46.99473506175627,-37.28478067452306,True,9.70995438723321,,,raw_summaries/layer2_rescale_contribution.json
+allocated_joint,allocated_g0123,layer2_rescale_contribution,2,2,-44.85429424960557,-35.03139746461875,True,9.822896784986824,,,raw_summaries/layer2_rescale_contribution.json
+allocated_joint,allocated_g0123,layer2_rescale_contribution,2,3,-44.67713146994856,-34.91574928252021,True,9.761382187428353,,,raw_summaries/layer2_rescale_contribution.json
+allocated_joint,allocated_g0123,layer2_rescale_numerator,2,0,108.42854521698109,118.11090264661742,True,9.682357429636326,118.76238195003187,aggregate centered residues verified coefficientwise,raw_summaries/layer2_rescale_numerator.json
+allocated_joint,allocated_g0123,layer2_rescale_numerator,2,1,108.40094825938422,118.11090264661742,True,9.709954387233196,118.76238195003187,aggregate centered residues verified coefficientwise,raw_summaries/layer2_rescale_numerator.json
+allocated_joint,allocated_g0123,layer2_rescale_numerator,2,2,108.28800586163061,118.11090264661742,True,9.82289678498681,118.76238195003187,aggregate centered residues verified coefficientwise,raw_summaries/layer2_rescale_numerator.json
+allocated_joint,allocated_g0123,layer2_rescale_numerator,2,3,108.34952045918908,118.11090264661742,True,9.761382187428339,118.76238195003187,aggregate centered residues verified coefficientwise,raw_summaries/layer2_rescale_numerator.json
+allocated_joint,allocated_g0123,layer2_restored_error,2,0,-172.14833434367085,-161.94202934989653,True,10.206304993774324,,,raw_summaries/layer2_restored_error.json
+allocated_joint,allocated_g0123,layer2_restored_error,2,1,-45.64628142421759,-34.902347215618875,True,10.743934208598716,,,raw_summaries/layer2_restored_error.json
+allocated_joint,allocated_g0123,layer2_restored_error,2,2,-43.22126903371509,-32.64896400565783,True,10.572305028057258,,,raw_summaries/layer2_restored_error.json
+allocated_joint,allocated_g0123,layer2_restored_error,2,3,-43.42705787722264,-32.53331582355338,True,10.893742053669257,,,raw_summaries/layer2_restored_error.json
+allocated_joint,allocated_g0123,layer3_closure_residual,3,0,-1022.2578421590752,,,,,,raw_summaries/layer3_closure_residual.json
+allocated_joint,allocated_g0123,layer3_closure_residual,3,1,-1022.6548230858789,,,,,,raw_summaries/layer3_closure_residual.json
+allocated_joint,allocated_g0123,layer3_closure_residual,3,2,-1022.535175550523,,,,,,raw_summaries/layer3_closure_residual.json
+allocated_joint,allocated_g0123,layer3_closure_residual,3,3,-1022.3817728866288,,,,,,raw_summaries/layer3_closure_residual.json
+allocated_joint,allocated_g0123,layer3_kappa,3,0,95.23195924335153,107.45868500045287,True,12.226725757101349,108.11016430386728,"paper bound assumes centered exact RNS digits; a reference, not the certificate of approximate backend lifts",raw_summaries/layer3_kappa.json
+allocated_joint,allocated_g0123,layer3_kappa,3,1,95.3709694813831,107.45868500045287,True,12.087715519069775,108.11016430386728,"paper bound assumes centered exact RNS digits; a reference, not the certificate of approximate backend lifts",raw_summaries/layer3_kappa.json
+allocated_joint,allocated_g0123,layer3_kappa,3,2,95.19727093546089,107.45868500045287,True,12.261414064991982,108.11016430386728,"paper bound assumes centered exact RNS digits; a reference, not the certificate of approximate backend lifts",raw_summaries/layer3_kappa.json
+allocated_joint,allocated_g0123,layer3_kappa,3,3,95.14722648509155,107.45868500045287,True,12.311458515361323,108.11016430386728,"paper bound assumes centered exact RNS digits; a reference, not the certificate of approximate backend lifts",raw_summaries/layer3_kappa.json
+allocated_joint,allocated_g0123,layer3_key_switch_contribution,3,0,-187.20340659363796,-174.97668083653673,True,12.226725757101235,,,raw_summaries/layer3_key_switch_contribution.json
+allocated_joint,allocated_g0123,layer3_key_switch_contribution,3,1,-60.02471422134363,-47.93699870227397,True,12.087715519069661,,,raw_summaries/layer3_key_switch_contribution.json
+allocated_joint,allocated_g0123,layer3_key_switch_contribution,3,2,-57.94502955736152,-45.68361549236977,True,12.261414064991754,,,raw_summaries/layer3_key_switch_contribution.json
+allocated_joint,allocated_g0123,layer3_key_switch_contribution,3,3,-57.879425825632325,-45.56796731027123,True,12.311458515361096,,,raw_summaries/layer3_key_switch_contribution.json
+allocated_joint,allocated_g0123,layer3_metadata_contribution,3,0,-1026.7668052499687,-768.0,True,258.7668052499687,,,raw_summaries/layer3_metadata_contribution.json
+allocated_joint,allocated_g0123,layer3_metadata_contribution,3,1,-1026.7668052499687,-768.0,True,258.7668052499687,,,raw_summaries/layer3_metadata_contribution.json
+allocated_joint,allocated_g0123,layer3_metadata_contribution,3,2,-1026.7668052499687,-768.0,True,258.7668052499687,,,raw_summaries/layer3_metadata_contribution.json
+allocated_joint,allocated_g0123,layer3_metadata_contribution,3,3,-1026.7668052499687,-768.0,True,258.7668052499687,,,raw_summaries/layer3_metadata_contribution.json
+allocated_joint,allocated_g0123,layer3_normalized_residual,3,0,-75.59963104222925,-65.05853697810494,True,10.541094064124309,,,raw_summaries/layer3_normalized_residual.json
+allocated_joint,allocated_g0123,layer3_normalized_residual,3,1,-76.37408423720308,-65.05853697805901,True,11.315547259144068,,,raw_summaries/layer3_normalized_residual.json
+allocated_joint,allocated_g0123,layer3_normalized_residual,3,2,-75.8898560652733,-65.0585369778862,True,10.8313190873871,,,raw_summaries/layer3_normalized_residual.json
+allocated_joint,allocated_g0123,layer3_normalized_residual,3,3,-76.39079256730724,-65.05853697786802,True,11.332255589439228,,,raw_summaries/layer3_normalized_residual.json
+allocated_joint,allocated_g0123,layer3_propagated,3,0,-171.963287866899,-161.7126096616662,True,10.250678205232816,,,raw_summaries/layer3_propagated.json
+allocated_joint,allocated_g0123,layer3_propagated,3,1,-45.6690819196142,-34.67292752735011,True,10.996154392264089,,,raw_summaries/layer3_propagated.json
+allocated_joint,allocated_g0123,layer3_propagated,3,2,-43.02120897800387,-32.419544317244686,True,10.601664660759184,,,raw_summaries/layer3_propagated.json
+allocated_joint,allocated_g0123,layer3_propagated,3,3,-43.55543004389665,-32.303896135125,True,11.251533908771648,,,raw_summaries/layer3_propagated.json
+allocated_joint,allocated_g0123,layer3_rescale_contribution,3,0,-174.20938556996725,-164.32446315476636,True,9.88492241520089,,,raw_summaries/layer3_rescale_contribution.json
+allocated_joint,allocated_g0123,layer3_rescale_contribution,3,1,-47.13574361338283,-37.2847810205036,True,9.850962592879227,,,raw_summaries/layer3_rescale_contribution.json
+allocated_joint,allocated_g0123,layer3_rescale_contribution,3,2,-45.12858323135856,-35.0313978105994,True,10.09718542075916,,,raw_summaries/layer3_rescale_contribution.json
+allocated_joint,allocated_g0123,layer3_rescale_contribution,3,3,-44.871461256811926,-34.91574962850086,True,9.955711628311064,,,raw_summaries/layer3_rescale_contribution.json
+allocated_joint,allocated_g0123,layer3_rescale_numerator,3,0,108.22598026702212,118.1109026822232,True,9.884922415201075,118.76238198563765,aggregate centered residues verified coefficientwise,raw_summaries/layer3_rescale_numerator.json
+allocated_joint,allocated_g0123,layer3_rescale_numerator,3,1,108.2599400893439,118.1109026822232,True,9.850962592879299,118.76238198563765,aggregate centered residues verified coefficientwise,raw_summaries/layer3_rescale_numerator.json
+allocated_joint,allocated_g0123,layer3_rescale_numerator,3,2,108.01371726146374,118.1109026822232,True,10.097185420759459,118.76238198563765,aggregate centered residues verified coefficientwise,raw_summaries/layer3_rescale_numerator.json
+allocated_joint,allocated_g0123,layer3_rescale_numerator,3,3,108.15519105391195,118.1109026822232,True,9.95571162831125,118.76238198563765,aggregate centered residues verified coefficientwise,raw_summaries/layer3_rescale_numerator.json
+allocated_joint,allocated_g0123,layer3_restored_error,3,0,-172.03499629340308,-161.49390222927877,True,10.541094064124309,,,raw_summaries/layer3_restored_error.json
+allocated_joint,allocated_g0123,layer3_restored_error,3,1,-45.769767354114265,-34.454220094970196,True,11.315547259144068,,,raw_summaries/layer3_restored_error.json
+allocated_joint,allocated_g0123,layer3_restored_error,3,2,-43.03215597228018,-32.20083688489319,True,10.831319087386987,,,raw_summaries/layer3_restored_error.json
+allocated_joint,allocated_g0123,layer3_restored_error,3,3,-43.41744429221558,-32.08518870277635,True,11.332255589439228,,,raw_summaries/layer3_restored_error.json
+allocated_joint,allocated_g0123,layer4_closure_residual,4,0,-1024.1226607819349,,,,,,raw_summaries/layer4_closure_residual.json
+allocated_joint,allocated_g0123,layer4_closure_residual,4,1,-1023.279381638617,,,,,,raw_summaries/layer4_closure_residual.json
+allocated_joint,allocated_g0123,layer4_closure_residual,4,2,-1023.6801868469906,,,,,,raw_summaries/layer4_closure_residual.json
+allocated_joint,allocated_g0123,layer4_closure_residual,4,3,-1023.6800227354233,,,,,,raw_summaries/layer4_closure_residual.json
+allocated_joint,allocated_g0123,layer4_kappa,4,0,95.21667984011447,107.45868500045287,True,12.242005160338408,108.11016430386728,"paper bound assumes centered exact RNS digits; a reference, not the certificate of approximate backend lifts",raw_summaries/layer4_kappa.json
+allocated_joint,allocated_g0123,layer4_kappa,4,1,95.05075447535103,107.45868500045287,True,12.407930525101847,108.11016430386728,"paper bound assumes centered exact RNS digits; a reference, not the certificate of approximate backend lifts",raw_summaries/layer4_kappa.json
+allocated_joint,allocated_g0123,layer4_kappa,4,2,95.14977611838776,107.45868500045287,True,12.308908882065111,108.11016430386728,"paper bound assumes centered exact RNS digits; a reference, not the certificate of approximate backend lifts",raw_summaries/layer4_kappa.json
+allocated_joint,allocated_g0123,layer4_kappa,4,3,95.26814358411366,107.45868500045287,True,12.190541416339215,108.11016430386728,"paper bound assumes centered exact RNS digits; a reference, not the certificate of approximate backend lifts",raw_summaries/layer4_kappa.json
+allocated_joint,allocated_g0123,layer4_key_switch_contribution,4,0,-187.21868668883621,-174.97668152849792,True,12.242005160338294,,,raw_summaries/layer4_key_switch_contribution.json
+allocated_joint,allocated_g0123,layer4_key_switch_contribution,4,1,-60.34492991933712,-47.93699939423527,True,12.407930525101847,,,raw_summaries/layer4_key_switch_contribution.json
+allocated_joint,allocated_g0123,layer4_key_switch_contribution,4,2,-57.99252506639573,-45.68361618433096,True,12.30890888206477,,,raw_summaries/layer4_key_switch_contribution.json
+allocated_joint,allocated_g0123,layer4_key_switch_contribution,4,3,-57.75850941857152,-45.56796800223242,True,12.190541416339101,,,raw_summaries/layer4_key_switch_contribution.json
+allocated_joint,allocated_g0123,layer4_metadata_contribution,4,0,-1027.0240010986597,-768.0,True,259.0240010986597,,,raw_summaries/layer4_metadata_contribution.json
+allocated_joint,allocated_g0123,layer4_metadata_contribution,4,1,-1027.0240010986597,-768.0,True,259.0240010986597,,,raw_summaries/layer4_metadata_contribution.json
+allocated_joint,allocated_g0123,layer4_metadata_contribution,4,2,-1027.0240010986597,-768.0,True,259.0240010986597,,,raw_summaries/layer4_metadata_contribution.json
+allocated_joint,allocated_g0123,layer4_metadata_contribution,4,3,-1027.0240010986597,-768.0,True,259.0240010986597,,,raw_summaries/layer4_metadata_contribution.json
+allocated_joint,allocated_g0123,layer4_normalized_residual,4,0,-75.98001572928388,-65.33103859142625,True,10.648977137857628,,,raw_summaries/layer4_normalized_residual.json
+allocated_joint,allocated_g0123,layer4_normalized_residual,4,1,-76.96484529815234,-65.33103859131393,True,11.633806706838413,,,raw_summaries/layer4_normalized_residual.json
+allocated_joint,allocated_g0123,layer4_normalized_residual,4,2,-76.57824940328464,-65.3310385908917,True,11.24721081239295,,,raw_summaries/layer4_normalized_residual.json
+allocated_joint,allocated_g0123,layer4_normalized_residual,4,3,-76.9311615844158,-65.33103859084713,True,11.600122993568675,,,raw_summaries/layer4_normalized_residual.json
+allocated_joint,allocated_g0123,layer4_propagated,4,0,-172.66490333985894,-162.035062852818,True,10.629840487040951,,,raw_summaries/layer4_propagated.json
+allocated_joint,allocated_g0123,layer4_propagated,4,1,-46.62489878706492,-34.99538071842028,True,11.629518068644643,,,raw_summaries/layer4_propagated.json
+allocated_joint,allocated_g0123,layer4_propagated,4,2,-43.632035860858196,-32.7419975080071,True,10.890038352851093,,,raw_summaries/layer4_propagated.json
+allocated_joint,allocated_g0123,layer4_propagated,4,3,-44.13246152823194,-32.62634932585479,True,11.506112202377153,,,raw_summaries/layer4_propagated.json
+allocated_joint,allocated_g0123,layer4_rescale_contribution,4,0,-174.4974510367656,-164.32446381649618,True,10.17298722026942,,,raw_summaries/layer4_rescale_contribution.json
+allocated_joint,allocated_g0123,layer4_rescale_contribution,4,1,-47.00977597622523,-37.28478168223353,True,9.7249942939917,,,raw_summaries/layer4_rescale_contribution.json
+allocated_joint,allocated_g0123,layer4_rescale_contribution,4,2,-44.440039002088724,-35.031398472329215,True,9.40864052975951,,,raw_summaries/layer4_rescale_contribution.json
+allocated_joint,allocated_g0123,layer4_rescale_contribution,4,3,-44.85878999782972,-34.915750290230676,True,9.943039707599041,,,raw_summaries/layer4_rescale_contribution.json
+allocated_joint,allocated_g0123,layer4_rescale_numerator,4,0,107.93791549218508,118.11090271245452,True,10.172987220269434,118.76238201586898,aggregate centered residues verified coefficientwise,raw_summaries/layer4_rescale_numerator.json
+allocated_joint,allocated_g0123,layer4_rescale_numerator,4,1,108.38590841846269,118.11090271245452,True,9.724994293991827,118.76238201586898,aggregate centered residues verified coefficientwise,raw_summaries/layer4_rescale_numerator.json
+allocated_joint,allocated_g0123,layer4_rescale_numerator,4,2,108.702262182695,118.11090271245452,True,9.408640529759523,118.76238201586898,aggregate centered residues verified coefficientwise,raw_summaries/layer4_rescale_numerator.json
+allocated_joint,allocated_g0123,layer4_rescale_numerator,4,3,108.16786300485546,118.11090271245452,True,9.943039707599056,118.76238201586898,aggregate centered residues verified coefficientwise,raw_summaries/layer4_rescale_numerator.json
+allocated_joint,allocated_g0123,layer4_restored_error,4,0,-172.41538098045748,-161.76640384259997,True,10.648977137857514,,,raw_summaries/layer4_restored_error.json
+allocated_joint,allocated_g0123,layer4_restored_error,4,1,-46.36052841506307,-34.72672170822523,True,11.633806706837845,,,raw_summaries/layer4_restored_error.json
+allocated_joint,allocated_g0123,layer4_restored_error,4,2,-43.72054931029197,-32.47333849789857,True,11.247210812393405,,,raw_summaries/layer4_restored_error.json
+allocated_joint,allocated_g0123,layer4_restored_error,4,3,-43.95781330932414,-32.35769031575535,True,11.600122993568789,,,raw_summaries/layer4_restored_error.json

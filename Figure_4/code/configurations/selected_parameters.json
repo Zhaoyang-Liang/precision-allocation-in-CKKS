@@ -1,0 +1,1855 @@
+[
+  {
+    "task_id": "r1_b20_k0_grow",
+    "classes": 1,
+    "nominal_mean_bits": 20,
+    "depth": 0,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 48,
+    "Q": [
+      17592182833153
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [],
+    "selected_bottom_budget_bits": 44,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_b10_k0_grow",
+    "classes": 2,
+    "nominal_mean_bits": 10,
+    "depth": 0,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 38,
+    "Q": [
+      17179672577
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [],
+    "selected_bottom_budget_bits": 34,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_b0_k0_grow",
+    "classes": 2,
+    "nominal_mean_bits": 0,
+    "depth": 0,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 28,
+    "Q": [
+      536608769
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [],
+    "selected_bottom_budget_bits": 29,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_bm10_k0_grow",
+    "classes": 2,
+    "nominal_mean_bits": -10,
+    "depth": 0,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 18,
+    "Q": [
+      549755486209
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [],
+    "selected_bottom_budget_bits": 39,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_bm20_k0_grow",
+    "classes": 2,
+    "nominal_mean_bits": -20,
+    "depth": 0,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 8,
+    "Q": [
+      562949952700417
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [],
+    "selected_bottom_budget_bits": 49,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_b10_k0_grow",
+    "classes": 4,
+    "nominal_mean_bits": 10,
+    "depth": 0,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 38,
+    "Q": [
+      17179672577
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [],
+    "selected_bottom_budget_bits": 34,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_b0_k0_grow",
+    "classes": 4,
+    "nominal_mean_bits": 0,
+    "depth": 0,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 28,
+    "Q": [
+      16580609
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [],
+    "selected_bottom_budget_bits": 24,
+    "status": "five_run_recovery_verified_at_search_floor",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_bm10_k0_grow",
+    "classes": 4,
+    "nominal_mean_bits": -10,
+    "depth": 0,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 18,
+    "Q": [
+      16580609
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [],
+    "selected_bottom_budget_bits": 24,
+    "status": "five_run_recovery_verified_at_search_floor",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_bm20_k0_grow",
+    "classes": 4,
+    "nominal_mean_bits": -20,
+    "depth": 0,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 8,
+    "Q": [
+      16580609
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [],
+    "selected_bottom_budget_bits": 24,
+    "status": "five_run_recovery_verified_at_search_floor",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r1_b20_k1_grow",
+    "classes": 1,
+    "nominal_mean_bits": 20,
+    "depth": 1,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 50,
+    "Q": [
+      140737487306753,
+      1125899904679937
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1
+    ],
+    "selected_bottom_budget_bits": 47,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_b10_k1_grow",
+    "classes": 2,
+    "nominal_mean_bits": 10,
+    "depth": 1,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 40,
+    "Q": [
+      137438822401,
+      1099510054913
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1
+    ],
+    "selected_bottom_budget_bits": 37,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_b0_k1_grow",
+    "classes": 2,
+    "nominal_mean_bits": 0,
+    "depth": 1,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 30,
+    "Q": [
+      8589475841,
+      1073479681
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1
+    ],
+    "selected_bottom_budget_bits": 33,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_bm10_k1_grow",
+    "classes": 2,
+    "nominal_mean_bits": -10,
+    "depth": 1,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 20,
+    "Q": [
+      4398044938241,
+      4398043496449
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      0
+    ],
+    "selected_bottom_budget_bits": 84,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_bm20_k1_grow",
+    "classes": 2,
+    "nominal_mean_bits": -20,
+    "depth": 1,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 10,
+    "Q": [
+      4503599626321921,
+      4503599625535489
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      0
+    ],
+    "selected_bottom_budget_bits": 104,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_b10_k1_grow",
+    "classes": 4,
+    "nominal_mean_bits": 10,
+    "depth": 1,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 40,
+    "Q": [
+      137438822401,
+      1099510054913
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1
+    ],
+    "selected_bottom_budget_bits": 37,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_b0_k1_grow",
+    "classes": 4,
+    "nominal_mean_bits": 0,
+    "depth": 1,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 30,
+    "Q": [
+      132710401,
+      1073479681
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1
+    ],
+    "selected_bottom_budget_bits": 27,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_bm10_k1_grow",
+    "classes": 4,
+    "nominal_mean_bits": -10,
+    "depth": 1,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 20,
+    "Q": [
+      8796090597377
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      0
+    ],
+    "selected_bottom_budget_bits": 43,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_bm20_k1_grow",
+    "classes": 4,
+    "nominal_mean_bits": -20,
+    "depth": 1,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 10,
+    "Q": [
+      562949952700417
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      0
+    ],
+    "selected_bottom_budget_bits": 49,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r1_b20_k2_grow",
+    "classes": 1,
+    "nominal_mean_bits": 20,
+    "depth": 2,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 53,
+    "Q": [
+      2251799813554177,
+      9007199252840449,
+      9007199252119553
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1,
+      1
+    ],
+    "selected_bottom_budget_bits": 51,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_b10_k2_grow",
+    "classes": 2,
+    "nominal_mean_bits": 10,
+    "depth": 2,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 43,
+    "Q": [
+      2199023190017,
+      8796090597377,
+      8796090007553
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1,
+      1
+    ],
+    "selected_bottom_budget_bits": 41,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_b0_k2_grow",
+    "classes": 2,
+    "nominal_mean_bits": 0,
+    "depth": 2,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 33,
+    "Q": [
+      34359410689,
+      8589475841,
+      8589279233
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1,
+      1
+    ],
+    "selected_bottom_budget_bits": 35,
+    "status": "five_run_recovery_verified_lower_neighbor_also_passes",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_bm10_k2_grow",
+    "classes": 2,
+    "nominal_mean_bits": -10,
+    "depth": 2,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 23,
+    "Q": [
+      9007199252840449,
+      4503599626321921,
+      34359410689,
+      17179672577
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      0,
+      2
+    ],
+    "selected_bottom_budget_bits": 105,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_bm20_k2_grow",
+    "classes": 2,
+    "nominal_mean_bits": -20,
+    "depth": 2,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 13,
+    "Q": [
+      576460752301785089,
+      288230376147582977,
+      288230376147386369,
+      549755486209
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      0,
+      1
+    ],
+    "selected_bottom_budget_bits": 175,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_b10_k2_grow",
+    "classes": 4,
+    "nominal_mean_bits": 10,
+    "depth": 2,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 43,
+    "Q": [
+      2199023190017,
+      8796090597377,
+      8796090007553
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1,
+      1
+    ],
+    "selected_bottom_budget_bits": 41,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_b0_k2_grow",
+    "classes": 4,
+    "nominal_mean_bits": 0,
+    "depth": 2,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 33,
+    "Q": [
+      2147352577,
+      8589475841,
+      8589279233
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1,
+      1
+    ],
+    "selected_bottom_budget_bits": 31,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_bm10_k2_grow",
+    "classes": 4,
+    "nominal_mean_bits": -10,
+    "depth": 2,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 23,
+    "Q": [
+      16580609,
+      34359410689,
+      17179672577
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      0,
+      2
+    ],
+    "selected_bottom_budget_bits": 24,
+    "status": "five_run_recovery_verified_at_search_floor",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_bm20_k2_grow",
+    "classes": 4,
+    "nominal_mean_bits": -20,
+    "depth": 2,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 13,
+    "Q": [
+      17179672577,
+      8589475841,
+      549755486209
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      0,
+      1
+    ],
+    "selected_bottom_budget_bits": 67,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r1_b20_k4_grow",
+    "classes": 1,
+    "nominal_mean_bits": 20,
+    "depth": 4,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 67,
+    "Q": [
+      274876334081,
+      137438822401,
+      17179672577,
+      8589475841,
+      17179410433,
+      8589279233,
+      17176854529,
+      8588886017,
+      17175674881,
+      8588820481
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "selected_bottom_budget_bits": 75,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_b10_k4_grow",
+    "classes": 2,
+    "nominal_mean_bits": 10,
+    "depth": 4,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 57,
+    "Q": [
+      8589475841,
+      4293918721,
+      144115188075593729,
+      144115188075134977,
+      144115188070809601,
+      144115188070023169
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "selected_bottom_budget_bits": 65,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_b0_k4_grow",
+    "classes": 2,
+    "nominal_mean_bits": 0,
+    "depth": 4,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 47,
+    "Q": [
+      36028797017456641,
+      140737487306753,
+      140737486716929,
+      140737486520321,
+      140737485864961
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "selected_bottom_budget_bits": 55,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_bm10_k4_grow",
+    "classes": 2,
+    "nominal_mean_bits": -10,
+    "depth": 4,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 37,
+    "Q": [
+      144115188075593729,
+      144115188075134977,
+      72057594037338113,
+      137438822401,
+      137438691329,
+      137437511681,
+      137436659713
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "selected_bottom_budget_bits": 170,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_bm20_k4_grow",
+    "classes": 2,
+    "nominal_mean_bits": -20,
+    "depth": 4,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 27,
+    "Q": [
+      18014398506729473,
+      18014398505943041,
+      18014398499848193,
+      18014398498799617,
+      18014398498275329,
+      18014398496440321,
+      18014398496243713,
+      9007199252840449,
+      9007199252119553,
+      132710401,
+      132120577,
+      131923969,
+      131530753
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "selected_bottom_budget_bits": 484,
+    "status": "five_run_recovery_verified_lower_neighbor_also_passes",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_b10_k4_grow",
+    "classes": 4,
+    "nominal_mean_bits": 10,
+    "depth": 4,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 57,
+    "Q": [
+      8589475841,
+      4293918721,
+      144115188075593729,
+      144115188075134977,
+      144115188070809601,
+      144115188070023169
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "selected_bottom_budget_bits": 65,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_b0_k4_grow",
+    "classes": 4,
+    "nominal_mean_bits": 0,
+    "depth": 4,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 47,
+    "Q": [
+      36028797017456641,
+      140737487306753,
+      140737486716929,
+      140737486520321,
+      140737485864961
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "selected_bottom_budget_bits": 55,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_bm10_k4_grow",
+    "classes": 4,
+    "nominal_mean_bits": -10,
+    "depth": 4,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 37,
+    "Q": [
+      35184368877569,
+      137438822401,
+      137438691329,
+      137437511681,
+      137436659713
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "selected_bottom_budget_bits": 45,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_bm20_k4_grow",
+    "classes": 4,
+    "nominal_mean_bits": -20,
+    "depth": 4,
+    "input_family": "grow",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 27,
+    "Q": [
+      281474976317441,
+      132710401,
+      132120577,
+      131923969,
+      131530753
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "selected_bottom_budget_bits": 48,
+    "status": "five_run_recovery_verified_lower_neighbor_also_passes",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r1_b20_k0_shrink",
+    "classes": 1,
+    "nominal_mean_bits": 20,
+    "depth": 0,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 48,
+    "Q": [
+      8796090597377
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [],
+    "selected_bottom_budget_bits": 43,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_b10_k0_shrink",
+    "classes": 2,
+    "nominal_mean_bits": 10,
+    "depth": 0,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 38,
+    "Q": [
+      8589475841
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [],
+    "selected_bottom_budget_bits": 33,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_b0_k0_shrink",
+    "classes": 2,
+    "nominal_mean_bits": 0,
+    "depth": 0,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 28,
+    "Q": [
+      536608769
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [],
+    "selected_bottom_budget_bits": 29,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_bm10_k0_shrink",
+    "classes": 2,
+    "nominal_mean_bits": -10,
+    "depth": 0,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 18,
+    "Q": [
+      549755486209
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [],
+    "selected_bottom_budget_bits": 39,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_bm20_k0_shrink",
+    "classes": 2,
+    "nominal_mean_bits": -20,
+    "depth": 0,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 8,
+    "Q": [
+      562949952700417
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [],
+    "selected_bottom_budget_bits": 49,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_b10_k0_shrink",
+    "classes": 4,
+    "nominal_mean_bits": 10,
+    "depth": 0,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 38,
+    "Q": [
+      8589475841
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [],
+    "selected_bottom_budget_bits": 33,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_b0_k0_shrink",
+    "classes": 4,
+    "nominal_mean_bits": 0,
+    "depth": 0,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 28,
+    "Q": [
+      16580609
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [],
+    "selected_bottom_budget_bits": 24,
+    "status": "five_run_recovery_verified_at_search_floor",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_bm10_k0_shrink",
+    "classes": 4,
+    "nominal_mean_bits": -10,
+    "depth": 0,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 18,
+    "Q": [
+      16580609
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [],
+    "selected_bottom_budget_bits": 24,
+    "status": "five_run_recovery_verified_at_search_floor",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_bm20_k0_shrink",
+    "classes": 4,
+    "nominal_mean_bits": -20,
+    "depth": 0,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 8,
+    "Q": [
+      16580609
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [],
+    "selected_bottom_budget_bits": 24,
+    "status": "five_run_recovery_verified_at_search_floor",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r1_b20_k1_shrink",
+    "classes": 1,
+    "nominal_mean_bits": 20,
+    "depth": 1,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 49,
+    "Q": [
+      17592182833153,
+      562949952700417
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1
+    ],
+    "selected_bottom_budget_bits": 44,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_b10_k1_shrink",
+    "classes": 2,
+    "nominal_mean_bits": 10,
+    "depth": 1,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 39,
+    "Q": [
+      17179672577,
+      549755486209
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1
+    ],
+    "selected_bottom_budget_bits": 34,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_b0_k1_shrink",
+    "classes": 2,
+    "nominal_mean_bits": 0,
+    "depth": 1,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 29,
+    "Q": [
+      17179672577,
+      536608769
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1
+    ],
+    "selected_bottom_budget_bits": 34,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_bm10_k1_shrink",
+    "classes": 2,
+    "nominal_mean_bits": -10,
+    "depth": 1,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 19,
+    "Q": [
+      4398044938241,
+      4398043496449
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      0
+    ],
+    "selected_bottom_budget_bits": 84,
+    "status": "five_run_recovery_verified_lower_neighbor_also_passes",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_bm20_k1_shrink",
+    "classes": 2,
+    "nominal_mean_bits": -20,
+    "depth": 1,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 9,
+    "Q": [
+      4503599626321921,
+      4503599625535489
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      0
+    ],
+    "selected_bottom_budget_bits": 104,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_b10_k1_shrink",
+    "classes": 4,
+    "nominal_mean_bits": 10,
+    "depth": 1,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 39,
+    "Q": [
+      17179672577,
+      549755486209
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1
+    ],
+    "selected_bottom_budget_bits": 34,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_b0_k1_shrink",
+    "classes": 4,
+    "nominal_mean_bits": 0,
+    "depth": 1,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 29,
+    "Q": [
+      16580609,
+      536608769
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1
+    ],
+    "selected_bottom_budget_bits": 24,
+    "status": "five_run_recovery_verified_at_search_floor",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_bm10_k1_shrink",
+    "classes": 4,
+    "nominal_mean_bits": -10,
+    "depth": 1,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 19,
+    "Q": [
+      8796090597377
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      0
+    ],
+    "selected_bottom_budget_bits": 43,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_bm20_k1_shrink",
+    "classes": 4,
+    "nominal_mean_bits": -20,
+    "depth": 1,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 9,
+    "Q": [
+      1125899904679937
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      0
+    ],
+    "selected_bottom_budget_bits": 50,
+    "status": "five_run_recovery_verified_lower_neighbor_also_passes",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r1_b20_k2_shrink",
+    "classes": 1,
+    "nominal_mean_bits": 20,
+    "depth": 2,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 50,
+    "Q": [
+      17592182833153,
+      1125899904679937,
+      1125899903827969
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1,
+      1
+    ],
+    "selected_bottom_budget_bits": 44,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_b10_k2_shrink",
+    "classes": 2,
+    "nominal_mean_bits": 10,
+    "depth": 2,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 40,
+    "Q": [
+      17179672577,
+      1099510054913,
+      1099507695617
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1,
+      1
+    ],
+    "selected_bottom_budget_bits": 34,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_b0_k2_shrink",
+    "classes": 2,
+    "nominal_mean_bits": 0,
+    "depth": 2,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 30,
+    "Q": [
+      17592182833153,
+      1073479681,
+      1072496641
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1,
+      1
+    ],
+    "selected_bottom_budget_bits": 44,
+    "status": "five_run_recovery_verified_lower_neighbor_also_passes",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_bm10_k2_shrink",
+    "classes": 2,
+    "nominal_mean_bits": -10,
+    "depth": 2,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 20,
+    "Q": [
+      144115188075593729,
+      144115188075134977,
+      1152921504606584833
+    ],
+    "P": [
+      1152921504598720513,
+      1152921504597016577
+    ],
+    "rescale_counts": [
+      0,
+      1
+    ],
+    "selected_bottom_budget_bits": 114,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_bm20_k2_shrink",
+    "classes": 2,
+    "nominal_mean_bits": -20,
+    "depth": 2,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 10,
+    "Q": [
+      140737487306753,
+      70368743587841,
+      70368742408193,
+      70368740769793,
+      1073479681
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      0,
+      1
+    ],
+    "selected_bottom_budget_bits": 185,
+    "status": "five_run_recovery_verified_lower_neighbor_also_passes",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_b10_k2_shrink",
+    "classes": 4,
+    "nominal_mean_bits": 10,
+    "depth": 2,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 40,
+    "Q": [
+      17179672577,
+      1099510054913,
+      1099507695617
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1,
+      1
+    ],
+    "selected_bottom_budget_bits": 34,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_b0_k2_shrink",
+    "classes": 4,
+    "nominal_mean_bits": 0,
+    "depth": 2,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 30,
+    "Q": [
+      16580609,
+      1073479681,
+      1072496641
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1,
+      1
+    ],
+    "selected_bottom_budget_bits": 24,
+    "status": "five_run_recovery_verified_at_search_floor",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_bm10_k2_shrink",
+    "classes": 4,
+    "nominal_mean_bits": -10,
+    "depth": 2,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 20,
+    "Q": [
+      8589475841,
+      1152921504606584833
+    ],
+    "P": [
+      1152921504598720513,
+      1152921504597016577
+    ],
+    "rescale_counts": [
+      0,
+      1
+    ],
+    "selected_bottom_budget_bits": 33,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_bm20_k2_shrink",
+    "classes": 4,
+    "nominal_mean_bits": -20,
+    "depth": 2,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 10,
+    "Q": [
+      274876334081,
+      274874695681,
+      1073479681
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      0,
+      1
+    ],
+    "selected_bottom_budget_bits": 76,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r1_b20_k4_shrink",
+    "classes": 1,
+    "nominal_mean_bits": 20,
+    "depth": 4,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 52,
+    "Q": [
+      17592182833153,
+      4503599626321921,
+      4503599625535489,
+      4503599625404417,
+      4503599623045121
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "selected_bottom_budget_bits": 44,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_b10_k4_shrink",
+    "classes": 2,
+    "nominal_mean_bits": 10,
+    "depth": 4,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 42,
+    "Q": [
+      17179672577,
+      4398044938241,
+      4398043496449,
+      4398042972161,
+      4398042513409
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "selected_bottom_budget_bits": 34,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_b0_k4_shrink",
+    "classes": 2,
+    "nominal_mean_bits": 0,
+    "depth": 4,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 32,
+    "Q": [
+      4398044938241,
+      2199023190017,
+      4293918721,
+      4292804609,
+      4292149249,
+      4292018177
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "selected_bottom_budget_bits": 83,
+    "status": "five_run_recovery_verified_lower_neighbor_also_passes",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_bm10_k4_shrink",
+    "classes": 2,
+    "nominal_mean_bits": -10,
+    "depth": 4,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 22,
+    "Q": [
+      144115188075593729,
+      144115188075134977,
+      144115188070809601,
+      72057594037338113,
+      72057594036879361,
+      72057594036551681,
+      72057594035306497,
+      8589475841,
+      8589279233,
+      8588886017,
+      8588820481
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      0,
+      2,
+      0,
+      2
+    ],
+    "selected_bottom_budget_bits": 395,
+    "status": "five_run_recovery_verified_lower_neighbor_also_passes",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r2_bm20_k4_shrink",
+    "classes": 2,
+    "nominal_mean_bits": -20,
+    "depth": 4,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 12,
+    "Q": [
+      72057594037338113,
+      72057594036879361,
+      72057594036551681,
+      72057594035306497,
+      36028797017456641,
+      36028797014704129,
+      36028797014573057,
+      36028797014376449,
+      36028797013327873,
+      36028797013000193,
+      36028797012606977,
+      36028797010444289,
+      68718428161,
+      68714954753
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "selected_bottom_budget_bits": 664,
+    "status": "no_recovery_at_registered_Q_ceiling",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_b10_k4_shrink",
+    "classes": 4,
+    "nominal_mean_bits": 10,
+    "depth": 4,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 42,
+    "Q": [
+      17179672577,
+      4398044938241,
+      4398043496449,
+      4398042972161,
+      4398042513409
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "selected_bottom_budget_bits": 34,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_b0_k4_shrink",
+    "classes": 4,
+    "nominal_mean_bits": 0,
+    "depth": 4,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 32,
+    "Q": [
+      16580609,
+      4293918721,
+      4292804609,
+      4292149249,
+      4292018177
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "selected_bottom_budget_bits": 24,
+    "status": "five_run_recovery_verified_at_search_floor",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_bm10_k4_shrink",
+    "classes": 4,
+    "nominal_mean_bits": -10,
+    "depth": 4,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 22,
+    "Q": [
+      68718428161,
+      34359410689,
+      8589475841,
+      8589279233,
+      8588886017,
+      8588820481
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      0,
+      2,
+      0,
+      2
+    ],
+    "selected_bottom_budget_bits": 71,
+    "status": "five_run_recovery_verified_lower_neighbor_also_passes",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  },
+  {
+    "task_id": "r4_bm20_k4_shrink",
+    "classes": 4,
+    "nominal_mean_bits": -20,
+    "depth": 4,
+    "input_family": "shrink",
+    "N": 32768,
+    "messages": 256,
+    "initial_scale_bits": 12,
+    "Q": [
+      36028797017456641,
+      36028797014704129,
+      36028797014573057,
+      36028797014376449,
+      18014398506729473,
+      68718428161,
+      68714954753
+    ],
+    "P": [
+      1152921504606584833,
+      1152921504598720513
+    ],
+    "rescale_counts": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "selected_bottom_budget_bits": 274,
+    "status": "five_run_recovery_verified",
+    "Q_security_basis": "Table 5.2 classical128 guideline; direct nonfinite cost is not accepted as a number"
+  }
+]

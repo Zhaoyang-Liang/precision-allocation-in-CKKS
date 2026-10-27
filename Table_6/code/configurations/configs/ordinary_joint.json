@@ -1,0 +1,79 @@
+{
+  "schema": "ckks-profile-experiment-v1",
+  "id": "B_concentrated_ordinary_joint_structural_proxy_r1",
+  "question_id": "B_concentrated",
+  "repeat": 1,
+  "plaintext_seed": "2026100201",
+  "encoder_decode_bits": 1024,
+  "depth": 4,
+  "target_bits": [
+    160,
+    32,
+    32,
+    32
+  ],
+  "group_sizes": [
+    4096,
+    4096,
+    4096,
+    4096
+  ],
+  "branches": [
+    {
+      "id": "ordinary_g0123",
+      "groups": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "parameters": {
+        "log_n": 16,
+        "q": [
+          "36028797014376449",
+          "36028797013327873",
+          "36028797010444289",
+          "36028797005856769",
+          "18014398506729473",
+          "18014398505943041",
+          "18014398496243713",
+          "281474976317441",
+          "140737487306753",
+          "140737486520321",
+          "140737485864961",
+          "281474975662081",
+          "140737484685313",
+          "140737483898881",
+          "140737482981377",
+          "281474974482433",
+          "140737481801729",
+          "140737480359937",
+          "140737471971329"
+        ],
+        "p": [
+          "4293918721",
+          "4291952641",
+          "4289462273",
+          "4288806913",
+          "4286709761",
+          "4286054401",
+          "4284874753",
+          "4284088321"
+        ],
+        "default_scale_bits": 60
+      },
+      "scale_bits": 189,
+      "rescale_counts": [
+        4,
+        4,
+        4,
+        0
+      ],
+      "output_drop_primes": 0,
+      "security_file": "../evidence/e0158044e41b262c586c9870bd092a240150d9ba1df1a1fdee5de10066abc4ba.json",
+      "security_sha256": "1174d9b1ed151642bb4c9003c739f0d2470984607f750c83116b610eac92044e"
+    }
+  ],
+  "certification_status": "conditional_certified",
+  "certificate_file": "../evidence/5f54cb05c0ffc81f3d46dc7c8bd8084f3748343171e3ec9b4eee4fac595f9351.json"
+}

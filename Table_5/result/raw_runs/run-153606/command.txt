@@ -1,0 +1,1 @@
+/home/u9920250039/projects/low-n-bootstrap-20261024-r17/build/fullsplit-smoke --logN 17 --logn 13 --workers 2 --trials 3 --verify-serial=true --messages 1 --prune-only --stage-diagnostics=false --seed 202610241801 --target-bits 1 --check-square=false --out /home/u9920250039/projects/low-n-bootstrap-20261024-r18/results/run-153606/result.json 

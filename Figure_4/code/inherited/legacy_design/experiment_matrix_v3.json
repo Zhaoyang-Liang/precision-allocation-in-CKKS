@@ -1,0 +1,989 @@
+{
+  "schema": "ckks-new-experiment-questions-v3",
+  "status": "design_only_no_HE_executed",
+  "repeats_per_formal_candidate": 2,
+  "HE_warmup_runs": 0,
+  "repeat_dataset_seeds": [
+    2026100201,
+    2026100202
+  ],
+  "fresh_encryption_keys_each_repeat": true,
+  "data_same_across_methods_within_repeat": true,
+  "method_order": [
+    "predeclared_order",
+    "reverse_predeclared_order"
+  ],
+  "input_interval_rational": [
+    "3/4",
+    "7/8"
+  ],
+  "input_old_error": "0 (native exact rational input)",
+  "reference_arithmetic": "exact rational exponentiation",
+  "output_error": "maximum complex absolute error over all effective messages in each group",
+  "ring_family": "standard complex-slot CKKS",
+  "logN_candidates": [
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "security": {
+    "target_bits": 128,
+    "dimension": "N (not N-1)",
+    "modulus": "2**ceil(log2(product(Q)*product(P)))",
+    "samples": "infinity",
+    "secret": "uniform_ternary",
+    "error_sigma": "3.2",
+    "implementation_error_bound": "19.2",
+    "attacks": [
+      "primal_usvp",
+      "primal_bdd",
+      "dual_hybrid"
+    ],
+    "cost_model": "RC.MATZOV",
+    "must_finish_before_formal_HE": true
+  },
+  "parameter_scan": {
+    "max_Q_limbs": 32,
+    "P_counts": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "max_prime_bits": 60,
+    "coarse_scale_step_bits": 4,
+    "boundary_refinement_bits": 1,
+    "schedule_families": [
+      "flat",
+      "alternating",
+      "terminal_deferred_rescale"
+    ],
+    "initial_measured_candidates_per_method_max": 2,
+    "diagnosis_driven_symmetric_refinement_rounds_max": 1,
+    "concrete_parameters_status": "not_selected"
+  },
+  "memory_guard_GiB": 8,
+  "old_HE_reruns": false,
+  "HPC_allowed": false,
+  "questions": [
+    {
+      "id": "A_h96_l96_d4",
+      "experiment": "A",
+      "slices": [
+        "fixed_maximum"
+      ],
+      "effective_messages": 16384,
+      "group_sizes": [
+        8192,
+        8192
+      ],
+      "targets_bits": [
+        96,
+        96
+      ],
+      "depth": 4,
+      "primary_methods": [
+        "ordinary_joint",
+        "ordinary_split",
+        "allocated_joint"
+      ],
+      "function_tolerance_challenge": false
+    },
+    {
+      "id": "A_h96_l80_d4",
+      "experiment": "A",
+      "slices": [
+        "fixed_maximum"
+      ],
+      "effective_messages": 16384,
+      "group_sizes": [
+        8192,
+        8192
+      ],
+      "targets_bits": [
+        96,
+        80
+      ],
+      "depth": 4,
+      "primary_methods": [
+        "ordinary_joint",
+        "ordinary_split",
+        "allocated_joint"
+      ],
+      "function_tolerance_challenge": true
+    },
+    {
+      "id": "A_h96_l64_d4",
+      "experiment": "A",
+      "slices": [
+        "fixed_maximum"
+      ],
+      "effective_messages": 16384,
+      "group_sizes": [
+        8192,
+        8192
+      ],
+      "targets_bits": [
+        96,
+        64
+      ],
+      "depth": 4,
+      "primary_methods": [
+        "ordinary_joint",
+        "ordinary_split",
+        "allocated_joint"
+      ],
+      "function_tolerance_challenge": true
+    },
+    {
+      "id": "A_h96_l48_d4",
+      "experiment": "A",
+      "slices": [
+        "fixed_maximum"
+      ],
+      "effective_messages": 16384,
+      "group_sizes": [
+        8192,
+        8192
+      ],
+      "targets_bits": [
+        96,
+        48
+      ],
+      "depth": 4,
+      "primary_methods": [
+        "ordinary_joint",
+        "ordinary_split",
+        "allocated_joint"
+      ],
+      "function_tolerance_challenge": true
+    },
+    {
+      "id": "A_h96_l32_d4",
+      "experiment": "A",
+      "slices": [
+        "fixed_maximum",
+        "fixed_mean",
+        "square_count"
+      ],
+      "effective_messages": 16384,
+      "group_sizes": [
+        8192,
+        8192
+      ],
+      "targets_bits": [
+        96,
+        32
+      ],
+      "depth": 4,
+      "primary_methods": [
+        "ordinary_joint",
+        "ordinary_split",
+        "allocated_joint"
+      ],
+      "function_tolerance_challenge": true
+    },
+    {
+      "id": "A_h96_l16_d4",
+      "experiment": "A",
+      "slices": [
+        "fixed_maximum"
+      ],
+      "effective_messages": 16384,
+      "group_sizes": [
+        8192,
+        8192
+      ],
+      "targets_bits": [
+        96,
+        16
+      ],
+      "depth": 4,
+      "primary_methods": [
+        "ordinary_joint",
+        "ordinary_split",
+        "allocated_joint"
+      ],
+      "function_tolerance_challenge": true
+    },
+    {
+      "id": "A_h64_l64_d4",
+      "experiment": "A",
+      "slices": [
+        "fixed_mean"
+      ],
+      "effective_messages": 16384,
+      "group_sizes": [
+        8192,
+        8192
+      ],
+      "targets_bits": [
+        64,
+        64
+      ],
+      "depth": 4,
+      "primary_methods": [
+        "ordinary_joint",
+        "ordinary_split",
+        "allocated_joint"
+      ],
+      "function_tolerance_challenge": false
+    },
+    {
+      "id": "A_h80_l48_d4",
+      "experiment": "A",
+      "slices": [
+        "fixed_mean"
+      ],
+      "effective_messages": 16384,
+      "group_sizes": [
+        8192,
+        8192
+      ],
+      "targets_bits": [
+        80,
+        48
+      ],
+      "depth": 4,
+      "primary_methods": [
+        "ordinary_joint",
+        "ordinary_split",
+        "allocated_joint"
+      ],
+      "function_tolerance_challenge": true
+    },
+    {
+      "id": "A_h112_l16_d4",
+      "experiment": "A",
+      "slices": [
+        "fixed_mean"
+      ],
+      "effective_messages": 16384,
+      "group_sizes": [
+        8192,
+        8192
+      ],
+      "targets_bits": [
+        112,
+        16
+      ],
+      "depth": 4,
+      "primary_methods": [
+        "ordinary_joint",
+        "ordinary_split",
+        "allocated_joint"
+      ],
+      "function_tolerance_challenge": true
+    },
+    {
+      "id": "A_h96_l32_d1",
+      "experiment": "A",
+      "slices": [
+        "square_count"
+      ],
+      "effective_messages": 16384,
+      "group_sizes": [
+        8192,
+        8192
+      ],
+      "targets_bits": [
+        96,
+        32
+      ],
+      "depth": 1,
+      "primary_methods": [
+        "ordinary_joint",
+        "ordinary_split",
+        "allocated_joint"
+      ],
+      "function_tolerance_challenge": true
+    },
+    {
+      "id": "A_h96_l32_d2",
+      "experiment": "A",
+      "slices": [
+        "square_count"
+      ],
+      "effective_messages": 16384,
+      "group_sizes": [
+        8192,
+        8192
+      ],
+      "targets_bits": [
+        96,
+        32
+      ],
+      "depth": 2,
+      "primary_methods": [
+        "ordinary_joint",
+        "ordinary_split",
+        "allocated_joint"
+      ],
+      "function_tolerance_challenge": true
+    },
+    {
+      "id": "A_h96_l32_d3",
+      "experiment": "A",
+      "slices": [
+        "square_count"
+      ],
+      "effective_messages": 16384,
+      "group_sizes": [
+        8192,
+        8192
+      ],
+      "targets_bits": [
+        96,
+        32
+      ],
+      "depth": 3,
+      "primary_methods": [
+        "ordinary_joint",
+        "ordinary_split",
+        "allocated_joint"
+      ],
+      "function_tolerance_challenge": true
+    },
+    {
+      "id": "B_concentrated",
+      "experiment": "B",
+      "effective_messages": 16384,
+      "group_sizes": [
+        4096,
+        4096,
+        4096,
+        4096
+      ],
+      "targets_bits": [
+        160,
+        32,
+        32,
+        32
+      ],
+      "depth": 4,
+      "period": 4,
+      "primary_methods": [
+        "ordinary_joint",
+        "ordinary_grouped",
+        "allocated_joint"
+      ],
+      "ordinary_grouping": "screen_all_partitions_of_distinct_precision_classes",
+      "multiplier_methods": [
+        "fourier",
+        "quadratic_if_period_two"
+      ]
+    },
+    {
+      "id": "B_four_levels",
+      "experiment": "B",
+      "effective_messages": 16384,
+      "group_sizes": [
+        4096,
+        4096,
+        4096,
+        4096
+      ],
+      "targets_bits": [
+        96,
+        80,
+        48,
+        32
+      ],
+      "depth": 4,
+      "period": 4,
+      "primary_methods": [
+        "ordinary_joint",
+        "ordinary_grouped",
+        "allocated_joint"
+      ],
+      "ordinary_grouping": "screen_all_partitions_of_distinct_precision_classes",
+      "multiplier_methods": [
+        "fourier",
+        "quadratic_if_period_two"
+      ]
+    },
+    {
+      "id": "B_alternating",
+      "experiment": "B",
+      "effective_messages": 16384,
+      "group_sizes": [
+        4096,
+        4096,
+        4096,
+        4096
+      ],
+      "targets_bits": [
+        96,
+        32,
+        96,
+        32
+      ],
+      "depth": 4,
+      "period": 4,
+      "primary_methods": [
+        "ordinary_joint",
+        "ordinary_grouped",
+        "allocated_joint"
+      ],
+      "ordinary_grouping": "screen_all_partitions_of_distinct_precision_classes",
+      "multiplier_methods": [
+        "fourier",
+        "quadratic_if_period_two"
+      ]
+    },
+    {
+      "id": "C_m1024_b96_r1",
+      "experiment": "C",
+      "effective_messages": 1024,
+      "targets_bits": [
+        96
+      ],
+      "depth": 4,
+      "slots_per_effective_message": 1,
+      "primary_methods": [
+        "ordinary_direct"
+      ],
+      "dummy_target_bits": null,
+      "dummy_internal_error_budget_bits": [],
+      "full_ring_range_check": true,
+      "independently_select_dimension": true
+    },
+    {
+      "id": "C_m1024_b96_r2",
+      "experiment": "C",
+      "effective_messages": 1024,
+      "targets_bits": [
+        96
+      ],
+      "depth": 4,
+      "slots_per_effective_message": 2,
+      "primary_methods": [
+        "allocated_dummy"
+      ],
+      "dummy_target_bits": null,
+      "dummy_internal_error_budget_bits": [
+        0,
+        8,
+        16,
+        32
+      ],
+      "full_ring_range_check": true,
+      "independently_select_dimension": true
+    },
+    {
+      "id": "C_m1024_b96_r4",
+      "experiment": "C",
+      "effective_messages": 1024,
+      "targets_bits": [
+        96
+      ],
+      "depth": 4,
+      "slots_per_effective_message": 4,
+      "primary_methods": [
+        "allocated_dummy"
+      ],
+      "dummy_target_bits": null,
+      "dummy_internal_error_budget_bits": [
+        0,
+        8,
+        16,
+        32
+      ],
+      "full_ring_range_check": true,
+      "independently_select_dimension": true
+    },
+    {
+      "id": "C_m1024_b96_r8",
+      "experiment": "C",
+      "effective_messages": 1024,
+      "targets_bits": [
+        96
+      ],
+      "depth": 4,
+      "slots_per_effective_message": 8,
+      "primary_methods": [
+        "allocated_dummy"
+      ],
+      "dummy_target_bits": null,
+      "dummy_internal_error_budget_bits": [
+        0,
+        8,
+        16,
+        32
+      ],
+      "full_ring_range_check": true,
+      "independently_select_dimension": true
+    },
+    {
+      "id": "C_m1024_b160_r1",
+      "experiment": "C",
+      "effective_messages": 1024,
+      "targets_bits": [
+        160
+      ],
+      "depth": 4,
+      "slots_per_effective_message": 1,
+      "primary_methods": [
+        "ordinary_direct"
+      ],
+      "dummy_target_bits": null,
+      "dummy_internal_error_budget_bits": [],
+      "full_ring_range_check": true,
+      "independently_select_dimension": true
+    },
+    {
+      "id": "C_m1024_b160_r2",
+      "experiment": "C",
+      "effective_messages": 1024,
+      "targets_bits": [
+        160
+      ],
+      "depth": 4,
+      "slots_per_effective_message": 2,
+      "primary_methods": [
+        "allocated_dummy"
+      ],
+      "dummy_target_bits": null,
+      "dummy_internal_error_budget_bits": [
+        0,
+        8,
+        16,
+        32
+      ],
+      "full_ring_range_check": true,
+      "independently_select_dimension": true
+    },
+    {
+      "id": "C_m1024_b160_r4",
+      "experiment": "C",
+      "effective_messages": 1024,
+      "targets_bits": [
+        160
+      ],
+      "depth": 4,
+      "slots_per_effective_message": 4,
+      "primary_methods": [
+        "allocated_dummy"
+      ],
+      "dummy_target_bits": null,
+      "dummy_internal_error_budget_bits": [
+        0,
+        8,
+        16,
+        32
+      ],
+      "full_ring_range_check": true,
+      "independently_select_dimension": true
+    },
+    {
+      "id": "C_m1024_b160_r8",
+      "experiment": "C",
+      "effective_messages": 1024,
+      "targets_bits": [
+        160
+      ],
+      "depth": 4,
+      "slots_per_effective_message": 8,
+      "primary_methods": [
+        "allocated_dummy"
+      ],
+      "dummy_target_bits": null,
+      "dummy_internal_error_budget_bits": [
+        0,
+        8,
+        16,
+        32
+      ],
+      "full_ring_range_check": true,
+      "independently_select_dimension": true
+    },
+    {
+      "id": "C_m1024_b224_r1",
+      "experiment": "C",
+      "effective_messages": 1024,
+      "targets_bits": [
+        224
+      ],
+      "depth": 4,
+      "slots_per_effective_message": 1,
+      "primary_methods": [
+        "ordinary_direct"
+      ],
+      "dummy_target_bits": null,
+      "dummy_internal_error_budget_bits": [],
+      "full_ring_range_check": true,
+      "independently_select_dimension": true
+    },
+    {
+      "id": "C_m1024_b224_r2",
+      "experiment": "C",
+      "effective_messages": 1024,
+      "targets_bits": [
+        224
+      ],
+      "depth": 4,
+      "slots_per_effective_message": 2,
+      "primary_methods": [
+        "allocated_dummy"
+      ],
+      "dummy_target_bits": null,
+      "dummy_internal_error_budget_bits": [
+        0,
+        8,
+        16,
+        32
+      ],
+      "full_ring_range_check": true,
+      "independently_select_dimension": true
+    },
+    {
+      "id": "C_m1024_b224_r4",
+      "experiment": "C",
+      "effective_messages": 1024,
+      "targets_bits": [
+        224
+      ],
+      "depth": 4,
+      "slots_per_effective_message": 4,
+      "primary_methods": [
+        "allocated_dummy"
+      ],
+      "dummy_target_bits": null,
+      "dummy_internal_error_budget_bits": [
+        0,
+        8,
+        16,
+        32
+      ],
+      "full_ring_range_check": true,
+      "independently_select_dimension": true
+    },
+    {
+      "id": "C_m1024_b224_r8",
+      "experiment": "C",
+      "effective_messages": 1024,
+      "targets_bits": [
+        224
+      ],
+      "depth": 4,
+      "slots_per_effective_message": 8,
+      "primary_methods": [
+        "allocated_dummy"
+      ],
+      "dummy_target_bits": null,
+      "dummy_internal_error_budget_bits": [
+        0,
+        8,
+        16,
+        32
+      ],
+      "full_ring_range_check": true,
+      "independently_select_dimension": true
+    },
+    {
+      "id": "C_m8_b160_r1",
+      "experiment": "C",
+      "effective_messages": 8,
+      "targets_bits": [
+        160
+      ],
+      "depth": 4,
+      "slots_per_effective_message": 1,
+      "primary_methods": [
+        "ordinary_direct"
+      ],
+      "dummy_target_bits": null,
+      "dummy_internal_error_budget_bits": [],
+      "full_ring_range_check": true,
+      "independently_select_dimension": true
+    },
+    {
+      "id": "C_m8_b160_r2",
+      "experiment": "C",
+      "effective_messages": 8,
+      "targets_bits": [
+        160
+      ],
+      "depth": 4,
+      "slots_per_effective_message": 2,
+      "primary_methods": [
+        "allocated_dummy"
+      ],
+      "dummy_target_bits": null,
+      "dummy_internal_error_budget_bits": [
+        0,
+        8,
+        16,
+        32
+      ],
+      "full_ring_range_check": true,
+      "independently_select_dimension": true
+    },
+    {
+      "id": "C_m8_b160_r4",
+      "experiment": "C",
+      "effective_messages": 8,
+      "targets_bits": [
+        160
+      ],
+      "depth": 4,
+      "slots_per_effective_message": 4,
+      "primary_methods": [
+        "allocated_dummy"
+      ],
+      "dummy_target_bits": null,
+      "dummy_internal_error_budget_bits": [
+        0,
+        8,
+        16,
+        32
+      ],
+      "full_ring_range_check": true,
+      "independently_select_dimension": true
+    },
+    {
+      "id": "C_m8_b160_r8",
+      "experiment": "C",
+      "effective_messages": 8,
+      "targets_bits": [
+        160
+      ],
+      "depth": 4,
+      "slots_per_effective_message": 8,
+      "primary_methods": [
+        "allocated_dummy"
+      ],
+      "dummy_target_bits": null,
+      "dummy_internal_error_budget_bits": [
+        0,
+        8,
+        16,
+        32
+      ],
+      "full_ring_range_check": true,
+      "independently_select_dimension": true
+    },
+    {
+      "id": "C_m8192_b160_r1",
+      "experiment": "C",
+      "effective_messages": 8192,
+      "targets_bits": [
+        160
+      ],
+      "depth": 4,
+      "slots_per_effective_message": 1,
+      "primary_methods": [
+        "ordinary_direct"
+      ],
+      "dummy_target_bits": null,
+      "dummy_internal_error_budget_bits": [],
+      "full_ring_range_check": true,
+      "independently_select_dimension": true
+    },
+    {
+      "id": "C_m8192_b160_r2",
+      "experiment": "C",
+      "effective_messages": 8192,
+      "targets_bits": [
+        160
+      ],
+      "depth": 4,
+      "slots_per_effective_message": 2,
+      "primary_methods": [
+        "allocated_dummy"
+      ],
+      "dummy_target_bits": null,
+      "dummy_internal_error_budget_bits": [
+        0,
+        8,
+        16,
+        32
+      ],
+      "full_ring_range_check": true,
+      "independently_select_dimension": true
+    },
+    {
+      "id": "C_m8192_b160_r4",
+      "experiment": "C",
+      "effective_messages": 8192,
+      "targets_bits": [
+        160
+      ],
+      "depth": 4,
+      "slots_per_effective_message": 4,
+      "primary_methods": [
+        "allocated_dummy"
+      ],
+      "dummy_target_bits": null,
+      "dummy_internal_error_budget_bits": [
+        0,
+        8,
+        16,
+        32
+      ],
+      "full_ring_range_check": true,
+      "independently_select_dimension": true
+    },
+    {
+      "id": "C_m8192_b160_r8",
+      "experiment": "C",
+      "effective_messages": 8192,
+      "targets_bits": [
+        160
+      ],
+      "depth": 4,
+      "slots_per_effective_message": 8,
+      "primary_methods": [
+        "allocated_dummy"
+      ],
+      "dummy_target_bits": null,
+      "dummy_internal_error_budget_bits": [
+        0,
+        8,
+        16,
+        32
+      ],
+      "full_ring_range_check": true,
+      "independently_select_dimension": true
+    },
+    {
+      "id": "C_m32768_b160_r1",
+      "experiment": "C",
+      "effective_messages": 32768,
+      "targets_bits": [
+        160
+      ],
+      "depth": 4,
+      "slots_per_effective_message": 1,
+      "saturation_slice": true,
+      "primary_methods": [
+        "ordinary_direct"
+      ],
+      "dummy_target_bits": null,
+      "dummy_internal_error_budget_bits": [],
+      "full_ring_range_check": true,
+      "independently_select_dimension": true
+    },
+    {
+      "id": "C_m32768_b160_r2",
+      "experiment": "C",
+      "effective_messages": 32768,
+      "targets_bits": [
+        160
+      ],
+      "depth": 4,
+      "slots_per_effective_message": 2,
+      "saturation_slice": true,
+      "primary_methods": [
+        "allocated_dummy"
+      ],
+      "dummy_target_bits": null,
+      "dummy_internal_error_budget_bits": [
+        0,
+        8,
+        16,
+        32
+      ],
+      "full_ring_range_check": true,
+      "independently_select_dimension": true
+    },
+    {
+      "id": "C_m32768_b160_r4",
+      "experiment": "C",
+      "effective_messages": 32768,
+      "targets_bits": [
+        160
+      ],
+      "depth": 4,
+      "slots_per_effective_message": 4,
+      "saturation_slice": true,
+      "primary_methods": [
+        "allocated_dummy"
+      ],
+      "dummy_target_bits": null,
+      "dummy_internal_error_budget_bits": [
+        0,
+        8,
+        16,
+        32
+      ],
+      "full_ring_range_check": true,
+      "independently_select_dimension": true
+    },
+    {
+      "id": "C_m32768_b160_r8",
+      "experiment": "C",
+      "effective_messages": 32768,
+      "targets_bits": [
+        160
+      ],
+      "depth": 4,
+      "slots_per_effective_message": 8,
+      "saturation_slice": true,
+      "primary_methods": [
+        "allocated_dummy"
+      ],
+      "dummy_target_bits": null,
+      "dummy_internal_error_budget_bits": [
+        0,
+        8,
+        16,
+        32
+      ],
+      "full_ring_range_check": true,
+      "independently_select_dimension": true
+    }
+  ],
+  "base_design_checks": {
+    "checks_passed": 12,
+    "checks": [
+      "unique_question_ids",
+      "deduplicated_slices",
+      "not_repeating_old_72_22_experiment",
+      "fixed_mean_really_64",
+      "all_four_group_means_64",
+      "business_count_consistent",
+      "unused_slot_matrix_20",
+      "dummy_is_not_business_target",
+      "direct_baseline_for_every_dummy_task",
+      "every_capacity_counts_all_batches_not_dummy_outputs",
+      "two_repeats_no_old_HE_no_HPC",
+      "all_comparisons_same_standard_ring_model"
+    ],
+    "question_counts": {
+      "A": 12,
+      "B": 3,
+      "C": 20
+    },
+    "primary_method_rows_before_concrete_parameter_selection": 65,
+    "HE_executions": 0,
+    "note": "These are design consistency checks, not mathematical or HE correctness tests."
+  },
+  "sampled_event": {
+    "secret_polynomials_per_N_max": 256,
+    "error_polynomials_per_N_max": 4096,
+    "family_failure_probability_per_N_upper": "2^-159",
+    "reason": "cover all saturated batches; both representations use the same recomputed bound"
+  },
+  "ordinary_grouped_key_layouts": [
+    "independent_N_and_QP",
+    "same_N_same_P_Q_prefix_actual_key_sharing"
+  ],
+  "base_design_tex_sha256": "ae3ab03e4d291c840c986debd76da148f177aca77e09fc93cd50f6c6cae5ba34",
+  "amendment_tex_sha256": "b3619e8da550b6838179d56e578fe867b855dd8118957e55185343566c79e32e",
+  "amendment_checks": [
+    "39_unique_questions",
+    "all_35_V2_questions_preserved",
+    "all_saturated_capacities_divide_32768",
+    "physical_slot_cost_is_M_times_r",
+    "256_secret_event_covers_largest_new_single_branch_batch_count"
+  ]
+}

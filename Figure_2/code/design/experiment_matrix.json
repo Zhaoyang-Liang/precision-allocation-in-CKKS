@@ -1,0 +1,22 @@
+{
+  "schema": "pa-fixed-precision-design-v1",
+  "scene_small": {"messages": [256], "precision_bits": [64, 96, 160, 224], "depths": [1, 2, 4, 6]},
+  "scene_capacity": {"messages": [64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536], "precision_bits": [160], "depths": [2, 4, 6]},
+  "input_families": ["grow", "reciprocal"],
+  "class_counts": [1, 2, 4],
+  "N": [4096, 8192, 16384, 32768, 65536],
+  "theta": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 128],
+  "scale_offsets": [24, 32, 40, 48, 64],
+  "shapes": ["flat", "alternating", "deferred_terminal"],
+  "output_slack_bits": [2, 6],
+  "P_counts": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "P_prime_widths": [60],
+  "scale_range": [24, 512],
+  "max_Q_limbs": 32,
+  "max_RNS_prime_bits": 60,
+  "arithmetic_precision_bits": 1024,
+  "security_target_bits": 128,
+  "formal_repeats": 5,
+  "plaintext_seed_base": 2026101300,
+  "no_global_optimality_claim": true
+}

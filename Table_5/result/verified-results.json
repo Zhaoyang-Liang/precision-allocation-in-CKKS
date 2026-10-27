@@ -1,0 +1,839 @@
+[
+  {
+    "case": "direct16",
+    "job": "153597",
+    "trial": 1,
+    "output_level": 13,
+    "bits": 27.733604267933632,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "direct16",
+    "job": "153597",
+    "trial": 2,
+    "output_level": 13,
+    "bits": 27.45620477090257,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "direct16",
+    "job": "153597",
+    "trial": 3,
+    "output_level": 13,
+    "bits": 28.394290872152624,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "direct16",
+    "job": "153598",
+    "trial": 1,
+    "output_level": 13,
+    "bits": 27.305872666339898,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "direct16",
+    "job": "153598",
+    "trial": 2,
+    "output_level": 13,
+    "bits": 27.583801158926235,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "direct16",
+    "job": "153598",
+    "trial": 3,
+    "output_level": 13,
+    "bits": 27.066761113424057,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "direct16",
+    "job": "153599",
+    "trial": 1,
+    "output_level": 13,
+    "bits": 27.140150108702176,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "direct16",
+    "job": "153599",
+    "trial": 2,
+    "output_level": 13,
+    "bits": 27.108906421615366,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "direct16",
+    "job": "153599",
+    "trial": 3,
+    "output_level": 13,
+    "bits": 27.27014562205776,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "leaf16-15",
+    "job": "153600",
+    "trial": 1,
+    "output_level": 13,
+    "bits": 27.678047437005024,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "leaf16-15",
+    "job": "153600",
+    "trial": 2,
+    "output_level": 13,
+    "bits": 27.496652823439636,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "leaf16-15",
+    "job": "153600",
+    "trial": 3,
+    "output_level": 13,
+    "bits": 28.527299552920503,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "leaf16-15",
+    "job": "153601",
+    "trial": 1,
+    "output_level": 13,
+    "bits": 27.29188797376598,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "leaf16-15",
+    "job": "153601",
+    "trial": 2,
+    "output_level": 13,
+    "bits": 27.6625902799233,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "leaf16-15",
+    "job": "153601",
+    "trial": 3,
+    "output_level": 13,
+    "bits": 27.100904475012097,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "leaf16-15",
+    "job": "153602",
+    "trial": 1,
+    "output_level": 13,
+    "bits": 27.163040036564745,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "leaf16-15",
+    "job": "153602",
+    "trial": 2,
+    "output_level": 13,
+    "bits": 27.142231963046964,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "leaf16-15",
+    "job": "153602",
+    "trial": 3,
+    "output_level": 13,
+    "bits": 27.29765435496364,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153603",
+    "trial": 1,
+    "output_level": 2,
+    "bits": 3.2007231579328357,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153603",
+    "trial": 2,
+    "output_level": 2,
+    "bits": 4.404270909111052,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153603",
+    "trial": 3,
+    "output_level": 2,
+    "bits": 3.127530335297914,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153603",
+    "trial": 4,
+    "output_level": 2,
+    "bits": 4.034148619729013,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153603",
+    "trial": 5,
+    "output_level": 2,
+    "bits": 3.3452888643111724,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153603",
+    "trial": 6,
+    "output_level": 2,
+    "bits": 4.472500283390422,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153603",
+    "trial": 7,
+    "output_level": 2,
+    "bits": 3.2875459539878897,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153603",
+    "trial": 8,
+    "output_level": 2,
+    "bits": 4.215608617821545,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153603",
+    "trial": 9,
+    "output_level": 2,
+    "bits": 3.264098429520769,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153603",
+    "trial": 10,
+    "output_level": 2,
+    "bits": 3.324461427884872,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153603",
+    "trial": 11,
+    "output_level": 2,
+    "bits": 3.751974292825364,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153603",
+    "trial": 12,
+    "output_level": 2,
+    "bits": 3.744915128023162,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153603",
+    "trial": 13,
+    "output_level": 2,
+    "bits": 3.814769258591884,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153603",
+    "trial": 14,
+    "output_level": 2,
+    "bits": 4.1280109034513535,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153603",
+    "trial": 15,
+    "output_level": 2,
+    "bits": 4.461274937628766,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153603",
+    "trial": 16,
+    "output_level": 2,
+    "bits": 3.467735387509858,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153604",
+    "trial": 1,
+    "output_level": 2,
+    "bits": 3.1621899560831155,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153604",
+    "trial": 2,
+    "output_level": 2,
+    "bits": 4.112554086212927,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153604",
+    "trial": 3,
+    "output_level": 2,
+    "bits": 3.1976110536196156,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153604",
+    "trial": 4,
+    "output_level": 2,
+    "bits": 4.366899966544128,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153604",
+    "trial": 5,
+    "output_level": 2,
+    "bits": 3.294825036313851,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153604",
+    "trial": 6,
+    "output_level": 2,
+    "bits": 4.113908195969402,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153604",
+    "trial": 7,
+    "output_level": 2,
+    "bits": 3.3317999173632895,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153604",
+    "trial": 8,
+    "output_level": 2,
+    "bits": 4.319447775348333,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153604",
+    "trial": 9,
+    "output_level": 2,
+    "bits": 4.159005232051981,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153604",
+    "trial": 10,
+    "output_level": 2,
+    "bits": 3.8918387521382867,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153604",
+    "trial": 11,
+    "output_level": 2,
+    "bits": 3.288565387071611,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153604",
+    "trial": 12,
+    "output_level": 2,
+    "bits": 3.5964489296575017,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153604",
+    "trial": 13,
+    "output_level": 2,
+    "bits": 3.764090689431145,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153604",
+    "trial": 14,
+    "output_level": 2,
+    "bits": 3.708322131054471,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153604",
+    "trial": 15,
+    "output_level": 2,
+    "bits": 3.9752061397516276,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153604",
+    "trial": 16,
+    "output_level": 2,
+    "bits": 3.2997143419983725,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153605",
+    "trial": 1,
+    "output_level": 2,
+    "bits": 3.4042715562977124,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153605",
+    "trial": 2,
+    "output_level": 2,
+    "bits": 4.346567902858132,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153605",
+    "trial": 3,
+    "output_level": 2,
+    "bits": 3.197622638225429,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153605",
+    "trial": 4,
+    "output_level": 2,
+    "bits": 3.9869630087044214,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153605",
+    "trial": 5,
+    "output_level": 2,
+    "bits": 3.3524129463940193,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153605",
+    "trial": 6,
+    "output_level": 2,
+    "bits": 4.255097102286167,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153605",
+    "trial": 7,
+    "output_level": 2,
+    "bits": 3.3465399026772937,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153605",
+    "trial": 8,
+    "output_level": 2,
+    "bits": 4.083750500363768,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153605",
+    "trial": 9,
+    "output_level": 2,
+    "bits": 3.3289341352874633,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153605",
+    "trial": 10,
+    "output_level": 2,
+    "bits": 3.8284255051810714,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153605",
+    "trial": 11,
+    "output_level": 2,
+    "bits": 3.2427922810634726,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153605",
+    "trial": 12,
+    "output_level": 2,
+    "bits": 3.7698933644745356,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153605",
+    "trial": 13,
+    "output_level": 2,
+    "bits": 3.568732765131359,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153605",
+    "trial": 14,
+    "output_level": 2,
+    "bits": 3.9819464604867356,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153605",
+    "trial": 15,
+    "output_level": 2,
+    "bits": 3.1850414207422673,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "direct13",
+    "job": "153605",
+    "trial": 16,
+    "output_level": 2,
+    "bits": 3.3693928880447777,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "leaf17-13",
+    "job": "153606",
+    "trial": 1,
+    "output_level": 1,
+    "bits": 7.216629716144244,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "leaf17-13",
+    "job": "153606",
+    "trial": 2,
+    "output_level": 1,
+    "bits": 7.073393897421789,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "leaf17-13",
+    "job": "153606",
+    "trial": 3,
+    "output_level": 1,
+    "bits": 7.511940049319627,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "leaf17-13",
+    "job": "153607",
+    "trial": 1,
+    "output_level": 1,
+    "bits": 7.388937390374462,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "leaf17-13",
+    "job": "153607",
+    "trial": 2,
+    "output_level": 1,
+    "bits": 7.22281907826609,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "leaf17-13",
+    "job": "153607",
+    "trial": 3,
+    "output_level": 1,
+    "bits": 7.683614592567535,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "leaf17-13",
+    "job": "153608",
+    "trial": 1,
+    "output_level": 1,
+    "bits": 6.7795639337254245,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "leaf17-13",
+    "job": "153608",
+    "trial": 2,
+    "output_level": 1,
+    "bits": 6.409911487013908,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "leaf17-13",
+    "job": "153608",
+    "trial": 3,
+    "output_level": 1,
+    "bits": 6.106943904054761,
+    "target_bits": 1,
+    "meets_target": true
+  },
+  {
+    "case": "leaf17-15",
+    "job": "153609",
+    "trial": 1,
+    "output_level": 13,
+    "bits": 27.69773622975798,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "leaf17-15",
+    "job": "153609",
+    "trial": 2,
+    "output_level": 13,
+    "bits": 27.483784612908135,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "leaf17-15",
+    "job": "153609",
+    "trial": 3,
+    "output_level": 13,
+    "bits": 28.432228479656878,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "leaf17-15",
+    "job": "153610",
+    "trial": 1,
+    "output_level": 13,
+    "bits": 27.27168325380793,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "leaf17-15",
+    "job": "153610",
+    "trial": 2,
+    "output_level": 13,
+    "bits": 27.662000412175477,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "leaf17-15",
+    "job": "153610",
+    "trial": 3,
+    "output_level": 13,
+    "bits": 27.09430926098836,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "leaf17-15",
+    "job": "153611",
+    "trial": 1,
+    "output_level": 13,
+    "bits": 27.18427062831964,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "leaf17-15",
+    "job": "153611",
+    "trial": 2,
+    "output_level": 13,
+    "bits": 27.12210814552811,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "leaf17-15",
+    "job": "153611",
+    "trial": 3,
+    "output_level": 13,
+    "bits": 27.311878014234612,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "leaf16-14",
+    "job": "153612",
+    "trial": 1,
+    "output_level": 1,
+    "bits": 27.618715773745883,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "leaf16-14",
+    "job": "153612",
+    "trial": 2,
+    "output_level": 1,
+    "bits": 27.460525864927728,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "leaf16-14",
+    "job": "153612",
+    "trial": 3,
+    "output_level": 1,
+    "bits": 28.331580127825042,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "leaf16-14",
+    "job": "153613",
+    "trial": 1,
+    "output_level": 1,
+    "bits": 27.308753737341497,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "leaf16-14",
+    "job": "153613",
+    "trial": 2,
+    "output_level": 1,
+    "bits": 27.669395911034083,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "leaf16-14",
+    "job": "153613",
+    "trial": 3,
+    "output_level": 1,
+    "bits": 27.048387123162577,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "leaf16-14",
+    "job": "153614",
+    "trial": 1,
+    "output_level": 1,
+    "bits": 27.117682112991904,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "leaf16-14",
+    "job": "153614",
+    "trial": 2,
+    "output_level": 1,
+    "bits": 27.13046089769015,
+    "target_bits": 20,
+    "meets_target": true
+  },
+  {
+    "case": "leaf16-14",
+    "job": "153614",
+    "trial": 3,
+    "output_level": 1,
+    "bits": 27.42334454126406,
+    "target_bits": 20,
+    "meets_target": true
+  }
+]

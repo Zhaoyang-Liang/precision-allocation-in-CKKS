@@ -1,0 +1,7 @@
+{
+  "old_primitive_a": "14411518807585600",
+  "old_primitive_b": "10190482676041227",
+  "norm": "740006964120028942",
+  "small_embedding_gt_one_integer_witness": "711183926504857743",
+  "meaning": "a>1, b>0 and (a-1)^2>2b^2 prove a-b*sqrt(2)>1. Under the stated common native certificate, ordinary weakly dominates this specific multiplier at identical Q/P/scales."
+}

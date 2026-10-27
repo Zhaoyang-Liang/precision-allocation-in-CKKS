@@ -1,0 +1,2587 @@
+{
+  "ActiveBranches": 1,
+  "LogicalMessages": 8,
+  "FrontendKeyBytes": 0,
+  "ReturnKeyLevel": 1,
+  "CasesApplicationMeetingTarget": 0,
+  "CasesChainComplete": 0,
+  "CasesChainMeetingTarget": 0,
+  "Status": "executed",
+  "Error": "",
+  "Host": "cpu10",
+  "Started": "2026-10-24T07:43:28Z",
+  "Scope": "full split -\u003e same-ring small-batch fiber StC/SSE/lift/CtS/PA EvalMod -\u003e full merge/return KS",
+  "PayloadDescription": "8 independent complex messages per active leaf; public active prefix of 1/4 coefficient branches; focus positions (slot/R) mod k; other branches ideal zero",
+  "SecretDescription": "main/top uniform ternary P(nonzero)=2/3; ephemeral same-ring SSE fixed H with independent random signs",
+  "Config": {
+    "MainBase": 14,
+    "SSEBase": 14,
+    "PairedTiming": true,
+    "LaneWorkers": 1,
+    "CalibrateApplicationScale": false,
+    "OutputScaleOffset": 0,
+    "NoRS": false,
+    "Statistics": false,
+    "ApplicationBeforeReturn": false,
+    "InverseSqrtIterations": 0,
+    "ActiveBranches": 1,
+    "RefreshDummy": false,
+    "ChainLength": 0,
+    "ChainPhase": 0.19634954084936207,
+    "ChainFactorShape": true,
+    "LogN": 16,
+    "Logn": 14,
+    "KMessages": 8,
+    "R": 8,
+    "Power": 1,
+    "Trials": 3,
+    "Workers": 1,
+    "OutputLevel": 1,
+    "Q0Bits": 50,
+    "InputBits": 40,
+    "OutputBits": 30,
+    "EMBits": 25,
+    "EvalQBits": 25,
+    "CtSQBits": 61,
+    "PBits": 26,
+    "PCount": 1,
+    "Degree": 63,
+    "DA": 3,
+    "InverseDegree": 0,
+    "KMod1": 17,
+    "RatioBits": 4,
+    "SparseH": 32,
+    "TargetBits": 20,
+    "Seed": 202610241802,
+    "Amplitude": 0.1,
+    "UnitFile": "../units/R8-s40-calibrated.json",
+    "DryRun": false,
+    "CheckSquare": false,
+    "Diagnostics": false,
+    "ShapeEntry": true,
+    "AllowSubunit": false,
+    "ShapeCtS": true
+  },
+  "QPrimes": [
+    1125899908022273,
+    1073872897,
+    35389441,
+    36175873,
+    37224449,
+    38535169,
+    39714817,
+    40370177,
+    41680897,
+    42729473,
+    44433409,
+    2305843009218281473
+  ],
+  "PPrimes": [
+    67239937
+  ],
+  "MainQBits": 368.11164904708335,
+  "MainQPBits": 394.11446408414633,
+  "EntryQPBits": 76.00281503857454,
+  "InputQBits": 80.00017610234146,
+  "OutputQBits": 80.00017610234146,
+  "ReturnQPBits": 106.00299113940443,
+  "MainReferenceCap": 0,
+  "EntryReferenceCap": 0,
+  "ReferenceTableFits": false,
+  "MainLevel": 11,
+  "InputLevel": 1,
+  "OutputLevel": 1,
+  "EvalModLevel": 10,
+  "EvalModDepth": 9,
+  "InverseDepth": 0,
+  "Branches": 4,
+  "TotalMessages": 8,
+  "TraceMultiplicity": 1024,
+  "UnitFocus": 1.4797909155826877e-13,
+  "FocusSuppressionBits": 42.619671886303905,
+  "CtSGain": 8.559950125364851e-13,
+  "MaxStCDiagonal": 8.000000000000002,
+  "MaxCtSDiagonal": 1.0699937656706067e-13,
+  "StCDiagonals": 8,
+  "CtSDiagonals": 8,
+  "MainGaloisKeyCount": 19,
+  "MainKeyBytes": 2044874544,
+  "EntryKeyBytes": 22020744,
+  "SSEKeyBytes": 2097464,
+  "LiftKeyBytes": 102243712,
+  "ReturnKeyBytes": 22020744,
+  "ApplicationKeyBytes": 0,
+  "MatrixBytes": 16778496,
+  "KeygenSeconds": 16.700008832,
+  "MatrixSeconds": 0.824361223,
+  "TotalSeconds": 60.755960395,
+  "GOMAXPROCS": 2,
+  "CasesExecuted": 3,
+  "CasesFailed": 0,
+  "CasesMeetingTarget": 3,
+  "Trials": [
+    {
+      "SerialOnlineSeconds": 5.539308360000001,
+      "ParallelOnlineSeconds": 3.7932375449999998,
+      "SerialApplicationSeconds": 0,
+      "SerialPipelineSeconds": 5.539308360000001,
+      "ParallelPipelineSeconds": 3.7932375449999998,
+      "PairedCiphertextsEqual": true,
+      "TimingOrder": "serial,parallel",
+      "RefreshedBranches": 1,
+      "SkippedBranchIndices": [
+        1,
+        2,
+        3
+      ],
+      "ApplicationChain": {
+        "Scope": "",
+        "Error": "",
+        "Options": {
+          "Steps": 0,
+          "PhaseRadians": 0,
+          "ShapeFactor": false,
+          "R": 0,
+          "OutputBits": 0,
+          "TargetBits": 0
+        },
+        "Initial": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "Final": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "InitialMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "FinalMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "RequestedSteps": 0,
+        "ExecutedSteps": 0,
+        "InitialMeetsTarget": false,
+        "EveryOutputMeetsTarget": false,
+        "ReachedLevelZero": false,
+        "FactorGenerationSeconds": 0,
+        "ArithmeticSeconds": 0,
+        "DiagnosticsSeconds": 0,
+        "Steps": null
+      },
+      "Frontend": {
+        "Scope": "",
+        "Error": "",
+        "Seed": 0,
+        "R": 0,
+        "Groups": 0,
+        "SamplesPerGroup": 0,
+        "TotalSamples": 0,
+        "Targets": null,
+        "IndependentMeanSquares": null,
+        "TargetNormalizationMaxError": 0,
+        "InputMaxMagnitude": 0,
+        "QPrimes": null,
+        "PPrimes": null,
+        "RotationOffsets": null,
+        "RelinearizationKeyLevel": 0,
+        "RotationKeyLevel": 0,
+        "RelinearizationKeyBytes": 0,
+        "RotationKeyBytes": 0,
+        "KeyBytes": 0,
+        "FullLogQ": 0,
+        "FullLogQP": 0,
+        "MaskLogScale": 0,
+        "Input": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "AfterSquare": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "BeforeMask": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "BeforeFinalRescale": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "Output": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "InputMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "SquaredMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "SumDataMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "MaskMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "OutputMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "MeanSquareMaxAbsError": 0,
+        "MeanSquareWorstBits": 0,
+        "IdealOddBranchIsZero": false,
+        "SetupSeconds": 0,
+        "KeygenSeconds": 0,
+        "MaskSetupSeconds": 0,
+        "InputGenerationSeconds": 0,
+        "EncodingEncryptionSeconds": 0,
+        "DiagnosticsSeconds": 0,
+        "SquareRelinearizeSeconds": 0,
+        "SquareRescaleSeconds": 0,
+        "ReductionSeconds": 0,
+        "MaskMultiplySeconds": 0,
+        "FinalRescaleSeconds": 0,
+        "OnlineSeconds": 0,
+        "FinalArithmetic": {
+          "SubunitCoefficientProducts": 0,
+          "MinCoefficientLogScale": 0,
+          "Rescales": 0,
+          "Relinearizations": 0,
+          "EncodedConstants": 0,
+          "CoefficientProducts": 0,
+          "ScaleAlignments": 0,
+          "MinAlignmentLogRatio": 0
+        }
+      },
+      "InverseSqrt": {
+        "Scope": "",
+        "Error": "",
+        "Options": {
+          "Iterations": 0,
+          "R": 0,
+          "TargetBits": 0,
+          "InputDivisor": 0,
+          "LowerBound": 0,
+          "UpperBound": 0,
+          "SeedSquare": 0,
+          "MinConstantLogScale": 0
+        },
+        "Initial": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "Final": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "InitialMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "FinalMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "FinalCircuitMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "RequiredLevels": 0,
+        "ConsumedLevels": 0,
+        "Completed": false,
+        "MeetsTarget": false,
+        "InitialResidualLower": 0,
+        "InitialResidualUpper": 0,
+        "IdealTruncationBound": 0,
+        "ActualReferenceTruncationMax": 0,
+        "MinObservedConstantLogScale": 0,
+        "SeedConstantEncodingMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "ArithmeticSeconds": 0,
+        "DiagnosticsSeconds": 0,
+        "TotalSeconds": 0,
+        "Arithmetic": {
+          "SubunitCoefficientProducts": 0,
+          "MinCoefficientLogScale": 0,
+          "Rescales": 0,
+          "Relinearizations": 0,
+          "EncodedConstants": 0,
+          "CoefficientProducts": 0,
+          "ScaleAlignments": 0,
+          "MinAlignmentLogRatio": 0
+        },
+        "Stages": null
+      },
+      "OutputLocation": "top-ring bootstrap output before application",
+      "Final": {
+        "Level": 0,
+        "LogQ": 0,
+        "LogScale": 0,
+        "QPrimes": null
+      },
+      "FinalMetrics": {
+        "MaxAbsError": 0,
+        "MeanAbsError": 0,
+        "RMSError": 0,
+        "MaxErrorBits": 0,
+        "MeanErrorBits": 0,
+        "RMSBits": 0,
+        "GuardMax": 0,
+        "DataMax": 0,
+        "DataSlots": 0
+      },
+      "FinalMeetsTarget": false,
+      "PipelineOnlineSeconds": 3.7932375449999998,
+      "Index": 1,
+      "Error": "",
+      "Initial": {
+        "Level": 1,
+        "LogQ": 80.00017610234146,
+        "LogScale": 40,
+        "QPrimes": [
+          1125899908022273,
+          1073872897
+        ]
+      },
+      "PreBootstrap": {
+        "Level": 1,
+        "LogQ": 80.00017610234146,
+        "LogScale": 40,
+        "QPrimes": [
+          1125899908022273,
+          1073872897
+        ]
+      },
+      "InternalMaximum": {
+        "Level": 11,
+        "LogQ": 368.11164904708335,
+        "LogScale": 25,
+        "QPrimes": [
+          1125899908022273,
+          1073872897,
+          35389441,
+          36175873,
+          37224449,
+          38535169,
+          39714817,
+          40370177,
+          41680897,
+          42729473,
+          44433409,
+          2305843009218281473
+        ]
+      },
+      "Output": {
+        "Level": 1,
+        "LogQ": 80.00017610234146,
+        "LogScale": 30,
+        "QPrimes": [
+          1125899908022273,
+          1073872897
+        ]
+      },
+      "AfterSquare": {
+        "Level": 0,
+        "LogQ": 0,
+        "LogScale": 0,
+        "QPrimes": null
+      },
+      "InputMetrics": {
+        "MaxAbsError": 3.606123165680685e-12,
+        "MeanAbsError": 2.2926322596744364e-12,
+        "RMSError": 2.434367243012713e-12,
+        "MaxErrorBits": 38.01268846636999,
+        "MeanErrorBits": 38.666132174785496,
+        "RMSBits": 38.579590312541015,
+        "GuardMax": 3.8098346218428194e-7,
+        "DataMax": 0.11673942152365756,
+        "DataSlots": 4096
+      },
+      "OutputMetrics": {
+        "MaxAbsError": 6.015143338409834e-9,
+        "MeanAbsError": 2.990886723717653e-9,
+        "RMSError": 3.822075949091351e-9,
+        "MaxErrorBits": 27.308753737341497,
+        "MeanErrorBits": 28.31677958285547,
+        "RMSBits": 27.962996407358805,
+        "GuardMax": 0.013628138404972156,
+        "DataMax": 0.11673941626996831,
+        "DataSlots": 4096
+      },
+      "SquareMetrics": {
+        "MaxAbsError": 0,
+        "MeanAbsError": 0,
+        "RMSError": 0,
+        "MaxErrorBits": 0,
+        "MeanErrorBits": 0,
+        "RMSBits": 0,
+        "GuardMax": 0,
+        "DataMax": 0,
+        "DataSlots": 0
+      },
+      "InitialQGreaterThanOutputQ": false,
+      "PreBootstrapQGreaterThanOutputQ": false,
+      "MeetsTarget": true,
+      "SquareMeetsTarget": false,
+      "OutputMinusInputQBits": 0,
+      "EntrySplitSeconds": 0.06458721,
+      "LeafsSeconds": 3.663500042,
+      "MergeReturnSeconds": 0.065150293,
+      "OnlineSeconds": 3.7932375449999998,
+      "SquareSeconds": 0,
+      "Branches": [
+        {
+          "Skipped": false,
+          "SkipReason": "",
+          "Index": 0,
+          "Input": {
+            "Level": 1,
+            "LogQ": 80.00017610234146,
+            "LogScale": 40,
+            "QPrimes": [
+              1125899908022273,
+              1073872897
+            ]
+          },
+          "StC": {
+            "Level": 0,
+            "LogQ": 50.000000001511566,
+            "LogScale": 40,
+            "QPrimes": [
+              1125899908022273
+            ]
+          },
+          "SSE": {
+            "Level": 0,
+            "LogQ": 50.000000001511566,
+            "LogScale": 40,
+            "QPrimes": [
+              1125899908022273
+            ]
+          },
+          "Lift": {
+            "Level": 11,
+            "LogQ": 368.11164904708335,
+            "LogScale": 25,
+            "QPrimes": [
+              1125899908022273,
+              1073872897,
+              35389441,
+              36175873,
+              37224449,
+              38535169,
+              39714817,
+              40370177,
+              41680897,
+              42729473,
+              44433409,
+              2305843009218281473
+            ]
+          },
+          "CtSReal": {
+            "Level": 10,
+            "LogQ": 307.1116490470805,
+            "LogScale": 25,
+            "QPrimes": [
+              1125899908022273,
+              1073872897,
+              35389441,
+              36175873,
+              37224449,
+              38535169,
+              39714817,
+              40370177,
+              41680897,
+              42729473,
+              44433409
+            ]
+          },
+          "Output": {
+            "Level": 1,
+            "LogQ": 80.00017610234146,
+            "LogScale": 30,
+            "QPrimes": [
+              1125899908022273,
+              1073872897
+            ]
+          },
+          "InputMetrics": {
+            "MaxAbsError": 1.5515838457795457e-17,
+            "MeanAbsError": 5.842607628172258e-18,
+            "RMSError": 8.228515941976643e-18,
+            "MaxErrorBits": 55.839035952556316,
+            "MeanErrorBits": 57.2480933024646,
+            "RMSBits": 56.75407345183516,
+            "GuardMax": 0.0000024837020655544904,
+            "DataMax": 0.11673942152365756,
+            "DataSlots": 1024
+          },
+          "OutputMetrics": {
+            "MaxAbsError": 6.014426803162557e-9,
+            "MeanAbsError": 2.9903500467945723e-9,
+            "RMSError": 3.82149447456352e-9,
+            "MaxErrorBits": 27.30892560413922,
+            "MeanErrorBits": 28.31703847952426,
+            "RMSBits": 27.96321590959999,
+            "GuardMax": 0.003482897181830016,
+            "DataMax": 0.11673941626996831,
+            "DataSlots": 1024
+          },
+          "Beta": 1024.0000010728845,
+          "EntrySeconds": 0,
+          "StCSeconds": 0.048320341,
+          "SSESeconds": 0.004317395,
+          "LiftTraceSeconds": 1.432949585,
+          "CtSSeconds": 0.684423309,
+          "EvalModSeconds": 1.493438431,
+          "OnlineSeconds": 3.663464204,
+          "Arithmetic": {
+            "SubunitCoefficientProducts": 0,
+            "MinCoefficientLogScale": 0,
+            "Rescales": 42,
+            "Relinearizations": 32,
+            "EncodedConstants": 86,
+            "CoefficientProducts": 46,
+            "ScaleAlignments": 2,
+            "MinAlignmentLogRatio": 24.594858504394956
+          },
+          "Stages": null,
+          "ReadoutDiagnosticsAvailable": false,
+          "CarryDomainCovered": false,
+          "MaxCarryAbs": 0,
+          "ReadoutMessageError": 0,
+          "PureApproximationError": 0,
+          "OracleVsMessageError": 0
+        },
+        {
+          "Skipped": true,
+          "SkipReason": "public layout guarantees ideal branch message zero",
+          "Index": 1,
+          "Input": {
+            "Level": 1,
+            "LogQ": 80.00017610234146,
+            "LogScale": 40,
+            "QPrimes": [
+              1125899908022273,
+              1073872897
+            ]
+          },
+          "StC": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "SSE": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "Lift": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "CtSReal": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "Output": {
+            "Level": 1,
+            "LogQ": 80.00017610234146,
+            "LogScale": 30,
+            "QPrimes": [
+              1125899908022273,
+              1073872897
+            ]
+          },
+          "InputMetrics": {
+            "MaxAbsError": 2.4831407026585386e-21,
+            "MeanAbsError": 4.2162565806364874e-22,
+            "RMSError": 5.309919967440712e-22,
+            "MaxErrorBits": 68.44832398110917,
+            "MeanErrorBits": 71.00645542255151,
+            "RMSBits": 70.67372797102108,
+            "GuardMax": 0.0000035847660431813575,
+            "DataMax": 2.4831407026585386e-21,
+            "DataSlots": 1024
+          },
+          "OutputMetrics": {
+            "MaxAbsError": 0,
+            "MeanAbsError": 0,
+            "RMSError": 0,
+            "MaxErrorBits": 999,
+            "MeanErrorBits": 999,
+            "RMSBits": 999,
+            "GuardMax": 0,
+            "DataMax": 0,
+            "DataSlots": 1024
+          },
+          "Beta": 0,
+          "EntrySeconds": 0,
+          "StCSeconds": 0,
+          "SSESeconds": 0,
+          "LiftTraceSeconds": 0,
+          "CtSSeconds": 0,
+          "EvalModSeconds": 0,
+          "OnlineSeconds": 0,
+          "Arithmetic": {
+            "SubunitCoefficientProducts": 0,
+            "MinCoefficientLogScale": 0,
+            "Rescales": 0,
+            "Relinearizations": 0,
+            "EncodedConstants": 0,
+            "CoefficientProducts": 0,
+            "ScaleAlignments": 0,
+            "MinAlignmentLogRatio": 0
+          },
+          "Stages": null,
+          "ReadoutDiagnosticsAvailable": false,
+          "CarryDomainCovered": false,
+          "MaxCarryAbs": 0,
+          "ReadoutMessageError": 0,
+          "PureApproximationError": 0,
+          "OracleVsMessageError": 0
+        },
+        {
+          "Skipped": true,
+          "SkipReason": "public layout guarantees ideal branch message zero",
+          "Index": 2,
+          "Input": {
+            "Level": 1,
+            "LogQ": 80.00017610234146,
+            "LogScale": 40,
+            "QPrimes": [
+              1125899908022273,
+              1073872897
+            ]
+          },
+          "StC": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "SSE": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "Lift": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "CtSReal": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "Output": {
+            "Level": 1,
+            "LogQ": 80.00017610234146,
+            "LogScale": 30,
+            "QPrimes": [
+              1125899908022273,
+              1073872897
+            ]
+          },
+          "InputMetrics": {
+            "MaxAbsError": 2.3692645863049075e-21,
+            "MeanAbsError": 4.245597906174169e-22,
+            "RMSError": 5.311928131652764e-22,
+            "MaxErrorBits": 68.51605067289347,
+            "MeanErrorBits": 70.9964503451618,
+            "RMSBits": 70.67318245981484,
+            "GuardMax": 0.0000021854000740420225,
+            "DataMax": 2.3692645863049075e-21,
+            "DataSlots": 1024
+          },
+          "OutputMetrics": {
+            "MaxAbsError": 0,
+            "MeanAbsError": 0,
+            "RMSError": 0,
+            "MaxErrorBits": 999,
+            "MeanErrorBits": 999,
+            "RMSBits": 999,
+            "GuardMax": 0,
+            "DataMax": 0,
+            "DataSlots": 1024
+          },
+          "Beta": 0,
+          "EntrySeconds": 0,
+          "StCSeconds": 0,
+          "SSESeconds": 0,
+          "LiftTraceSeconds": 0,
+          "CtSSeconds": 0,
+          "EvalModSeconds": 0,
+          "OnlineSeconds": 0,
+          "Arithmetic": {
+            "SubunitCoefficientProducts": 0,
+            "MinCoefficientLogScale": 0,
+            "Rescales": 0,
+            "Relinearizations": 0,
+            "EncodedConstants": 0,
+            "CoefficientProducts": 0,
+            "ScaleAlignments": 0,
+            "MinAlignmentLogRatio": 0
+          },
+          "Stages": null,
+          "ReadoutDiagnosticsAvailable": false,
+          "CarryDomainCovered": false,
+          "MaxCarryAbs": 0,
+          "ReadoutMessageError": 0,
+          "PureApproximationError": 0,
+          "OracleVsMessageError": 0
+        },
+        {
+          "Skipped": true,
+          "SkipReason": "public layout guarantees ideal branch message zero",
+          "Index": 3,
+          "Input": {
+            "Level": 1,
+            "LogQ": 80.00017610234146,
+            "LogScale": 40,
+            "QPrimes": [
+              1125899908022273,
+              1073872897
+            ]
+          },
+          "StC": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "SSE": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "Lift": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "CtSReal": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "Output": {
+            "Level": 1,
+            "LogQ": 80.00017610234146,
+            "LogScale": 30,
+            "QPrimes": [
+              1125899908022273,
+              1073872897
+            ]
+          },
+          "InputMetrics": {
+            "MaxAbsError": 2.0985724897199225e-21,
+            "MeanAbsError": 4.34686529878165e-22,
+            "RMSError": 5.50454341042914e-22,
+            "MaxErrorBits": 68.69108169440807,
+            "MeanErrorBits": 70.96244269763191,
+            "RMSBits": 70.62179518709809,
+            "GuardMax": 0.0000024094395540787523,
+            "DataMax": 2.0985724897199225e-21,
+            "DataSlots": 1024
+          },
+          "OutputMetrics": {
+            "MaxAbsError": 0,
+            "MeanAbsError": 0,
+            "RMSError": 0,
+            "MaxErrorBits": 999,
+            "MeanErrorBits": 999,
+            "RMSBits": 999,
+            "GuardMax": 0,
+            "DataMax": 0,
+            "DataSlots": 1024
+          },
+          "Beta": 0,
+          "EntrySeconds": 0,
+          "StCSeconds": 0,
+          "SSESeconds": 0,
+          "LiftTraceSeconds": 0,
+          "CtSSeconds": 0,
+          "EvalModSeconds": 0,
+          "OnlineSeconds": 0,
+          "Arithmetic": {
+            "SubunitCoefficientProducts": 0,
+            "MinCoefficientLogScale": 0,
+            "Rescales": 0,
+            "Relinearizations": 0,
+            "EncodedConstants": 0,
+            "CoefficientProducts": 0,
+            "ScaleAlignments": 0,
+            "MinAlignmentLogRatio": 0
+          },
+          "Stages": null,
+          "ReadoutDiagnosticsAvailable": false,
+          "CarryDomainCovered": false,
+          "MaxCarryAbs": 0,
+          "ReadoutMessageError": 0,
+          "PureApproximationError": 0,
+          "OracleVsMessageError": 0
+        }
+      ]
+    },
+    {
+      "SerialOnlineSeconds": 4.717956551,
+      "ParallelOnlineSeconds": 3.679804349,
+      "SerialApplicationSeconds": 0,
+      "SerialPipelineSeconds": 4.717956551,
+      "ParallelPipelineSeconds": 3.679804349,
+      "PairedCiphertextsEqual": true,
+      "TimingOrder": "parallel,serial",
+      "RefreshedBranches": 1,
+      "SkippedBranchIndices": [
+        1,
+        2,
+        3
+      ],
+      "ApplicationChain": {
+        "Scope": "",
+        "Error": "",
+        "Options": {
+          "Steps": 0,
+          "PhaseRadians": 0,
+          "ShapeFactor": false,
+          "R": 0,
+          "OutputBits": 0,
+          "TargetBits": 0
+        },
+        "Initial": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "Final": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "InitialMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "FinalMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "RequestedSteps": 0,
+        "ExecutedSteps": 0,
+        "InitialMeetsTarget": false,
+        "EveryOutputMeetsTarget": false,
+        "ReachedLevelZero": false,
+        "FactorGenerationSeconds": 0,
+        "ArithmeticSeconds": 0,
+        "DiagnosticsSeconds": 0,
+        "Steps": null
+      },
+      "Frontend": {
+        "Scope": "",
+        "Error": "",
+        "Seed": 0,
+        "R": 0,
+        "Groups": 0,
+        "SamplesPerGroup": 0,
+        "TotalSamples": 0,
+        "Targets": null,
+        "IndependentMeanSquares": null,
+        "TargetNormalizationMaxError": 0,
+        "InputMaxMagnitude": 0,
+        "QPrimes": null,
+        "PPrimes": null,
+        "RotationOffsets": null,
+        "RelinearizationKeyLevel": 0,
+        "RotationKeyLevel": 0,
+        "RelinearizationKeyBytes": 0,
+        "RotationKeyBytes": 0,
+        "KeyBytes": 0,
+        "FullLogQ": 0,
+        "FullLogQP": 0,
+        "MaskLogScale": 0,
+        "Input": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "AfterSquare": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "BeforeMask": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "BeforeFinalRescale": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "Output": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "InputMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "SquaredMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "SumDataMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "MaskMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "OutputMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "MeanSquareMaxAbsError": 0,
+        "MeanSquareWorstBits": 0,
+        "IdealOddBranchIsZero": false,
+        "SetupSeconds": 0,
+        "KeygenSeconds": 0,
+        "MaskSetupSeconds": 0,
+        "InputGenerationSeconds": 0,
+        "EncodingEncryptionSeconds": 0,
+        "DiagnosticsSeconds": 0,
+        "SquareRelinearizeSeconds": 0,
+        "SquareRescaleSeconds": 0,
+        "ReductionSeconds": 0,
+        "MaskMultiplySeconds": 0,
+        "FinalRescaleSeconds": 0,
+        "OnlineSeconds": 0,
+        "FinalArithmetic": {
+          "SubunitCoefficientProducts": 0,
+          "MinCoefficientLogScale": 0,
+          "Rescales": 0,
+          "Relinearizations": 0,
+          "EncodedConstants": 0,
+          "CoefficientProducts": 0,
+          "ScaleAlignments": 0,
+          "MinAlignmentLogRatio": 0
+        }
+      },
+      "InverseSqrt": {
+        "Scope": "",
+        "Error": "",
+        "Options": {
+          "Iterations": 0,
+          "R": 0,
+          "TargetBits": 0,
+          "InputDivisor": 0,
+          "LowerBound": 0,
+          "UpperBound": 0,
+          "SeedSquare": 0,
+          "MinConstantLogScale": 0
+        },
+        "Initial": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "Final": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "InitialMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "FinalMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "FinalCircuitMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "RequiredLevels": 0,
+        "ConsumedLevels": 0,
+        "Completed": false,
+        "MeetsTarget": false,
+        "InitialResidualLower": 0,
+        "InitialResidualUpper": 0,
+        "IdealTruncationBound": 0,
+        "ActualReferenceTruncationMax": 0,
+        "MinObservedConstantLogScale": 0,
+        "SeedConstantEncodingMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "ArithmeticSeconds": 0,
+        "DiagnosticsSeconds": 0,
+        "TotalSeconds": 0,
+        "Arithmetic": {
+          "SubunitCoefficientProducts": 0,
+          "MinCoefficientLogScale": 0,
+          "Rescales": 0,
+          "Relinearizations": 0,
+          "EncodedConstants": 0,
+          "CoefficientProducts": 0,
+          "ScaleAlignments": 0,
+          "MinAlignmentLogRatio": 0
+        },
+        "Stages": null
+      },
+      "OutputLocation": "top-ring bootstrap output before application",
+      "Final": {
+        "Level": 0,
+        "LogQ": 0,
+        "LogScale": 0,
+        "QPrimes": null
+      },
+      "FinalMetrics": {
+        "MaxAbsError": 0,
+        "MeanAbsError": 0,
+        "RMSError": 0,
+        "MaxErrorBits": 0,
+        "MeanErrorBits": 0,
+        "RMSBits": 0,
+        "GuardMax": 0,
+        "DataMax": 0,
+        "DataSlots": 0
+      },
+      "FinalMeetsTarget": false,
+      "PipelineOnlineSeconds": 3.679804349,
+      "Index": 2,
+      "Error": "",
+      "Initial": {
+        "Level": 1,
+        "LogQ": 80.00017610234146,
+        "LogScale": 40,
+        "QPrimes": [
+          1125899908022273,
+          1073872897
+        ]
+      },
+      "PreBootstrap": {
+        "Level": 1,
+        "LogQ": 80.00017610234146,
+        "LogScale": 40,
+        "QPrimes": [
+          1125899908022273,
+          1073872897
+        ]
+      },
+      "InternalMaximum": {
+        "Level": 11,
+        "LogQ": 368.11164904708335,
+        "LogScale": 25,
+        "QPrimes": [
+          1125899908022273,
+          1073872897,
+          35389441,
+          36175873,
+          37224449,
+          38535169,
+          39714817,
+          40370177,
+          41680897,
+          42729473,
+          44433409,
+          2305843009218281473
+        ]
+      },
+      "Output": {
+        "Level": 1,
+        "LogQ": 80.00017610234146,
+        "LogScale": 30,
+        "QPrimes": [
+          1125899908022273,
+          1073872897
+        ]
+      },
+      "AfterSquare": {
+        "Level": 0,
+        "LogQ": 0,
+        "LogScale": 0,
+        "QPrimes": null
+      },
+      "InputMetrics": {
+        "MaxAbsError": 3.2529562257559697e-12,
+        "MeanAbsError": 1.7607274691033762e-12,
+        "RMSError": 2.0009808567595676e-12,
+        "MaxErrorBits": 38.16138573013641,
+        "MeanErrorBits": 39.04696551704323,
+        "RMSBits": 38.86242977349872,
+        "GuardMax": 3.4315655358398957e-7,
+        "DataMax": 0.10394496353465647,
+        "DataSlots": 4096
+      },
+      "OutputMetrics": {
+        "MaxAbsError": 4.684700908493145e-9,
+        "MeanAbsError": 2.373357150823332e-9,
+        "RMSError": 2.760697280445075e-9,
+        "MaxErrorBits": 27.669395911034083,
+        "MeanErrorBits": 28.650423635481072,
+        "RMSBits": 28.432320153653304,
+        "GuardMax": 0.013240885072388166,
+        "DataMax": 0.10394495974246362,
+        "DataSlots": 4096
+      },
+      "SquareMetrics": {
+        "MaxAbsError": 0,
+        "MeanAbsError": 0,
+        "RMSError": 0,
+        "MaxErrorBits": 0,
+        "MeanErrorBits": 0,
+        "RMSBits": 0,
+        "GuardMax": 0,
+        "DataMax": 0,
+        "DataSlots": 0
+      },
+      "InitialQGreaterThanOutputQ": false,
+      "PreBootstrapQGreaterThanOutputQ": false,
+      "MeetsTarget": true,
+      "SquareMeetsTarget": false,
+      "OutputMinusInputQBits": 0,
+      "EntrySplitSeconds": 0.071090549,
+      "LeafsSeconds": 3.541948766,
+      "MergeReturnSeconds": 0.066765034,
+      "OnlineSeconds": 3.679804349,
+      "SquareSeconds": 0,
+      "Branches": [
+        {
+          "Skipped": false,
+          "SkipReason": "",
+          "Index": 0,
+          "Input": {
+            "Level": 1,
+            "LogQ": 80.00017610234146,
+            "LogScale": 40,
+            "QPrimes": [
+              1125899908022273,
+              1073872897
+            ]
+          },
+          "StC": {
+            "Level": 0,
+            "LogQ": 50.000000001511566,
+            "LogScale": 40,
+            "QPrimes": [
+              1125899908022273
+            ]
+          },
+          "SSE": {
+            "Level": 0,
+            "LogQ": 50.000000001511566,
+            "LogScale": 40,
+            "QPrimes": [
+              1125899908022273
+            ]
+          },
+          "Lift": {
+            "Level": 11,
+            "LogQ": 368.11164904708335,
+            "LogScale": 25,
+            "QPrimes": [
+              1125899908022273,
+              1073872897,
+              35389441,
+              36175873,
+              37224449,
+              38535169,
+              39714817,
+              40370177,
+              41680897,
+              42729473,
+              44433409,
+              2305843009218281473
+            ]
+          },
+          "CtSReal": {
+            "Level": 10,
+            "LogQ": 307.1116490470805,
+            "LogScale": 25,
+            "QPrimes": [
+              1125899908022273,
+              1073872897,
+              35389441,
+              36175873,
+              37224449,
+              38535169,
+              39714817,
+              40370177,
+              41680897,
+              42729473,
+              44433409
+            ]
+          },
+          "Output": {
+            "Level": 1,
+            "LogQ": 80.00017610234146,
+            "LogScale": 30,
+            "QPrimes": [
+              1125899908022273,
+              1073872897
+            ]
+          },
+          "InputMetrics": {
+            "MaxAbsError": 1.5515838457795457e-17,
+            "MeanAbsError": 8.817465834687622e-18,
+            "RMSError": 1.0207635341100678e-17,
+            "MaxErrorBits": 55.839035952556316,
+            "MeanErrorBits": 56.654341627366044,
+            "RMSBits": 56.443128916975404,
+            "GuardMax": 0.000001988988197946699,
+            "DataMax": 0.10394496353465647,
+            "DataSlots": 1024
+          },
+          "OutputMetrics": {
+            "MaxAbsError": 4.685794651428189e-9,
+            "MeanAbsError": 2.3745335166274937e-9,
+            "RMSError": 2.761778522681831e-9,
+            "MaxErrorBits": 27.66905912254612,
+            "MeanErrorBits": 28.649708733952988,
+            "RMSBits": 28.43175522484655,
+            "GuardMax": 0.004534811181581832,
+            "DataMax": 0.10394495974246362,
+            "DataSlots": 1024
+          },
+          "Beta": 1024.0000010728845,
+          "EntrySeconds": 0,
+          "StCSeconds": 0.049421665,
+          "SSESeconds": 0.004666724,
+          "LiftTraceSeconds": 1.495898222,
+          "CtSSeconds": 0.702516932,
+          "EvalModSeconds": 1.289388818,
+          "OnlineSeconds": 3.541913956,
+          "Arithmetic": {
+            "SubunitCoefficientProducts": 0,
+            "MinCoefficientLogScale": 0,
+            "Rescales": 42,
+            "Relinearizations": 32,
+            "EncodedConstants": 86,
+            "CoefficientProducts": 46,
+            "ScaleAlignments": 2,
+            "MinAlignmentLogRatio": 24.594858504394956
+          },
+          "Stages": null,
+          "ReadoutDiagnosticsAvailable": false,
+          "CarryDomainCovered": false,
+          "MaxCarryAbs": 0,
+          "ReadoutMessageError": 0,
+          "PureApproximationError": 0,
+          "OracleVsMessageError": 0
+        },
+        {
+          "Skipped": true,
+          "SkipReason": "public layout guarantees ideal branch message zero",
+          "Index": 1,
+          "Input": {
+            "Level": 1,
+            "LogQ": 80.00017610234146,
+            "LogScale": 40,
+            "QPrimes": [
+              1125899908022273,
+              1073872897
+            ]
+          },
+          "StC": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "SSE": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "Lift": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "CtSReal": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "Output": {
+            "Level": 1,
+            "LogQ": 80.00017610234146,
+            "LogScale": 30,
+            "QPrimes": [
+              1125899908022273,
+              1073872897
+            ]
+          },
+          "InputMetrics": {
+            "MaxAbsError": 2.184030556847896e-21,
+            "MeanAbsError": 4.2050698405981748e-22,
+            "RMSError": 5.309672980974014e-22,
+            "MaxErrorBits": 68.63349695143887,
+            "MeanErrorBits": 71.01028832560328,
+            "RMSBits": 70.6737950783297,
+            "GuardMax": 0.000002748353404037614,
+            "DataMax": 2.184030556847896e-21,
+            "DataSlots": 1024
+          },
+          "OutputMetrics": {
+            "MaxAbsError": 0,
+            "MeanAbsError": 0,
+            "RMSError": 0,
+            "MaxErrorBits": 999,
+            "MeanErrorBits": 999,
+            "RMSBits": 999,
+            "GuardMax": 0,
+            "DataMax": 0,
+            "DataSlots": 1024
+          },
+          "Beta": 0,
+          "EntrySeconds": 0,
+          "StCSeconds": 0,
+          "SSESeconds": 0,
+          "LiftTraceSeconds": 0,
+          "CtSSeconds": 0,
+          "EvalModSeconds": 0,
+          "OnlineSeconds": 0,
+          "Arithmetic": {
+            "SubunitCoefficientProducts": 0,
+            "MinCoefficientLogScale": 0,
+            "Rescales": 0,
+            "Relinearizations": 0,
+            "EncodedConstants": 0,
+            "CoefficientProducts": 0,
+            "ScaleAlignments": 0,
+            "MinAlignmentLogRatio": 0
+          },
+          "Stages": null,
+          "ReadoutDiagnosticsAvailable": false,
+          "CarryDomainCovered": false,
+          "MaxCarryAbs": 0,
+          "ReadoutMessageError": 0,
+          "PureApproximationError": 0,
+          "OracleVsMessageError": 0
+        },
+        {
+          "Skipped": true,
+          "SkipReason": "public layout guarantees ideal branch message zero",
+          "Index": 2,
+          "Input": {
+            "Level": 1,
+            "LogQ": 80.00017610234146,
+            "LogScale": 40,
+            "QPrimes": [
+              1125899908022273,
+              1073872897
+            ]
+          },
+          "StC": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "SSE": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "Lift": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "CtSReal": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "Output": {
+            "Level": 1,
+            "LogQ": 80.00017610234146,
+            "LogScale": 30,
+            "QPrimes": [
+              1125899908022273,
+              1073872897
+            ]
+          },
+          "InputMetrics": {
+            "MaxAbsError": 2.15488571664049e-21,
+            "MeanAbsError": 4.231696374914967e-22,
+            "RMSError": 5.410704849386784e-22,
+            "MaxErrorBits": 68.65287863395041,
+            "MeanErrorBits": 71.00118197002249,
+            "RMSBits": 70.64660154218011,
+            "GuardMax": 0.000003120424359962706,
+            "DataMax": 2.15488571664049e-21,
+            "DataSlots": 1024
+          },
+          "OutputMetrics": {
+            "MaxAbsError": 0,
+            "MeanAbsError": 0,
+            "RMSError": 0,
+            "MaxErrorBits": 999,
+            "MeanErrorBits": 999,
+            "RMSBits": 999,
+            "GuardMax": 0,
+            "DataMax": 0,
+            "DataSlots": 1024
+          },
+          "Beta": 0,
+          "EntrySeconds": 0,
+          "StCSeconds": 0,
+          "SSESeconds": 0,
+          "LiftTraceSeconds": 0,
+          "CtSSeconds": 0,
+          "EvalModSeconds": 0,
+          "OnlineSeconds": 0,
+          "Arithmetic": {
+            "SubunitCoefficientProducts": 0,
+            "MinCoefficientLogScale": 0,
+            "Rescales": 0,
+            "Relinearizations": 0,
+            "EncodedConstants": 0,
+            "CoefficientProducts": 0,
+            "ScaleAlignments": 0,
+            "MinAlignmentLogRatio": 0
+          },
+          "Stages": null,
+          "ReadoutDiagnosticsAvailable": false,
+          "CarryDomainCovered": false,
+          "MaxCarryAbs": 0,
+          "ReadoutMessageError": 0,
+          "PureApproximationError": 0,
+          "OracleVsMessageError": 0
+        },
+        {
+          "Skipped": true,
+          "SkipReason": "public layout guarantees ideal branch message zero",
+          "Index": 3,
+          "Input": {
+            "Level": 1,
+            "LogQ": 80.00017610234146,
+            "LogScale": 40,
+            "QPrimes": [
+              1125899908022273,
+              1073872897
+            ]
+          },
+          "StC": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "SSE": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "Lift": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "CtSReal": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "Output": {
+            "Level": 1,
+            "LogQ": 80.00017610234146,
+            "LogScale": 30,
+            "QPrimes": [
+              1125899908022273,
+              1073872897
+            ]
+          },
+          "InputMetrics": {
+            "MaxAbsError": 2.95895905265681e-21,
+            "MeanAbsError": 4.3477621854739835e-22,
+            "RMSError": 5.520500573938802e-22,
+            "MaxErrorBits": 68.19540026059676,
+            "MeanErrorBits": 70.96214505774103,
+            "RMSBits": 70.61761899754818,
+            "GuardMax": 0.000003130244624961468,
+            "DataMax": 2.95895905265681e-21,
+            "DataSlots": 1024
+          },
+          "OutputMetrics": {
+            "MaxAbsError": 0,
+            "MeanAbsError": 0,
+            "RMSError": 0,
+            "MaxErrorBits": 999,
+            "MeanErrorBits": 999,
+            "RMSBits": 999,
+            "GuardMax": 0,
+            "DataMax": 0,
+            "DataSlots": 1024
+          },
+          "Beta": 0,
+          "EntrySeconds": 0,
+          "StCSeconds": 0,
+          "SSESeconds": 0,
+          "LiftTraceSeconds": 0,
+          "CtSSeconds": 0,
+          "EvalModSeconds": 0,
+          "OnlineSeconds": 0,
+          "Arithmetic": {
+            "SubunitCoefficientProducts": 0,
+            "MinCoefficientLogScale": 0,
+            "Rescales": 0,
+            "Relinearizations": 0,
+            "EncodedConstants": 0,
+            "CoefficientProducts": 0,
+            "ScaleAlignments": 0,
+            "MinAlignmentLogRatio": 0
+          },
+          "Stages": null,
+          "ReadoutDiagnosticsAvailable": false,
+          "CarryDomainCovered": false,
+          "MaxCarryAbs": 0,
+          "ReadoutMessageError": 0,
+          "PureApproximationError": 0,
+          "OracleVsMessageError": 0
+        }
+      ]
+    },
+    {
+      "SerialOnlineSeconds": 5.026176529,
+      "ParallelOnlineSeconds": 3.5635782930000004,
+      "SerialApplicationSeconds": 0,
+      "SerialPipelineSeconds": 5.026176529,
+      "ParallelPipelineSeconds": 3.5635782930000004,
+      "PairedCiphertextsEqual": true,
+      "TimingOrder": "serial,parallel",
+      "RefreshedBranches": 1,
+      "SkippedBranchIndices": [
+        1,
+        2,
+        3
+      ],
+      "ApplicationChain": {
+        "Scope": "",
+        "Error": "",
+        "Options": {
+          "Steps": 0,
+          "PhaseRadians": 0,
+          "ShapeFactor": false,
+          "R": 0,
+          "OutputBits": 0,
+          "TargetBits": 0
+        },
+        "Initial": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "Final": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "InitialMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "FinalMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "RequestedSteps": 0,
+        "ExecutedSteps": 0,
+        "InitialMeetsTarget": false,
+        "EveryOutputMeetsTarget": false,
+        "ReachedLevelZero": false,
+        "FactorGenerationSeconds": 0,
+        "ArithmeticSeconds": 0,
+        "DiagnosticsSeconds": 0,
+        "Steps": null
+      },
+      "Frontend": {
+        "Scope": "",
+        "Error": "",
+        "Seed": 0,
+        "R": 0,
+        "Groups": 0,
+        "SamplesPerGroup": 0,
+        "TotalSamples": 0,
+        "Targets": null,
+        "IndependentMeanSquares": null,
+        "TargetNormalizationMaxError": 0,
+        "InputMaxMagnitude": 0,
+        "QPrimes": null,
+        "PPrimes": null,
+        "RotationOffsets": null,
+        "RelinearizationKeyLevel": 0,
+        "RotationKeyLevel": 0,
+        "RelinearizationKeyBytes": 0,
+        "RotationKeyBytes": 0,
+        "KeyBytes": 0,
+        "FullLogQ": 0,
+        "FullLogQP": 0,
+        "MaskLogScale": 0,
+        "Input": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "AfterSquare": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "BeforeMask": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "BeforeFinalRescale": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "Output": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "InputMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "SquaredMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "SumDataMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "MaskMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "OutputMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "MeanSquareMaxAbsError": 0,
+        "MeanSquareWorstBits": 0,
+        "IdealOddBranchIsZero": false,
+        "SetupSeconds": 0,
+        "KeygenSeconds": 0,
+        "MaskSetupSeconds": 0,
+        "InputGenerationSeconds": 0,
+        "EncodingEncryptionSeconds": 0,
+        "DiagnosticsSeconds": 0,
+        "SquareRelinearizeSeconds": 0,
+        "SquareRescaleSeconds": 0,
+        "ReductionSeconds": 0,
+        "MaskMultiplySeconds": 0,
+        "FinalRescaleSeconds": 0,
+        "OnlineSeconds": 0,
+        "FinalArithmetic": {
+          "SubunitCoefficientProducts": 0,
+          "MinCoefficientLogScale": 0,
+          "Rescales": 0,
+          "Relinearizations": 0,
+          "EncodedConstants": 0,
+          "CoefficientProducts": 0,
+          "ScaleAlignments": 0,
+          "MinAlignmentLogRatio": 0
+        }
+      },
+      "InverseSqrt": {
+        "Scope": "",
+        "Error": "",
+        "Options": {
+          "Iterations": 0,
+          "R": 0,
+          "TargetBits": 0,
+          "InputDivisor": 0,
+          "LowerBound": 0,
+          "UpperBound": 0,
+          "SeedSquare": 0,
+          "MinConstantLogScale": 0
+        },
+        "Initial": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "Final": {
+          "Level": 0,
+          "LogQ": 0,
+          "LogScale": 0,
+          "QPrimes": null
+        },
+        "InitialMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "FinalMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "FinalCircuitMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "RequiredLevels": 0,
+        "ConsumedLevels": 0,
+        "Completed": false,
+        "MeetsTarget": false,
+        "InitialResidualLower": 0,
+        "InitialResidualUpper": 0,
+        "IdealTruncationBound": 0,
+        "ActualReferenceTruncationMax": 0,
+        "MinObservedConstantLogScale": 0,
+        "SeedConstantEncodingMetrics": {
+          "MaxAbsError": 0,
+          "MeanAbsError": 0,
+          "RMSError": 0,
+          "MaxErrorBits": 0,
+          "MeanErrorBits": 0,
+          "RMSBits": 0,
+          "GuardMax": 0,
+          "DataMax": 0,
+          "DataSlots": 0
+        },
+        "ArithmeticSeconds": 0,
+        "DiagnosticsSeconds": 0,
+        "TotalSeconds": 0,
+        "Arithmetic": {
+          "SubunitCoefficientProducts": 0,
+          "MinCoefficientLogScale": 0,
+          "Rescales": 0,
+          "Relinearizations": 0,
+          "EncodedConstants": 0,
+          "CoefficientProducts": 0,
+          "ScaleAlignments": 0,
+          "MinAlignmentLogRatio": 0
+        },
+        "Stages": null
+      },
+      "OutputLocation": "top-ring bootstrap output before application",
+      "Final": {
+        "Level": 0,
+        "LogQ": 0,
+        "LogScale": 0,
+        "QPrimes": null
+      },
+      "FinalMetrics": {
+        "MaxAbsError": 0,
+        "MeanAbsError": 0,
+        "RMSError": 0,
+        "MaxErrorBits": 0,
+        "MeanErrorBits": 0,
+        "RMSBits": 0,
+        "GuardMax": 0,
+        "DataMax": 0,
+        "DataSlots": 0
+      },
+      "FinalMeetsTarget": false,
+      "PipelineOnlineSeconds": 3.5635782930000004,
+      "Index": 3,
+      "Error": "",
+      "Initial": {
+        "Level": 1,
+        "LogQ": 80.00017610234146,
+        "LogScale": 40,
+        "QPrimes": [
+          1125899908022273,
+          1073872897
+        ]
+      },
+      "PreBootstrap": {
+        "Level": 1,
+        "LogQ": 80.00017610234146,
+        "LogScale": 40,
+        "QPrimes": [
+          1125899908022273,
+          1073872897
+        ]
+      },
+      "InternalMaximum": {
+        "Level": 11,
+        "LogQ": 368.11164904708335,
+        "LogScale": 25,
+        "QPrimes": [
+          1125899908022273,
+          1073872897,
+          35389441,
+          36175873,
+          37224449,
+          38535169,
+          39714817,
+          40370177,
+          41680897,
+          42729473,
+          44433409,
+          2305843009218281473
+        ]
+      },
+      "Output": {
+        "Level": 1,
+        "LogQ": 80.00017610234146,
+        "LogScale": 30,
+        "QPrimes": [
+          1125899908022273,
+          1073872897
+        ]
+      },
+      "AfterSquare": {
+        "Level": 0,
+        "LogQ": 0,
+        "LogScale": 0,
+        "QPrimes": null
+      },
+      "InputMetrics": {
+        "MaxAbsError": 4.4943414637993e-12,
+        "MeanAbsError": 3.0803217013461328e-12,
+        "RMSError": 3.334304133276826e-12,
+        "MaxErrorBits": 37.69502739921834,
+        "MeanErrorBits": 38.240056108280044,
+        "RMSBits": 38.125751435176234,
+        "GuardMax": 3.4126290567436817e-7,
+        "DataMax": 0.12932708924895286,
+        "DataSlots": 4096
+      },
+      "OutputMetrics": {
+        "MaxAbsError": 7.204836696064771e-9,
+        "MeanAbsError": 3.1613449750108072e-9,
+        "RMSError": 3.936265596999699e-9,
+        "MaxErrorBits": 27.048387123162577,
+        "MeanErrorBits": 28.236814379141997,
+        "RMSBits": 27.920525285101082,
+        "GuardMax": 0.014932201451021426,
+        "DataMax": 0.1293270821333415,
+        "DataSlots": 4096
+      },
+      "SquareMetrics": {
+        "MaxAbsError": 0,
+        "MeanAbsError": 0,
+        "RMSError": 0,
+        "MaxErrorBits": 0,
+        "MeanErrorBits": 0,
+        "RMSBits": 0,
+        "GuardMax": 0,
+        "DataMax": 0,
+        "DataSlots": 0
+      },
+      "InitialQGreaterThanOutputQ": false,
+      "PreBootstrapQGreaterThanOutputQ": false,
+      "MeetsTarget": true,
+      "SquareMeetsTarget": false,
+      "OutputMinusInputQBits": 0,
+      "EntrySplitSeconds": 0.066151522,
+      "LeafsSeconds": 3.433706275,
+      "MergeReturnSeconds": 0.063720496,
+      "OnlineSeconds": 3.5635782930000004,
+      "SquareSeconds": 0,
+      "Branches": [
+        {
+          "Skipped": false,
+          "SkipReason": "",
+          "Index": 0,
+          "Input": {
+            "Level": 1,
+            "LogQ": 80.00017610234146,
+            "LogScale": 40,
+            "QPrimes": [
+              1125899908022273,
+              1073872897
+            ]
+          },
+          "StC": {
+            "Level": 0,
+            "LogQ": 50.000000001511566,
+            "LogScale": 40,
+            "QPrimes": [
+              1125899908022273
+            ]
+          },
+          "SSE": {
+            "Level": 0,
+            "LogQ": 50.000000001511566,
+            "LogScale": 40,
+            "QPrimes": [
+              1125899908022273
+            ]
+          },
+          "Lift": {
+            "Level": 11,
+            "LogQ": 368.11164904708335,
+            "LogScale": 25,
+            "QPrimes": [
+              1125899908022273,
+              1073872897,
+              35389441,
+              36175873,
+              37224449,
+              38535169,
+              39714817,
+              40370177,
+              41680897,
+              42729473,
+              44433409,
+              2305843009218281473
+            ]
+          },
+          "CtSReal": {
+            "Level": 10,
+            "LogQ": 307.1116490470805,
+            "LogScale": 25,
+            "QPrimes": [
+              1125899908022273,
+              1073872897,
+              35389441,
+              36175873,
+              37224449,
+              38535169,
+              39714817,
+              40370177,
+              41680897,
+              42729473,
+              44433409
+            ]
+          },
+          "Output": {
+            "Level": 1,
+            "LogQ": 80.00017610234146,
+            "LogScale": 30,
+            "QPrimes": [
+              1125899908022273,
+              1073872897
+            ]
+          },
+          "InputMetrics": {
+            "MaxAbsError": 1.3877787807814457e-17,
+            "MeanAbsError": 6.531907312261019e-18,
+            "RMSError": 8.951072279456083e-18,
+            "MaxErrorBits": 56,
+            "MeanErrorBits": 57.087201388764605,
+            "RMSBits": 56.63264518988708,
+            "GuardMax": 0.0000022753465469708392,
+            "DataMax": 0.12932708924895286,
+            "DataSlots": 1024
+          },
+          "OutputMetrics": {
+            "MaxAbsError": 7.2011519303374874e-9,
+            "MeanAbsError": 3.162069852095287e-9,
+            "RMSError": 3.936445045427527e-9,
+            "MaxErrorBits": 27.04912514864564,
+            "MeanErrorBits": 28.236483615904664,
+            "RMSBits": 27.92045951630334,
+            "GuardMax": 0.003752820821186627,
+            "DataMax": 0.1293270821333415,
+            "DataSlots": 1024
+          },
+          "Beta": 1024.0000010728845,
+          "EntrySeconds": 0,
+          "StCSeconds": 0.048480144,
+          "SSESeconds": 0.004185348,
+          "LiftTraceSeconds": 1.483099174,
+          "CtSSeconds": 0.695285967,
+          "EvalModSeconds": 1.202605469,
+          "OnlineSeconds": 3.4336707029999998,
+          "Arithmetic": {
+            "SubunitCoefficientProducts": 0,
+            "MinCoefficientLogScale": 0,
+            "Rescales": 42,
+            "Relinearizations": 32,
+            "EncodedConstants": 86,
+            "CoefficientProducts": 46,
+            "ScaleAlignments": 2,
+            "MinAlignmentLogRatio": 24.594858504394956
+          },
+          "Stages": null,
+          "ReadoutDiagnosticsAvailable": false,
+          "CarryDomainCovered": false,
+          "MaxCarryAbs": 0,
+          "ReadoutMessageError": 0,
+          "PureApproximationError": 0,
+          "OracleVsMessageError": 0
+        },
+        {
+          "Skipped": true,
+          "SkipReason": "public layout guarantees ideal branch message zero",
+          "Index": 1,
+          "Input": {
+            "Level": 1,
+            "LogQ": 80.00017610234146,
+            "LogScale": 40,
+            "QPrimes": [
+              1125899908022273,
+              1073872897
+            ]
+          },
+          "StC": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "SSE": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "Lift": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "CtSReal": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "Output": {
+            "Level": 1,
+            "LogQ": 80.00017610234146,
+            "LogScale": 30,
+            "QPrimes": [
+              1125899908022273,
+              1073872897
+            ]
+          },
+          "InputMetrics": {
+            "MaxAbsError": 2.0488531367831793e-21,
+            "MeanAbsError": 4.209269529972325e-22,
+            "RMSError": 5.253536991251034e-22,
+            "MaxErrorBits": 68.72567341796247,
+            "MeanErrorBits": 71.00884819554206,
+            "RMSBits": 70.68912903015294,
+            "GuardMax": 0.0000032893780133869805,
+            "DataMax": 2.0488531367831793e-21,
+            "DataSlots": 1024
+          },
+          "OutputMetrics": {
+            "MaxAbsError": 0,
+            "MeanAbsError": 0,
+            "RMSError": 0,
+            "MaxErrorBits": 999,
+            "MeanErrorBits": 999,
+            "RMSBits": 999,
+            "GuardMax": 0,
+            "DataMax": 0,
+            "DataSlots": 1024
+          },
+          "Beta": 0,
+          "EntrySeconds": 0,
+          "StCSeconds": 0,
+          "SSESeconds": 0,
+          "LiftTraceSeconds": 0,
+          "CtSSeconds": 0,
+          "EvalModSeconds": 0,
+          "OnlineSeconds": 0,
+          "Arithmetic": {
+            "SubunitCoefficientProducts": 0,
+            "MinCoefficientLogScale": 0,
+            "Rescales": 0,
+            "Relinearizations": 0,
+            "EncodedConstants": 0,
+            "CoefficientProducts": 0,
+            "ScaleAlignments": 0,
+            "MinAlignmentLogRatio": 0
+          },
+          "Stages": null,
+          "ReadoutDiagnosticsAvailable": false,
+          "CarryDomainCovered": false,
+          "MaxCarryAbs": 0,
+          "ReadoutMessageError": 0,
+          "PureApproximationError": 0,
+          "OracleVsMessageError": 0
+        },
+        {
+          "Skipped": true,
+          "SkipReason": "public layout guarantees ideal branch message zero",
+          "Index": 2,
+          "Input": {
+            "Level": 1,
+            "LogQ": 80.00017610234146,
+            "LogScale": 40,
+            "QPrimes": [
+              1125899908022273,
+              1073872897
+            ]
+          },
+          "StC": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "SSE": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "Lift": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "CtSReal": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "Output": {
+            "Level": 1,
+            "LogQ": 80.00017610234146,
+            "LogScale": 30,
+            "QPrimes": [
+              1125899908022273,
+              1073872897
+            ]
+          },
+          "InputMetrics": {
+            "MaxAbsError": 2.320683873793388e-21,
+            "MeanAbsError": 4.225800319489067e-22,
+            "RMSError": 5.355834579214722e-22,
+            "MaxErrorBits": 68.54593998213343,
+            "MeanErrorBits": 71.00319348988684,
+            "RMSBits": 70.66130668537954,
+            "GuardMax": 0.0000025604807126580525,
+            "DataMax": 2.320683873793388e-21,
+            "DataSlots": 1024
+          },
+          "OutputMetrics": {
+            "MaxAbsError": 0,
+            "MeanAbsError": 0,
+            "RMSError": 0,
+            "MaxErrorBits": 999,
+            "MeanErrorBits": 999,
+            "RMSBits": 999,
+            "GuardMax": 0,
+            "DataMax": 0,
+            "DataSlots": 1024
+          },
+          "Beta": 0,
+          "EntrySeconds": 0,
+          "StCSeconds": 0,
+          "SSESeconds": 0,
+          "LiftTraceSeconds": 0,
+          "CtSSeconds": 0,
+          "EvalModSeconds": 0,
+          "OnlineSeconds": 0,
+          "Arithmetic": {
+            "SubunitCoefficientProducts": 0,
+            "MinCoefficientLogScale": 0,
+            "Rescales": 0,
+            "Relinearizations": 0,
+            "EncodedConstants": 0,
+            "CoefficientProducts": 0,
+            "ScaleAlignments": 0,
+            "MinAlignmentLogRatio": 0
+          },
+          "Stages": null,
+          "ReadoutDiagnosticsAvailable": false,
+          "CarryDomainCovered": false,
+          "MaxCarryAbs": 0,
+          "ReadoutMessageError": 0,
+          "PureApproximationError": 0,
+          "OracleVsMessageError": 0
+        },
+        {
+          "Skipped": true,
+          "SkipReason": "public layout guarantees ideal branch message zero",
+          "Index": 3,
+          "Input": {
+            "Level": 1,
+            "LogQ": 80.00017610234146,
+            "LogScale": 40,
+            "QPrimes": [
+              1125899908022273,
+              1073872897
+            ]
+          },
+          "StC": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "SSE": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "Lift": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "CtSReal": {
+            "Level": 0,
+            "LogQ": 0,
+            "LogScale": 0,
+            "QPrimes": null
+          },
+          "Output": {
+            "Level": 1,
+            "LogQ": 80.00017610234146,
+            "LogScale": 30,
+            "QPrimes": [
+              1125899908022273,
+              1073872897
+            ]
+          },
+          "InputMetrics": {
+            "MaxAbsError": 2.0560623994496403e-21,
+            "MeanAbsError": 4.1966511788118778e-22,
+            "RMSError": 5.346004431104094e-22,
+            "MaxErrorBits": 68.72060594307827,
+            "MeanErrorBits": 71.01317953459412,
+            "RMSBits": 70.66395705414426,
+            "GuardMax": 0.000003583963347816204,
+            "DataMax": 2.0560623994496403e-21,
+            "DataSlots": 1024
+          },
+          "OutputMetrics": {
+            "MaxAbsError": 0,
+            "MeanAbsError": 0,
+            "RMSError": 0,
+            "MaxErrorBits": 999,
+            "MeanErrorBits": 999,
+            "RMSBits": 999,
+            "GuardMax": 0,
+            "DataMax": 0,
+            "DataSlots": 1024
+          },
+          "Beta": 0,
+          "EntrySeconds": 0,
+          "StCSeconds": 0,
+          "SSESeconds": 0,
+          "LiftTraceSeconds": 0,
+          "CtSSeconds": 0,
+          "EvalModSeconds": 0,
+          "OnlineSeconds": 0,
+          "Arithmetic": {
+            "SubunitCoefficientProducts": 0,
+            "MinCoefficientLogScale": 0,
+            "Rescales": 0,
+            "Relinearizations": 0,
+            "EncodedConstants": 0,
+            "CoefficientProducts": 0,
+            "ScaleAlignments": 0,
+            "MinAlignmentLogRatio": 0
+          },
+          "Stages": null,
+          "ReadoutDiagnosticsAvailable": false,
+          "CarryDomainCovered": false,
+          "MaxCarryAbs": 0,
+          "ReadoutMessageError": 0,
+          "PureApproximationError": 0,
+          "OracleVsMessageError": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "period": 1,
+  "coefficients": [
+    "1"
+  ],
+  "inverse_coefficients": [
+    "1"
+  ],
+  "embedding_intervals": [
+    {
+      "lower": "1",
+      "upper": "1"
+    }
+  ],
+  "actual_log2_weights_display": [
+    0.0
+  ],
+  "coefficient_bits": 1,
+  "target_bits": [
+    "20"
+  ],
+  "mean_target_bits": "20",
+  "target_log2_weights": [
+    "0"
+  ],
+  "inverse_identity_pass": true
+}

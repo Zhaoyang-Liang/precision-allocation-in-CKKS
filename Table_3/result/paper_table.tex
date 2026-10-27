@@ -1,0 +1,33 @@
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Eight squarings with 8192 high-precision outputs at an 80-bit target.
+Logarithms, security, and precision are in bits.
+Output storage is measured before conversion to ordinary CKKS.}
+\label{tab:exp-tuple}
+\setlength{\tabcolsep}{1.5pt}
+\renewcommand{\arraystretch}{1.14}
+\setlength{\extrarowheight}{1pt}
+\setlength{\arrayrulewidth}{0.3pt}
+\setlength{\doublerulesep}{1.4pt}
+\arrayrulecolor{black!50}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}|c||c|c|c|c|c|c|c|c|}
+\hline
+\multirow{2}{*}{\textbf{Method}}
+ & \multicolumn{4}{c|}{\textbf{Parameters}}
+ & \multicolumn{2}{c|}{\textbf{Performance}}
+ & \multicolumn{2}{c|}{\textbf{Storage (MiB)}}\\
+\cline{2-9}
+ & \(\log_2Q\) & \(\log_2(QP)\) & \(\log_2\Delta_0\)
+ & Security & Precision & Time (s)
+ & Keys & Output\\
+\hline
+\noalign{\vskip2pt}
+\hline
+Two classes & 680 & 720 & 70 & 132.54 & 80.61
+ & \(\mathbf{1.099}\pm0.037\) & \textbf{112.50} & \textbf{1.00}\\
+Tuple CKKS  & 622 & 682 & 100 & 138.04 & 80.12
+ & \(1.548\pm0.023\) & 127.00 & 2.00\\
+\hline
+\end{tabular*}
+\end{table}

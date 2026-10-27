@@ -1,0 +1,54 @@
+{
+  "repeat": 9,
+  "seed": "202610190109",
+  "node": "cpu2",
+  "job": "145956",
+  "array_job": "145947",
+  "affinity": [
+    32
+  ],
+  "cpu_models": [
+    "Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz"
+  ],
+  "manifest_sha256": "1c0f2ee44ecabc8a1c74c06aec2f123ce238f58e8c9de8b76dd99032f797da32",
+  "build_sha256": "7d32738358af92e3838f54aa738430781fedfbdc32a2a7757b20a79162f7f495",
+  "started_at": "2026-10-17T09:36:40.095941+08:00",
+  "tasks": [
+    {
+      "repeat": 9,
+      "seed": "202610190109",
+      "row": "new_unit",
+      "binary": "precisionbench-formal",
+      "security_case": "fewer_s70",
+      "case": "fewer_s70",
+      "config": "tuple14-comparison/configs/new_unit_9.json",
+      "config_sha256": "ea58d67c76b29b3968dba630814e79acffa15f5e577446c68c4717b91f8836a0",
+      "output": "tuple14-comparison/results/r09/new_unit",
+      "returncode": 0,
+      "process_wall_seconds": 179.43696179799736,
+      "report_present": true,
+      "report_sha256": "200a32d11c91ddf44af0ecc5bef2225ca18f15f2dd06240cc66ea9ffb4adaf05",
+      "observed_targets_pass": true
+    },
+    {
+      "repeat": 9,
+      "seed": "202610190109",
+      "row": "tuple",
+      "binary": "tuplebench-formal",
+      "security_case": "tuple_base102",
+      "case": "tuple_t2_s100_div40_base102_depth8",
+      "config": "tuple14-comparison/configs/tuple_9.json",
+      "config_sha256": "d5bbda9f345ff5108f32ce2baa5537a091f8af2aefcd9f4b73443830e3c31900",
+      "output": "tuple14-comparison/results/r09/tuple",
+      "returncode": 0,
+      "process_wall_seconds": 299.17536016600206,
+      "report_present": true,
+      "report_sha256": "880cf4a730f4e5ae7df252f36c3a8a7a33ca91f32f067cc958dc877d7b499604",
+      "observed_targets_pass": true
+    }
+  ],
+  "finished": true,
+  "finished_at": "2026-10-17T09:44:38.758608+08:00",
+  "all_requested_runs_recorded": true,
+  "all_accuracy_pass": true
+}

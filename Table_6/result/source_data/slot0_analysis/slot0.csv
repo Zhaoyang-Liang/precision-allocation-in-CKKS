@@ -1,0 +1,41 @@
+quantity,meaning,real_display,imag_display,log2_magnitude_display
+fresh_encoding_error,slot embedding of encoding error,-6.1310292885E+1,-2.4755439014E-252,5.938057391431812
+fresh_decryption_noise,slot embedding of encryption noise,5.0901860341E+3,5.1455737048E+3,12.821351689937956
+fresh_restored_error,initial restored error,4.7396221953E-54,4.8496078635E-54,-176.6226072512536
+layer1_propagated,contribution of prior error after squaring,7.1094332930E-54,7.2744117952E-54,-176.0376447505323
+layer1_kappa,raw relinearization noise,1.1505417879E+27,-1.5945850280E+26,89.90809646254115
+layer1_key_switch_contribution,relinearization contribution to slot error,1.0949281466E-58,-1.5175077061E-59,-192.5272687886329
+layer1_rescale_numerator,rescale raw rounding numerator H,-6.5583722910E+31,3.2750031389E+30,105.69490527312996
+layer1_rescale_contribution,rescale contribution to slot error,6.2413608030E-54,-3.1166995885E-55,-176.74045997804387
+layer1_metadata_contribution,scale-metadata rounding contribution,3.6570831145E-309,0,-1024.6050879050224
+layer1_restored_error,directly measured cumulative restored error,1.3350903589E-53,6.9627266613E-54,-175.47171350564838
+layer1_normalized_residual,restored error divided by the slot weight,1.4303695070E-24,7.4596238642E-25,-79.03634825447455
+layer1_closure_residual,residual after subtracting the component sum from total error,5.0561597084E-309,3.5746615825E-310,-1024.1341427057926
+layer2_propagated,contribution of prior error after squaring,1.5019766537E-53,7.8330674939E-54,-175.30178850420634
+layer2_kappa,raw relinearization noise,-2.8334689544E+26,1.3951704780E+25,87.87444663447741
+layer2_key_switch_contribution,relinearization contribution to slot error,-2.6965074230E-59,1.3277320524E-60,-194.56091882092574
+layer2_rescale_numerator,rescale raw rounding numerator H,5.1246040791E+31,1.5287064559E+31,105.39870499076233
+layer2_rescale_contribution,rescale contribution to slot error,-4.8768958338E-54,-1.4548132950E-54,-177.03666046464082
+layer2_metadata_contribution,scale-metadata rounding contribution,-1.0023492165E-310,0,-1029.7943241869143
+layer2_restored_error,directly measured cumulative restored error,1.0142843738E-53,6.3782555267E-54,-175.80136501583024
+layer2_normalized_residual,restored error divided by the slot weight,1.0866691008E-24,6.8334417612E-25,-79.36599976465641
+layer2_closure_residual,residual after subtracting the component sum from total error,-1.9714046382E-310,-1.8093823118E-311,-1028.8124344381872
+layer3_propagated,contribution of prior error after squaring,6.4185183033E-54,4.0362398255E-54,-176.4615150129457
+layer3_kappa,raw relinearization noise,-3.1417369789E+26,1.0031512147E+27,89.7640931524918
+layer3_key_switch_contribution,relinearization contribution to slot error,-2.9898738896E-59,9.5466159148E-59,-192.67127268449758
+layer3_rescale_numerator,rescale raw rounding numerator H,-2.4453562514E+31,4.1908567330E+31,105.25838552458981
+layer3_rescale_contribution,rescale contribution to slot error,2.3271543277E-54,-3.9882820253E-54,-177.1769803123998
+layer3_metadata_contribution,scale-metadata rounding contribution,-2.3813254346E-310,0,-1028.5459446206603
+layer3_restored_error,directly measured cumulative restored error,8.7456427323E-54,4.8053266342E-56,-176.2555309326275
+layer3_normalized_residual,restored error divided by the slot weight,9.3697783077E-25,5.1482602980E-27,-79.82016568145366
+layer3_closure_residual,residual after subtracting the component sum from total error,-1.4054596297E-309,8.5480958125E-310,-1025.7576960844576
+layer4_propagated,contribution of prior error after squaring,1.7511035756E-54,9.6215051414E-57,-178.57583092685854
+layer4_kappa,raw relinearization noise,5.7763213081E+26,3.3528813024E+25,88.90270777892442
+layer4_key_switch_contribution,relinearization contribution to slot error,5.4971068838E-59,3.1908105358E-60,-193.53265875002626
+layer4_rescale_numerator,rescale raw rounding numerator H,8.7648389447E+29,5.3761016800E+31,105.40652307386017
+layer4_rescale_contribution,rescale contribution to slot error,-8.3411662767E-56,-5.1162329755E-54,-177.0288434550905
+layer4_metadata_contribution,scale-metadata rounding contribution,-5.8052478778E-311,0,-1030.582279840043
+layer4_restored_error,directly measured cumulative restored error,1.6677468839E-54,-5.1066082795E-54,-176.95864672622668
+layer4_normalized_residual,restored error divided by the slot weight,1.7867661708E-25,-5.4710430037E-25,-80.52328147505284
+layer4_closure_residual,residual after subtracting the component sum from total error,8.6458559727E-310,1.7984448023E-309,-1025.4790506581107
+final_restored_error,final output error,1.6677468839E-54,-5.1066082795E-54,-176.95864672622668

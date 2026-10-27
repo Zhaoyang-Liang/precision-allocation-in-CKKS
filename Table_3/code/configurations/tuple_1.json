@@ -1,0 +1,48 @@
+{
+  "id": "tuple14_tuple_1",
+  "group_size": 8192,
+  "target_bits_low_high": [
+    32,
+    80
+  ],
+  "plaintext_seed": "202610190101",
+  "encoder_decode_bits": 1024,
+  "gomaxprocs": 1,
+  "cases": [
+    {
+      "id": "tuple_t2_s100_div40_base102_depth8",
+      "kind": "tuple_joint",
+      "extended_parameters": {
+        "log_n": 15,
+        "log_q": [
+          40,
+          51,
+          51,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ],
+        "log_p": [
+          60
+        ],
+        "default_scale_bits": 100
+      },
+      "scale_bits": 100,
+      "rescale_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

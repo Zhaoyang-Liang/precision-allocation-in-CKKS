@@ -1,0 +1,290 @@
+{
+  "backend": "github.com/tuneinsight/lattigo/v6@v6.2.0",
+  "cases": [
+    {
+      "branches": [
+        {
+          "group": "all",
+          "id": "joint",
+          "layout": "interleaved",
+          "metadata_trajectory": [
+            {
+              "ideal_logical_amplitude_all_physical_slots": "7/8",
+              "ideal_logical_embedding_range_ratio_only": "2218388550399401452619230609408/818347619392318547975772925788537881671399409095510142435890498509941960469725395424928470660759892519373074490176531785543075596340354144783392112641",
+              "level": 9,
+              "q_components": 10,
+              "q_exact": "818347619392318547975772925788537881671399409095510142435890498509941960469725395424928470660759892519373074490176531785543075596340354144783392112641",
+              "scale_exact": "1267650600228229401496703205376",
+              "stage": "input"
+            },
+            {
+              "ideal_logical_amplitude_all_physical_slots": "49/64",
+              "ideal_logical_embedding_range_ratio_only": "2084229531359819483328885439787923362081/693167407229757680803382914134218166093866643972402240812667725737681408777579588915525367383832497000999541821365126557622861824",
+              "level": 7,
+              "q_components": 8,
+              "q_exact": "645562454340753779563478114208409717393914837364481986325856042781548023948054377842252484880231783726252188739706880001",
+              "scale_exact": "42535296558363662925079294689549456369/33554432",
+              "stage": "square_1"
+            },
+            {
+              "ideal_logical_amplitude_all_physical_slots": "2401/4096",
+              "ideal_logical_embedding_range_ratio_only": "408508998394993329118832175051661345709763/139984044324633362213828933795799861858848109249415150647446479791326384481399578974733089613836976128",
+              "level": 5,
+              "q_components": 6,
+              "q_exact": "509258986584003149669402532875391850607586490693993803315412077759270266984093101108494337",
+              "scale_exact": "170141190501871440699222063744965158563/134217728",
+              "stage": "square_2"
+            },
+            {
+              "ideal_logical_amplitude_all_physical_slots": "5764801/16777216",
+              "ideal_logical_embedding_range_ratio_only": "122603768988072365948526200731589204549259001/56539105595712279699424096214528038501754133906959347779954651977731801088",
+              "level": 3,
+              "q_components": 4,
+              "q_exact": "401734507674065921630018012070650275559232041949253384273921",
+              "scale_exact": "21267649826606740796174265292347334201/16777216",
+              "stage": "square_3"
+            },
+            {
+              "ideal_logical_amplitude_all_physical_slots": "33232930569601/281474976710656",
+              "ideal_logical_embedding_range_ratio_only": "5654291170088573787364221678815291399750473758626853/5986310683509756154258852163083562259518387533119488",
+              "level": 1,
+              "q_components": 2,
+              "q_exact": "316912648839573368448632160257",
+              "scale_exact": "170141214547617915116918959908233638053/134217728",
+              "stage": "square_4"
+            },
+            {
+              "ideal_logical_amplitude_all_physical_slots": "33232930569601/281474976710656",
+              "ideal_logical_embedding_range_ratio_only": "5654291170088573787364221678815291399750473758626853/5986310683509756154258852163083562259518387533119488",
+              "level": 1,
+              "q_components": 2,
+              "q_exact": "316912648839573368448632160257",
+              "scale_exact": "170141214547617915116918959908233638053/134217728",
+              "stage": "final_restored_output"
+            }
+          ],
+          "parameters": {
+            "n": 32768,
+            "slots": 16384,
+            "Q": [
+              "562949952700417",
+              "562949951979521",
+              "1125899904679937",
+              "1125899903827969",
+              "1125899903500289",
+              "1125899903107073",
+              "1125899902124033",
+              "1125899901665281",
+              "1125899899174913",
+              "1125899896160257"
+            ],
+            "P": [
+              "4293918721",
+              "4292804609",
+              "2147352577",
+              "2146959361",
+              "2146041857"
+            ],
+            "log2_qp_display": 654.9975117912327,
+            "qp_exact": "149244430953705366354976824612714012782614023928485824803495358191498974584683748692668449179404637062201003353587893446979772899539230447564198781097676262127611959598546813894489619601150523473921",
+            "secret_distribution": "ternary P=2/3, H=0",
+            "error_distribution": "discrete Gaussian sigma=3.2, bound=19.2"
+          },
+          "polynomial_graph": null
+        }
+      ],
+      "certificate_note": "Inherited encoder, sampling-event, QP-screen and pinned backend contracts; no HE has been run. P boundary+4 bit rule.",
+      "id": "ordinary10_p5",
+      "kind": "ordinary_joint",
+      "parameter_status": "public_conditional_certificate_no_HE"
+    },
+    {
+      "branches": [
+        {
+          "group": "all",
+          "id": "joint",
+          "layout": "interleaved",
+          "metadata_trajectory": [
+            {
+              "ideal_logical_amplitude_all_physical_slots": "7/8",
+              "level": 6,
+              "q_components": 7,
+              "q_exact": "161390617202988531948465569174165340485639672947573059414656783193509505227588028417949312553145047434630571387388297217",
+              "scale_exact": "18889465931478580854784",
+              "stage": "input"
+            },
+            {
+              "ideal_logical_amplitude_all_physical_slots": "49/64",
+              "level": 5,
+              "q_components": 6,
+              "q_exact": "139984046233398848835759112848067755128392106663964356397604232635601682088817578201612962574933688321",
+              "scale_exact": "170141183461919942567663275639151107197/549755813888",
+              "stage": "square_1"
+            },
+            {
+              "ideal_logical_amplitude_all_physical_slots": "2401/4096",
+              "level": 3,
+              "q_components": 4,
+              "q_exact": "27606985386773075273161085703743738936263681531939188899638159076294657",
+              "scale_exact": "21267647955823203536561275085229257065/1125899906842624",
+              "stage": "square_2"
+            },
+            {
+              "ideal_logical_amplitude_all_physical_slots": "5764801/16777216",
+              "level": 2,
+              "q_components": 3,
+              "q_exact": "23945242825860733710932828216011523294679034359513089",
+              "scale_exact": "170141183833901279325000608151958678139/549755813888",
+              "stage": "square_3"
+            },
+            {
+              "ideal_logical_amplitude_all_physical_slots": "33232930569601/281474976710656",
+              "level": 1,
+              "q_components": 2,
+              "q_exact": "20769187433997639807866461089759233",
+              "scale_exact": "85070592103686006608379835782994287657/1024",
+              "stage": "square_4"
+            },
+            {
+              "ideal_logical_amplitude_all_physical_slots": "33232930569601/281474976710656",
+              "ideal_logical_embedding_range_ratio_only": "2827145080896644132447477546127507193934274253714857/2993155353233272276004292332412959604048560889266176",
+              "level": 1,
+              "q_components": 2,
+              "q_exact": "20769187433997639807866461089759233",
+              "scale_exact": "85070592103686006608379835782994287657/1024",
+              "stage": "final_restored_output"
+            }
+          ],
+          "parameters": {
+            "n": 32768,
+            "slots": 16384,
+            "Q": [
+              "144115188075593729",
+              "144115188075134977",
+              "1152921504606584833",
+              "1152921504598720513",
+              "2251799813554177",
+              "2251799811391489",
+              "1152921504597016577"
+            ],
+            "P": [
+              "8796090597377",
+              "4398044938241",
+              "4398043496449",
+              "4398042972161"
+            ],
+            "log2_qp_display": 564.9999969349731,
+            "qp_exact": "120766541023713098622760356789961287934903916928847288391318330713060040247874945037131897456776201206197514421619453518808189323588602763277445976092316316123843773399041",
+            "secret_distribution": "ternary P=2/3, H=0",
+            "error_distribution": "discrete Gaussian sigma=3.2, bound=19.2"
+          },
+          "polynomial_graph": null
+        }
+      ],
+      "certificate_note": "Inherited encoder, sampling-event, QP-screen and pinned backend contracts; no HE has been run. P boundary+4 bit rule.",
+      "id": "unit7_p4",
+      "kind": "unit",
+      "parameter_status": "public_conditional_certificate_no_HE"
+    },
+    {
+      "branches": [
+        {
+          "group": "all",
+          "id": "joint",
+          "layout": "interleaved",
+          "metadata_trajectory": [
+            {
+              "ideal_logical_amplitude_all_physical_slots": "7/8",
+              "level": 6,
+              "q_components": 7,
+              "q_exact": "161390617202988531948465569174165340485639672947573059414656783193509505227588028417949312553145047434630571387388297217",
+              "scale_exact": "18889465931478580854784",
+              "stage": "input"
+            },
+            {
+              "ideal_logical_amplitude_all_physical_slots": "49/64",
+              "level": 5,
+              "q_components": 6,
+              "q_exact": "139984046233398848835759112848067755128392106663964356397604232635601682088817578201612962574933688321",
+              "scale_exact": "170141183461919942567663275639151107197/549755813888",
+              "stage": "square_1"
+            },
+            {
+              "ideal_logical_amplitude_all_physical_slots": "2401/4096",
+              "level": 3,
+              "q_components": 4,
+              "q_exact": "27606985386773075273161085703743738936263681531939188899638159076294657",
+              "scale_exact": "21267647955823203536561275085229257065/1125899906842624",
+              "stage": "square_2"
+            },
+            {
+              "ideal_logical_amplitude_all_physical_slots": "5764801/16777216",
+              "level": 2,
+              "q_components": 3,
+              "q_exact": "23945242825860733710932828216011523294679034359513089",
+              "scale_exact": "170141183833901279325000608151958678139/549755813888",
+              "stage": "square_3"
+            },
+            {
+              "ideal_logical_amplitude_all_physical_slots": "33232930569601/281474976710656",
+              "level": 1,
+              "q_components": 2,
+              "q_exact": "20769187433997639807866461089759233",
+              "scale_exact": "85070592103686006608379835782994287657/1024",
+              "stage": "square_4"
+            },
+            {
+              "ideal_logical_amplitude_all_physical_slots": "33232930569601/281474976710656",
+              "ideal_logical_embedding_range_ratio_only": "2827145080896644132447477546127507193934274253714857/2993155353233272276004292332412959604048560889266176",
+              "level": 1,
+              "q_components": 2,
+              "q_exact": "20769187433997639807866461089759233",
+              "scale_exact": "85070592103686006608379835782994287657/1024",
+              "stage": "final_restored_output"
+            }
+          ],
+          "parameters": {
+            "n": 32768,
+            "slots": 16384,
+            "Q": [
+              "144115188075593729",
+              "144115188075134977",
+              "1152921504606584833",
+              "1152921504598720513",
+              "2251799813554177",
+              "2251799811391489",
+              "1152921504597016577"
+            ],
+            "P": [
+              "281474976317441",
+              "140737487306753",
+              "140737486716929",
+              "140737486520321",
+              "140737485864961",
+              "140737484685313",
+              "140737483898881"
+            ],
+            "log2_qp_display": 725.999999841211,
+            "qp_exact": "353001705985688544241880795484161093627206363556503931051230300020657276708824530543283972333787315904130564260341001637237250235042381979546806060031521419590888255138924568085618902083478498482370832262648233514827777",
+            "secret_distribution": "ternary P=2/3, H=0",
+            "error_distribution": "discrete Gaussian sigma=3.2, bound=19.2"
+          },
+          "polynomial_graph": null
+        }
+      ],
+      "certificate_note": "Inherited encoder, sampling-event, QP-screen and pinned backend contracts; no HE has been run. P boundary+4 bit rule.",
+      "id": "unit7_p7",
+      "kind": "unit",
+      "parameter_status": "public_conditional_certificate_no_HE"
+    }
+  ],
+  "certified": false,
+  "entry": "native",
+  "he_executions": 0,
+  "mode": "public_parameter_plan_only",
+  "security_assessment": "Conditional documented uniform-ternary QP-cap screen; no fresh estimator. All schemes use the same screen.",
+  "security_target_bits": 128,
+  "suite": "selection_research_public_interior_20260930",
+  "task": "pow16",
+  "warning": "A metadata trajectory or ideal-message range ratio is not an error bound, a security estimate, or a performance result."
+}

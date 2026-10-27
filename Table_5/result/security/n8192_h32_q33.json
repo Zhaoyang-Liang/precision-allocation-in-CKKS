@@ -1,0 +1,65 @@
+{
+  "instance": {
+    "id": "n8192_h32_q33",
+    "dimension": 8192,
+    "secret_weight": 32,
+    "actual_q": "8454692863",
+    "log2_actual_q": 32.97710520021524,
+    "log2_estimator_q": 33,
+    "sigma": 3.2,
+    "roles": [
+      {
+        "case": "direct13",
+        "role": "ephemeral",
+        "actual_q": "8454692863"
+      }
+    ]
+  },
+  "python": "/opt/anaconda3/envs/sage/bin/python3",
+  "parameters": "LWEParameters(n=8192, q=8589934592, Xs=T(p=16, m=16, n=8192), Xe=D(\u03c3=3.20), m=+Infinity, tag='n8192_h32_q33')",
+  "attacks": {
+    "primal_usvp": {
+      "status": "ok",
+      "bits": Infinity,
+      "cost": {
+        "rop": "+Infinity",
+        "tag": "usvp",
+        "problem": "LWEParameters(n=8192, q=8589934592, Xs=T(p=16, m=16, n=8192), Xe=D(\u03c3=3.20), m=+Infinity, tag='n8192_h32_q33')"
+      },
+      "display": "rop: \u22482^inf, tag: usvp",
+      "seconds": 0.02246866701170802
+    },
+    "primal_bdd": {
+      "status": "ok",
+      "bits": Infinity,
+      "cost": {
+        "rop": "+Infinity",
+        "tag": "bdd",
+        "problem": "LWEParameters(n=8192, q=8589934592, Xs=T(p=16, m=16, n=8192), Xe=D(\u03c3=3.20), m=+Infinity, tag='n8192_h32_q33')"
+      },
+      "display": "rop: \u22482^inf, tag: bdd",
+      "seconds": 0.47247570799663663
+    },
+    "dual_hybrid": {
+      "status": "ok",
+      "bits": Infinity,
+      "cost": {
+        "rop": "+Infinity",
+        "problem": "LWEParameters(n=8192, q=8589934592, Xs=T(p=16, m=16, n=8192), Xe=D(\u03c3=3.20), m=+Infinity, tag='n8192_h32_q33')",
+        "red": "+Infinity",
+        "guess": "4.08336771808542e3562347735",
+        "beta": "1753",
+        "p": "2",
+        "zeta": "0",
+        "t": "0",
+        "beta_": "1699",
+        "N": "6.38026205950847e3562347732",
+        "m": "8192"
+      },
+      "display": "rop: \u22482^inf, red: \u22482^inf, guess: \u22482^11833863026.7, \u03b2: 1753, p: 2, \u03b6: 0, t: 0, \u03b2': 1699, N: \u22482^11833863017.4, m: \u22482^13.0",
+      "seconds": 0.04468233301304281
+    }
+  },
+  "complete": true,
+  "minimum_bits": Infinity
+}

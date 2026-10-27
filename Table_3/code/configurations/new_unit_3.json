@@ -1,0 +1,68 @@
+{
+  "schema": "ckks-precision-suite-v1",
+  "id": "tuple14_new_unit_3",
+  "task": "pow256",
+  "entry": "native",
+  "group_size": 8192,
+  "target_bits_low_high": [
+    1,
+    80
+  ],
+  "plaintext_seed": "202610190103",
+  "encoder_decode_bits": 1024,
+  "gomaxprocs": 1,
+  "security_target_bits": 128,
+  "security_assessment": "Qualified under recorded five classical lattice estimates; not a proof. See formal_manifest.json.",
+  "comparison_contract": "fixed_circuit",
+  "retain_diagnostic_traces": false,
+  "cases": [
+    {
+      "id": "fewer_s70",
+      "kind": "unit",
+      "unit_power": 24,
+      "branches": [
+        {
+          "id": "joint",
+          "group": "all",
+          "layout": "interleaved",
+          "parameters": {
+            "log_n": 15,
+            "log_q": [
+              40,
+              40,
+              45,
+              45,
+              60,
+              45,
+              45,
+              60,
+              45,
+              45,
+              60,
+              45,
+              45,
+              60
+            ],
+            "log_p": [
+              40
+            ],
+            "default_scale_bits": 70
+          },
+          "scale_bits": 70,
+          "rescale_counts": [
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+          ]
+        }
+      ],
+      "parameter_status": "OVERNIGHT_CANDIDATE",
+      "certificate_note": "Empirical accuracy only; no formal error bound. H128 random-sign security estimate recorded separately."
+    }
+  ]
+}

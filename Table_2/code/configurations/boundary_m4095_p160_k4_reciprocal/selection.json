@@ -1,0 +1,26 @@
+{
+  "schema": "pa-cost-selection-v1",
+  "pilot_only": false,
+  "candidates": [
+    {
+      "summary": "summary.json",
+      "candidate_id": "ce5fd80d12059703671a0dc81",
+      "security_file": "ce5fd80d12059703671a0dc81.security.json"
+    },
+    {
+      "summary": "summary.json",
+      "candidate_id": "c40cafed523ed34110f87188c",
+      "security_file": "c40cafed523ed34110f87188c.security.json"
+    },
+    {
+      "summary": "summary.json",
+      "candidate_id": "cd488095b27f333dd84f4ca81",
+      "security_file": "cd488095b27f333dd84f4ca81.security.json"
+    },
+    {
+      "summary": "summary.json",
+      "candidate_id": "c26fd771ec5e3cb464c995149",
+      "security_file": "c26fd771ec5e3cb464c995149.security.json"
+    }
+  ]
+}

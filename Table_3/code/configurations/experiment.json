@@ -1,0 +1,267 @@
+{
+  "status": "FROZEN_FOR_TEN_REPEATS",
+  "repetitions": 10,
+  "evaluations": 20,
+  "tasks": [
+    {
+      "repeat": 1,
+      "seed": "202610190101",
+      "row": "new_unit",
+      "binary": "precisionbench-formal",
+      "security_case": "fewer_s70",
+      "case": "fewer_s70",
+      "config": "tuple14-comparison/configs/new_unit_1.json",
+      "config_sha256": "3f52e3d29584701d7aae9e7b9bf3ba9a783868d6cb415f79f3d444286c39fd51",
+      "output": "tuple14-comparison/results/r01/new_unit"
+    },
+    {
+      "repeat": 1,
+      "seed": "202610190101",
+      "row": "tuple",
+      "binary": "tuplebench-formal",
+      "security_case": "tuple_base102",
+      "case": "tuple_t2_s100_div40_base102_depth8",
+      "config": "tuple14-comparison/configs/tuple_1.json",
+      "config_sha256": "8e6dc9fcf79adf1f954003c14cd052fda1d1b2bcfd9cea51e9128013d2c4f4b7",
+      "output": "tuple14-comparison/results/r01/tuple"
+    },
+    {
+      "repeat": 2,
+      "seed": "202610190102",
+      "row": "tuple",
+      "binary": "tuplebench-formal",
+      "security_case": "tuple_base102",
+      "case": "tuple_t2_s100_div40_base102_depth8",
+      "config": "tuple14-comparison/configs/tuple_2.json",
+      "config_sha256": "ed2205f6ce1be5396f795ee50d7bd9e4147315f0dfc77efc658f4588391d6765",
+      "output": "tuple14-comparison/results/r02/tuple"
+    },
+    {
+      "repeat": 2,
+      "seed": "202610190102",
+      "row": "new_unit",
+      "binary": "precisionbench-formal",
+      "security_case": "fewer_s70",
+      "case": "fewer_s70",
+      "config": "tuple14-comparison/configs/new_unit_2.json",
+      "config_sha256": "0c90fe3cd9f727387df9b58116da7872a6578574e8d1e5378b761f0676dd3a70",
+      "output": "tuple14-comparison/results/r02/new_unit"
+    },
+    {
+      "repeat": 3,
+      "seed": "202610190103",
+      "row": "new_unit",
+      "binary": "precisionbench-formal",
+      "security_case": "fewer_s70",
+      "case": "fewer_s70",
+      "config": "tuple14-comparison/configs/new_unit_3.json",
+      "config_sha256": "8501c713b0b23b7dba7360df24bb480366b0c3457d979e05731e1fd65d4b3902",
+      "output": "tuple14-comparison/results/r03/new_unit"
+    },
+    {
+      "repeat": 3,
+      "seed": "202610190103",
+      "row": "tuple",
+      "binary": "tuplebench-formal",
+      "security_case": "tuple_base102",
+      "case": "tuple_t2_s100_div40_base102_depth8",
+      "config": "tuple14-comparison/configs/tuple_3.json",
+      "config_sha256": "8202d3a59ee9d4efe5fdd56dfba2ae85011a2ce582c3524b26826fbb3188ef46",
+      "output": "tuple14-comparison/results/r03/tuple"
+    },
+    {
+      "repeat": 4,
+      "seed": "202610190104",
+      "row": "tuple",
+      "binary": "tuplebench-formal",
+      "security_case": "tuple_base102",
+      "case": "tuple_t2_s100_div40_base102_depth8",
+      "config": "tuple14-comparison/configs/tuple_4.json",
+      "config_sha256": "dde5f7ca082a16e0fd00d2363f86d73e93753f2ba774bc6ef0e637782740a3cc",
+      "output": "tuple14-comparison/results/r04/tuple"
+    },
+    {
+      "repeat": 4,
+      "seed": "202610190104",
+      "row": "new_unit",
+      "binary": "precisionbench-formal",
+      "security_case": "fewer_s70",
+      "case": "fewer_s70",
+      "config": "tuple14-comparison/configs/new_unit_4.json",
+      "config_sha256": "229a4dbb9de0398b0932b254c6cf6fc9eec1b0adb71f49533c321c1d0ab7ecc5",
+      "output": "tuple14-comparison/results/r04/new_unit"
+    },
+    {
+      "repeat": 5,
+      "seed": "202610190105",
+      "row": "new_unit",
+      "binary": "precisionbench-formal",
+      "security_case": "fewer_s70",
+      "case": "fewer_s70",
+      "config": "tuple14-comparison/configs/new_unit_5.json",
+      "config_sha256": "4ff697c73d482f6a3b185e6c37de10e44a6e62b5b154d7af7dd18e643adbae2f",
+      "output": "tuple14-comparison/results/r05/new_unit"
+    },
+    {
+      "repeat": 5,
+      "seed": "202610190105",
+      "row": "tuple",
+      "binary": "tuplebench-formal",
+      "security_case": "tuple_base102",
+      "case": "tuple_t2_s100_div40_base102_depth8",
+      "config": "tuple14-comparison/configs/tuple_5.json",
+      "config_sha256": "cdf36858d8fb7c2bc2531210eb8584aef3ebd1a8c815f8bf36ecf2de08c7843c",
+      "output": "tuple14-comparison/results/r05/tuple"
+    },
+    {
+      "repeat": 6,
+      "seed": "202610190106",
+      "row": "tuple",
+      "binary": "tuplebench-formal",
+      "security_case": "tuple_base102",
+      "case": "tuple_t2_s100_div40_base102_depth8",
+      "config": "tuple14-comparison/configs/tuple_6.json",
+      "config_sha256": "dba508807c313dd912f52391be20f09fa4aa166c1be5187056fc10097cf34e1f",
+      "output": "tuple14-comparison/results/r06/tuple"
+    },
+    {
+      "repeat": 6,
+      "seed": "202610190106",
+      "row": "new_unit",
+      "binary": "precisionbench-formal",
+      "security_case": "fewer_s70",
+      "case": "fewer_s70",
+      "config": "tuple14-comparison/configs/new_unit_6.json",
+      "config_sha256": "5ef6bba3da8829f369b19c9cb44c491819bc42185bcba19534ce12ee9d84013e",
+      "output": "tuple14-comparison/results/r06/new_unit"
+    },
+    {
+      "repeat": 7,
+      "seed": "202610190107",
+      "row": "new_unit",
+      "binary": "precisionbench-formal",
+      "security_case": "fewer_s70",
+      "case": "fewer_s70",
+      "config": "tuple14-comparison/configs/new_unit_7.json",
+      "config_sha256": "1b39df9b25fe1698fc1806e6c6f0fd4ab2c2f9adac60c46389bf87eec04751f3",
+      "output": "tuple14-comparison/results/r07/new_unit"
+    },
+    {
+      "repeat": 7,
+      "seed": "202610190107",
+      "row": "tuple",
+      "binary": "tuplebench-formal",
+      "security_case": "tuple_base102",
+      "case": "tuple_t2_s100_div40_base102_depth8",
+      "config": "tuple14-comparison/configs/tuple_7.json",
+      "config_sha256": "4905eb3504f4bd03ee2dc8d8f2c9175e5cd2ea5076347e3b11a1352c02baa1b7",
+      "output": "tuple14-comparison/results/r07/tuple"
+    },
+    {
+      "repeat": 8,
+      "seed": "202610190108",
+      "row": "tuple",
+      "binary": "tuplebench-formal",
+      "security_case": "tuple_base102",
+      "case": "tuple_t2_s100_div40_base102_depth8",
+      "config": "tuple14-comparison/configs/tuple_8.json",
+      "config_sha256": "33853291cd05165b6dcd9ae5877b425c00a754d96ab65909a0b9eb8157bd713f",
+      "output": "tuple14-comparison/results/r08/tuple"
+    },
+    {
+      "repeat": 8,
+      "seed": "202610190108",
+      "row": "new_unit",
+      "binary": "precisionbench-formal",
+      "security_case": "fewer_s70",
+      "case": "fewer_s70",
+      "config": "tuple14-comparison/configs/new_unit_8.json",
+      "config_sha256": "b83811b82472f678851149cb6109abfecb13a5d047748902a885ff22a3b13d38",
+      "output": "tuple14-comparison/results/r08/new_unit"
+    },
+    {
+      "repeat": 9,
+      "seed": "202610190109",
+      "row": "new_unit",
+      "binary": "precisionbench-formal",
+      "security_case": "fewer_s70",
+      "case": "fewer_s70",
+      "config": "tuple14-comparison/configs/new_unit_9.json",
+      "config_sha256": "ea58d67c76b29b3968dba630814e79acffa15f5e577446c68c4717b91f8836a0",
+      "output": "tuple14-comparison/results/r09/new_unit"
+    },
+    {
+      "repeat": 9,
+      "seed": "202610190109",
+      "row": "tuple",
+      "binary": "tuplebench-formal",
+      "security_case": "tuple_base102",
+      "case": "tuple_t2_s100_div40_base102_depth8",
+      "config": "tuple14-comparison/configs/tuple_9.json",
+      "config_sha256": "d5bbda9f345ff5108f32ce2baa5537a091f8af2aefcd9f4b73443830e3c31900",
+      "output": "tuple14-comparison/results/r09/tuple"
+    },
+    {
+      "repeat": 10,
+      "seed": "202610190110",
+      "row": "tuple",
+      "binary": "tuplebench-formal",
+      "security_case": "tuple_base102",
+      "case": "tuple_t2_s100_div40_base102_depth8",
+      "config": "tuple14-comparison/configs/tuple_10.json",
+      "config_sha256": "8c9793742a1129a027a3ea3ee3eb59265fb3a129182854e48ea9715c6bd14a38",
+      "output": "tuple14-comparison/results/r10/tuple"
+    },
+    {
+      "repeat": 10,
+      "seed": "202610190110",
+      "row": "new_unit",
+      "binary": "precisionbench-formal",
+      "security_case": "fewer_s70",
+      "case": "fewer_s70",
+      "config": "tuple14-comparison/configs/new_unit_10.json",
+      "config_sha256": "15a3093d7296cfa75ae8c64553793ff2d0e84b141e58cad5d1aee28e34461f22",
+      "output": "tuple14-comparison/results/r10/new_unit"
+    }
+  ],
+  "security_evidence": {
+    "fewer_s70": {
+      "path": "evidence/fewer_s70.json",
+      "sha256": "fa6033c4a6a485cd3c416b0cd52f0ae482fbab6a7ef63ae8760ff67cc99c0089"
+    },
+    "tuple_base102": {
+      "path": "evidence/tuple_base102.json",
+      "sha256": "7e18f012f30dc785230f7c44342c9510bc0e8c1d1bf43454d7ead5ea74d11ce0"
+    }
+  },
+  "source_files": {
+    "cmd/precisionbench/main.go": "505c45c2b84aa410d3ed85febcca494d8bc3b9ac6accd69ac191ce9887794b4c",
+    "cmd/tuplebench/main.go": "74f1b0d379944caad243dd26c6688291309ef21865e33c6753e6321ca9584367",
+    "go.mod": "af96da5332741b5e4a9ab9e86508758da4f223c32ad530c3aa32e59f1dc75d08",
+    "go.sum": "ba0b56d4f4d13fd01648402ad271b0c27a6722830ca2f652fcd94e4cfdcb508d",
+    "internal/bench/approximation.go": "bbd9bf3b9f7a3175e077243bc154935cdc7cb4f8946b436fcf029fc3b1e9cacf",
+    "internal/bench/config.go": "4ad50d845b1779b4fef62832f36a700e3288bb6f169d9717639e9bc8c9bc3976",
+    "internal/bench/crypto.go": "c0da57955463c7443212c81390055eb53bc7f0b39433b0a1180032a150eb4cdf",
+    "internal/bench/evaluate.go": "49f65b304ef033fd453933e0cf97cb06e49db783026e4b0c5f3e8ec0a04ec0df",
+    "internal/bench/formal.go": "cd6ebbd4c2e463dcb779e94fa2a8d9c5d65dd57c6cd7290af91bae959aca0e81",
+    "internal/bench/formal_test.go": "36e3c15a604583393f01f5f5cb136c95c1cc17ca56363e8fe2399b5964bfc764",
+    "internal/bench/metrics.go": "ad8ad718cc911ab08da7b8d913310a637b8cf8e96d935e6c0d7d3fcac360c6bc",
+    "internal/bench/numeric.go": "429c561d061f1a4c96a553107eb1fe01e3aca5a12d38409dcf83a39593226c1f",
+    "internal/bench/paired.go": "8ab9ab22d5a1b0d37e660a71de8ca1231043019fd09d37b14258df8eee772b37",
+    "internal/bench/plan.go": "bf51226e5342322c27d303a3a08c3b533f8006a248254dca6290c1761408d282",
+    "internal/bench/polygraph.go": "4ce312551820c2502aa01972c1f9647f037ecd2e48abaeb7448e92e784195533",
+    "internal/bench/prepare.go": "7d345260c758fb9372239b092eb7bf87e76778efc698fb6e40027dd5bfd541ad",
+    "internal/bench/reference.go": "348cd9757b53be3abb78deb81cf95290794e71c58966df9eeb9bb48e1b68e59b",
+    "internal/bench/representation.go": "ecc61ecdcbcb70fee9360a8c78273af2795b432a5460a77e5fd9fb1a579158e0",
+    "internal/bench/runner.go": "464464de265da4f50113840c4f130ae6168bf302c3a5d08e7eddac2cd3f46ec5",
+    "internal/bench/tuple8_reference_test.go": "dc30d502c341b9b4806c9689d290a5e08e1fa00e8e475d310af09e3bace72cb8",
+    "internal/bench/tuple_config.go": "961be0f77fc8466a44397e8a2c211d4761da6ec0a169ca15b5eacb8834876b9e",
+    "internal/bench/tuple_runner.go": "f8b384535abe962921793264e372f1494c1ba24fe2f361965747ef00de3efa15",
+    "neighbor/context.go": "1b9995e7feefcc1a4f31ad03b1a777fdee2fc494b95c99a99eb81529c8ceb7d9",
+    "neighbor/pair.go": "920c5c1f29ed01d2fb2fbd3e8be4fee05b4edb7075b4101deba1a7c131d00158"
+  },
+  "frozen_at": "2026-10-17T09:36:17.180914+08:00",
+  "comparison_scope": "8192 useful high80 outputs plus8192 dummy positions; fixed layout, not optimized Tuple packing; native core and conversion recorded separately",
+  "selection": "fewer_s70 selected before new independent paired repetitions; retain failures, no replacement",
+  "dummy_note": "Tuple retains loader low32 label, unit low1; only high group counts as useful output"
+}

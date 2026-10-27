@@ -1,0 +1,54 @@
+{
+  "schema": "exact-cyclotomic-profile-v1",
+  "period": 2,
+  "target_bits": [
+    64,
+    64
+  ],
+  "mean_target_bits": "64",
+  "target_log2_weights": [
+    "0",
+    "0"
+  ],
+  "exponents": [
+    0,
+    0
+  ],
+  "coefficients": [
+    "1",
+    "0",
+    "0",
+    "0"
+  ],
+  "inverse_coefficients": [
+    "1",
+    "0",
+    "0",
+    "0"
+  ],
+  "coefficient_bits": 1,
+  "embedding_intervals": [
+    {
+      "lower": "1",
+      "upper": "1"
+    },
+    {
+      "lower": "1",
+      "upper": "1"
+    }
+  ],
+  "interval_precision_bits": 8192,
+  "interval_method": "exact rational half-angle square-root bounds and Chebyshev recurrence",
+  "inverse_identity_pass": true,
+  "realness_identity_pass": true,
+  "HE_executions": 0,
+  "scope": "exact ring identities and interval embeddings only; not an encoder or HE certificate",
+  "actual_log2_weights_display": [
+    0.0,
+    0.0
+  ],
+  "max_log2_deviation_display": 0.0,
+  "construction_sha256": "d72674119ae666ce1c8c91cc444c6b5967c52a8663745d205f9a0cea9b325fba",
+  "requested_theta": 0,
+  "nominal_bits_are_not_accuracy_acceptance_targets": true
+}

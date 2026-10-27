@@ -1,0 +1,149 @@
+{
+  "schema": "ckks-precision-suite-v1",
+  "id": "recommended_three_new_configs",
+  "task": "pow16",
+  "entry": "native",
+  "group_size": 8192,
+  "target_bits_low_high": [
+    22,
+    72
+  ],
+  "plaintext_seed": "2026092901",
+  "encoder_decode_bits": 512,
+  "gomaxprocs": 1,
+  "security_target_bits": 128,
+  "security_assessment": "Conditional documented uniform-ternary QP-cap screen; no fresh estimator. All schemes use the same screen.",
+  "comparison_contract": "fixed_circuit",
+  "retain_diagnostic_traces": false,
+  "cases": [
+    {
+      "id": "ordinary_p5_B161",
+      "kind": "ordinary_joint",
+      "branches": [
+        {
+          "id": "joint",
+          "group": "all",
+          "layout": "interleaved",
+          "parameters": {
+            "log_n": 15,
+            "default_scale_bits": 100,
+            "q": [
+              "4503599627763713",
+              "2251799813554177",
+              "1125899908022273",
+              "1125899908612097",
+              "1125899904679937",
+              "1125899909398529",
+              "1125899903827969",
+              "1125899910316033",
+              "1125899903500289",
+              "1125899903107073"
+            ],
+            "p": [
+              "8589475841",
+              "4293918721",
+              "4292804609",
+              "4292149249",
+              "4292018177"
+            ]
+          },
+          "scale_bits": 100,
+          "rescale_counts": [
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      ],
+      "parameter_status": "public_candidate_no_new_HE",
+      "certificate_note": "Fixed actual Q/scale/graph. Audited multi-P source envelope; encoder, sampled-key and security-cap conditions remain."
+    },
+    {
+      "id": "unit_p4_B157",
+      "kind": "unit",
+      "branches": [
+        {
+          "id": "joint",
+          "group": "all",
+          "layout": "interleaved",
+          "parameters": {
+            "log_n": 15,
+            "default_scale_bits": 76,
+            "q": [
+              "1099512938497",
+              "549755486209",
+              "288230376154267649",
+              "288230376155185153",
+              "72057594038321153",
+              "288230376155250689",
+              "288230376147582977",
+              "72057594037338113"
+            ],
+            "p": [
+              "1099510054913",
+              "549754109953",
+              "549753978881",
+              "549753782273"
+            ]
+          },
+          "scale_bits": 76,
+          "rescale_counts": [
+            1,
+            2,
+            1,
+            2
+          ]
+        }
+      ],
+      "parameter_status": "public_candidate_no_new_HE",
+      "certificate_note": "Fixed actual Q/scale/graph. Audited multi-P source envelope; encoder, sampled-key and security-cap conditions remain.",
+      "unit_power": 20
+    },
+    {
+      "id": "unit_p8_B352",
+      "kind": "unit",
+      "branches": [
+        {
+          "id": "joint",
+          "group": "all",
+          "layout": "interleaved",
+          "parameters": {
+            "log_n": 15,
+            "default_scale_bits": 76,
+            "q": [
+              "1099512938497",
+              "549755486209",
+              "288230376154267649",
+              "288230376155185153",
+              "72057594038321153",
+              "288230376155250689",
+              "288230376147582977",
+              "72057594037338113"
+            ],
+            "p": [
+              "17592182833153",
+              "17592182243329",
+              "17592181260289",
+              "17592181129217",
+              "17592180736001",
+              "17592180539393",
+              "17592179097601",
+              "17592178507777"
+            ]
+          },
+          "scale_bits": 76,
+          "rescale_counts": [
+            1,
+            2,
+            1,
+            2
+          ]
+        }
+      ],
+      "parameter_status": "public_candidate_no_new_HE",
+      "certificate_note": "Fixed actual Q/scale/graph. Audited multi-P source envelope; encoder, sampled-key and security-cap conditions remain.",
+      "unit_power": 20
+    }
+  ]
+}

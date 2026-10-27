@@ -1,0 +1,26 @@
+{
+  "schema": "fixed-parameter-small-error-lifting-bound-v1",
+  "N": 32768,
+  "Gaussian_integer_abs_bound_used": 20,
+  "fresh_noise_coefficient_bound": 1343509,
+  "relinearization_coefficient_bound": 32865,
+  "fresh_guard": "1099511627776",
+  "relinearization_guard": "18446744073709551616",
+  "minimum_Q_before_relinearization": "6277101785077825514927288821900836965767333136529765826561",
+  "unique_small_lifts": true,
+  "fresh_derivation": "E*(2N+1)+(N+1): bound pk-error times ephemeral ternary polynomial, e0, e1 times ternary secret; allow componentwise modulus-down rounding. Dropping the beneficial P division only enlarges this bound.",
+  "relinearization_derivation": "ceil(4*N*E*sum(B_i)/P)+(N+1), where B_i is a two-Q-prime block product. Bound each centered RNS digit by the looser 4*B_i; sum products with bounded evaluation-key errors; account for both component modulus-down remainders.",
+  "implementation_scope": [
+    "Lattigo v6.2.0 vendored source; uncompressed default relinearization key with two P primes and RNS decomposition",
+    "Ternary secret and encryption polynomial, coefficient absolute value at most one",
+    "Gaussian sampler configured with absolute bound 19.2; use conservative integer bound 20",
+    "DecomposeAndSplit centered CRT digits and ModDownQPtoQ component modulus-down"
+  ],
+  "source_functions": [
+    "core/rlwe/encryptor.go:encryptZeroPk",
+    "core/rlwe/keygenerator.go:genEvaluationKey",
+    "core/rlwe/evaluator_gadget_product.go:gadgetProductMultiplePLazy",
+    "ring/basis_extension.go:DecomposeAndSplit"
+  ],
+  "not_a_recovery_acceptance_threshold": "These bounds establish small-error lift uniqueness. Failure is still decided from the actual unwrapped restored polynomial, never from these upper bounds."
+}

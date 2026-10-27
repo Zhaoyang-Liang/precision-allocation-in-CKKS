@@ -1,0 +1,169 @@
+{
+  "schema": "ckks-new-security-v1",
+  "plan_sha256": "047a2f2d78d27d048deea99a16cc5f0f921d48e8d17af4fe1f862e64e3e2e397",
+  "estimator_commit": "53da5982597709ba0fdf94ea37a84d822310fd84",
+  "estimator_tracked_dirty": [],
+  "wrapper_sha256": "c68aaa599a47c26cec970f9adb6d38a0ddc475d02bc4ce857cb7fd0d6664631e",
+  "wrapper_source_file": "/home/u9920250039/projects/pa-zero-mean-20261018/security_results/plan_050.wrapper.py",
+  "model": "RC.MATZOV",
+  "secret": "uniform_ternary",
+  "error_sigma": "3.2",
+  "actual_sampler_abs_bound": "19.2",
+  "samples": "infinity",
+  "target_bits": 128,
+  "HE_executions": 0,
+  "cases": [
+    {
+      "branch": "r2_b10_k4_shrink_q34",
+      "N": 32768,
+      "Q": [
+        "17179672577",
+        "4398044938241",
+        "4398043496449",
+        "4398042972161",
+        "4398042513409"
+      ],
+      "P": [
+        "1152921504606584833",
+        "1152921504598720513"
+      ],
+      "qp_exact": "8543826813464388432974845161926904898855024943651035067958395829108312119255650946106569898852353",
+      "q_est_log2": 322,
+      "attacks": {
+        "primal_usvp": {
+          "cost": {
+            "rop": "3.54599412842995e117",
+            "red": "3.54599412842995e117",
+            "delta": "1.00170799516547",
+            "beta": "1264",
+            "d": "64471",
+            "tag": "usvp",
+            "problem": "LWEParameters(n=32768, q=8543948143683640329580086824678208458410818089426611079788166431288878903122562200091848347746304, Xs=D(\u03c3=0.82), Xe=D(\u03c3=3.20), m=+Infinity, tag='N32768_qbits322')"
+          },
+          "log2_rop": "390.491777249200",
+          "finite_estimate": true,
+          "target_pass": true,
+          "wall_seconds": 0.15764812601264566
+        },
+        "primal_bdd": {
+          "cost": {
+            "rop": "2.96519239928792e117",
+            "red": "2.93050685023768e117",
+            "svp": "3.46855490502388e115",
+            "beta": "1263",
+            "eta": "1296",
+            "d": "64729",
+            "tag": "bdd",
+            "problem": "LWEParameters(n=32768, q=8543948143683640329580086824678208458410818089426611079788166431288878903122562200091848347746304, Xs=D(\u03c3=0.82), Xe=D(\u03c3=3.20), m=+Infinity, tag='N32768_qbits322')"
+          },
+          "log2_rop": "390.233712820250",
+          "finite_estimate": true,
+          "target_pass": true,
+          "wall_seconds": 25.870902058086358
+        },
+        "dual_hybrid": {
+          "cost": {
+            "rop": "2.24626510156809e117",
+            "problem": "LWEParameters(n=32768, q=8543948143683640329580086824678208458410818089426611079788166431288878903122562200091848347746304, Xs=D(\u03c3=0.82), Xe=D(\u03c3=3.20), m=+Infinity, tag='N32768_qbits322')",
+            "red": "2.24626391528698e117",
+            "guess": "1.18628110312751e111",
+            "beta": "1258",
+            "p": "3",
+            "zeta": "0",
+            "t": "220",
+            "beta_": "1236",
+            "N": "2.42965988535144e74",
+            "m": "32768"
+          },
+          "log2_rop": "389.833115304782",
+          "finite_estimate": true,
+          "target_pass": true,
+          "wall_seconds": 33.53951879800297
+        }
+      },
+      "estimate_provenance": {
+        "origin": "computed_in_this_execution"
+      },
+      "all_three_attacks_pass": true
+    },
+    {
+      "branch": "r4_bm10_k4_shrink_q70",
+      "N": 32768,
+      "Q": [
+        "34359410689",
+        "34359214081",
+        "8589475841",
+        "8589279233",
+        "8588886017",
+        "8588820481"
+      ],
+      "P": [
+        "1152921504606584833",
+        "1152921504598720513"
+      ],
+      "qp_exact": "8540477569895601421536951140909474243361596996459450247417745849567564562750717747328134733168641",
+      "q_est_log2": 322,
+      "attacks": {
+        "primal_usvp": {
+          "cost": {
+            "rop": "3.54599412842995e117",
+            "red": "3.54599412842995e117",
+            "delta": "1.00170799516547",
+            "beta": "1264",
+            "d": "64471",
+            "tag": "usvp",
+            "problem": "LWEParameters(n=32768, q=8543948143683640329580086824678208458410818089426611079788166431288878903122562200091848347746304, Xs=D(\u03c3=0.82), Xe=D(\u03c3=3.20), m=+Infinity, tag='N32768_qbits322')"
+          },
+          "log2_rop": "390.491777249200",
+          "finite_estimate": true,
+          "target_pass": true,
+          "wall_seconds": 0.15764812601264566
+        },
+        "primal_bdd": {
+          "cost": {
+            "rop": "2.96519239928792e117",
+            "red": "2.93050685023768e117",
+            "svp": "3.46855490502388e115",
+            "beta": "1263",
+            "eta": "1296",
+            "d": "64729",
+            "tag": "bdd",
+            "problem": "LWEParameters(n=32768, q=8543948143683640329580086824678208458410818089426611079788166431288878903122562200091848347746304, Xs=D(\u03c3=0.82), Xe=D(\u03c3=3.20), m=+Infinity, tag='N32768_qbits322')"
+          },
+          "log2_rop": "390.233712820250",
+          "finite_estimate": true,
+          "target_pass": true,
+          "wall_seconds": 25.870902058086358
+        },
+        "dual_hybrid": {
+          "cost": {
+            "rop": "2.24626510156809e117",
+            "problem": "LWEParameters(n=32768, q=8543948143683640329580086824678208458410818089426611079788166431288878903122562200091848347746304, Xs=D(\u03c3=0.82), Xe=D(\u03c3=3.20), m=+Infinity, tag='N32768_qbits322')",
+            "red": "2.24626391528698e117",
+            "guess": "1.18628110312751e111",
+            "beta": "1258",
+            "p": "3",
+            "zeta": "0",
+            "t": "220",
+            "beta_": "1236",
+            "N": "2.42965988535144e74",
+            "m": "32768"
+          },
+          "log2_rop": "389.833115304782",
+          "finite_estimate": true,
+          "target_pass": true,
+          "wall_seconds": 33.53951879800297
+        }
+      },
+      "estimate_provenance": {
+        "origin": "computed_in_this_execution"
+      },
+      "all_three_attacks_pass": true
+    }
+  ],
+  "reported_log_precision": "Sage default numerical precision; estimator costs are numerical estimates, not 128-bit arithmetic certificates",
+  "reused_result_files": [],
+  "new_attack_calls": 3,
+  "reused_cases": 1,
+  "all_cases_pass": true
+}

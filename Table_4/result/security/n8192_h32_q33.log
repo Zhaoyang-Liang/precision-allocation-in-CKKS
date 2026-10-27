@@ -1,0 +1,7 @@
+LWEParameters(n=8192, q=8589934592, Xs=T(p=16, m=16, n=8192), Xe=D(σ=3.20), m=+Infinity, tag='n8192_h32_q33')
+START primal_usvp
+DONE primal_usvp inf rop: ≈2^inf, tag: usvp
+START primal_bdd
+DONE primal_bdd inf rop: ≈2^inf, tag: bdd
+START dual_hybrid
+DONE dual_hybrid inf rop: ≈2^inf, red: ≈2^inf, guess: ≈2^11833863026.7, β: 1753, p: 2, ζ: 0, t: 0, β': 1699, N: ≈2^11833863017.4, m: ≈2^13.0
