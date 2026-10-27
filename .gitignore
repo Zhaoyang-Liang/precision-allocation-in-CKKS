@@ -1,0 +1,24 @@
+# Operating system metadata
+.DS_Store
+._*
+.Spotlight-V100/
+.Trashes/
+Thumbs.db
+Desktop.ini
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local build output
+build/
+dist/
+*.test
+
+# Editor temporary files
+*.swp
+*.swo
+*~
